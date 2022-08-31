@@ -1,2 +1,3 @@
-# Duplicater
-Duplicater based on CQA
+# Neko-Chan2
+
+猫猫ちゃん二代目
