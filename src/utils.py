@@ -1,0 +1,39 @@
+from nonebot import get_bot
+from nonebot.adapters.mirai2.event.base import PrivateChatInfo
+from nonebot.adapters.mirai2.event.message import FriendMessage
+from nonebot.adapters.mirai2.event.base import GroupChatInfo, GroupInfo
+from nonebot.adapters.mirai2.event.message import GroupMessage
+
+async def sendFriendMessage(friend_id, message):
+    bot = get_bot()
+    await bot.send(FriendMessage(
+        self_id=3620447366,
+        type="FriendMessage",
+        sender=PrivateChatInfo(
+            id=friend_id,
+            nickname="",
+            remark=""
+        ),
+        messageChain=[]), message)
+
+async def sendGroupMessage(group_id, message):
+    bot = get_bot()
+    await bot.send(GroupMessage(
+      self_id=3620447366,
+      type="GroupMessage",
+      sender=GroupChatInfo(
+        id=0,
+        memberName="",
+        specialTitle="",
+        permission="MEMBER",
+        joinTimestamp=0,
+        lastSpeakTimestamp=0,
+        muteTimeRemaining=0,
+        group=GroupInfo(
+          id=group_id,
+          name="",
+          permission="MEMBER"
+        )
+      ),
+      messageChain=[]
+    ), message)
