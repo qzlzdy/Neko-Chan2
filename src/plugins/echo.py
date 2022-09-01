@@ -6,6 +6,6 @@ from nonebot.params import Arg, CommandArg
 echo = on_command("echo")
 
 @echo.handle()
-async def echo_handler(matcher: Matcher, args: Message = CommandArg()):
+async def echo_handler(args: Message = CommandArg()):
     text = args.extract_plain_text()
     await echo.finish(text)
