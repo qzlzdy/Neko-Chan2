@@ -4,6 +4,8 @@ from nonebot.adapters.mirai2.event.message import FriendMessage
 from nonebot.adapters.mirai2.event.base import GroupChatInfo, GroupInfo
 from nonebot.adapters.mirai2.event.message import GroupMessage
 
+ASSETS_ROOT = "/home/pi/Neko-Chan/Neko-Chan2/assets"
+
 async def sendFriendMessage(friend_id, message):
     bot = get_bot()
     await bot.send(FriendMessage(

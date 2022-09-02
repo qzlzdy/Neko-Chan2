@@ -54,7 +54,7 @@ def getVariables():
     return {"page": 1, "season": season, "seasonYear": seasonYear}
 
 @scheduler.scheduled_job("cron", hour=8, minute=40, second=0, id="Anime Reminder")
-def AnimeReminder():
+async def AnimeReminder():
     AniList = ""
     total = 0
     variables = getVariables();
@@ -80,5 +80,5 @@ def AnimeReminder():
     day = f"{WeekName[now.tm_wday]}曜日"
     AniList = Content.format(date=date, day=day, total=total) + AniList
     for group_id in GroupId:
-      sendGroupMessage(group_id, AniList)
+      await sendGroupMessage(group_id, AniList)
       time.sleep(2)
