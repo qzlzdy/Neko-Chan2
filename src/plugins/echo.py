@@ -4,6 +4,8 @@ from nonebot.adapters import Message
 from nonebot.params import Arg, CommandArg
 from ..utils import sendNotice
 
+echo = on_command("echo")
+
 @echo.handle()
 async def echo_handler(args: Message = CommandArg()):
     text = args.extract_plain_text()

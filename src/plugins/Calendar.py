@@ -24,7 +24,7 @@ async def PantsDayReminder():
         desc = f.read()
     await sendNotice(desc)
 
-@scheduler.scheduled_job("cron", mouth=8, day=31, hour=9, minute=0, second=0, id="Miku's Birthday Reminder")
+@scheduler.scheduled_job("cron", month=8, day=31, hour=9, minute=0, second=0, id="Miku's Birthday Reminder")
 async def MikuBirthdayReminder():
     with open(f"{ASSETS_ROOT}/calendar/0831-MikuBirthday.txt", "r") as f:
         desc = f.read()
