@@ -6,6 +6,8 @@ from nonebot.adapters.mirai2.event.message import GroupMessage
 
 ASSETS_ROOT = "/home/pi/Neko-Chan/Neko-Chan2/assets"
 
+GroupId = [855524548, 1161079807]
+
 async def sendFriendMessage(friend_id, message):
     bot = get_bot()
     await bot.send(FriendMessage(
@@ -39,3 +41,8 @@ async def sendGroupMessage(group_id, message):
       ),
       messageChain=[]
     ), message)
+
+async def sendNotice(desc):
+    for group_id in GroupId:
+        await sendGroupMessage(group_id, desc)
+        time.sleep(2)

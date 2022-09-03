@@ -3,7 +3,7 @@ import base64
 from nonebot.adapters.mirai2.message import MessageSegment
 from ..utils import ASSETS_ROOT
 
-kawaii = on_keyword("可爱")
+kawaii = on_keyword(["可爱"])
 
 @kawaii.handle()
 async def kawaii_handler():

@@ -1,7 +1,10 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
-assets/
+*.mp3
+setu/
+*.db
+*.jpg
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

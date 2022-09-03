@@ -3,7 +3,7 @@ from nonebot import require
 require("nonebot_plugin_apscheduler")
 
 from nonebot_plugin_apscheduler import scheduler
-from ..utils import sendGroupMessage
+from ..utils import sendNotice
 
 import json
 import requests
@@ -11,8 +11,6 @@ import time
 import sys
 
 WeekName = ["月", "火", "水", "木", "金", "土", "日"]
-
-GroupId = [855524548, 1161079807]
 
 ALurl = "https://graphql.anilist.co"
 
@@ -79,6 +77,4 @@ async def AnimeReminder():
     date = time.strftime("%Y年%m月%d日", now)
     day = f"{WeekName[now.tm_wday]}曜日"
     AniList = Content.format(date=date, day=day, total=total) + AniList
-    for group_id in GroupId:
-      await sendGroupMessage(group_id, AniList)
-      time.sleep(2)
+    await sendNotice(AniList)
