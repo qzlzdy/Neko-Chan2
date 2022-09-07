@@ -7,13 +7,15 @@ from ..utils import ASSETS_ROOT
 from ..utils import sendFriendMessage
 from random import randint
 import sqlite3
+from PIL import Image
+import io
 import base64
 from nonebot.adapters.mirai2.message import MessageSegment
 from nonebot.adapters.mirai2.message import MessageChain
 
 @scheduler.scheduled_job("cron", hour=7, minute=30, second=0, id="AM Setu")
 @scheduler.scheduled_job("cron", hour=12, minute=50, second=0, id="Noon Setu")
-@scheduler.scheduled_job("cron", hour=23, minute=20, second=0, id="PM Setu")
+@scheduler.scheduled_job("cron", hour=18, minute=0, second=0, id="PM Setu")
 async def sendSetu():
     db = sqlite3.connect(f"{ASSETS_ROOT}/Setu.db")
     cur = db.cursor()
@@ -22,8 +24,14 @@ async def sendSetu():
         illust_id = randint(29201, 49200)
         res = cur.execute(sql, (illust_id,))
         ext = res.fetchall()[0][0]
-        infile = open(f"{ASSETS_ROOT}/setu/H{illust_id}.{ext}", "rb").read()
-        buf = base64.b64encode(infile)
+        #infile = open(f"{ASSETS_ROOT}/setu/H{illust_id}.{ext}", "rb").read()
+        #buf = base64.b64encode(infile)
+        img = Image.open(f"{ASSETS_ROOT}/setu/H{illust_id}.{ext}")
+        img = img.rotate(180)
+        buf = io.BytesIO()
+        img.save(buf, format="png")
+        buf = buf.getvalue()
+        buf = base64.b64encode(buf)
         await sendFriendMessage(419286376, MessageChain([
             MessageSegment.image(
                 base64=str(buf, "utf-8")

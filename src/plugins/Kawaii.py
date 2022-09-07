@@ -1,5 +1,6 @@
 from nonebot import on_keyword
 import base64
+from nonebot.adapters.mirai2.message import MessageChain
 from nonebot.adapters.mirai2.message import MessageSegment
 from ..utils import ASSETS_ROOT
 
@@ -9,5 +10,7 @@ kawaii = on_keyword(["可爱"])
 async def kawaii_handler():
     infile = open(f"{ASSETS_ROOT}/kawaii.jpg", "rb").read()
     buf = base64.b64encode(infile)
-    await kawaii.send(MessageSegment.image(base64=str(buf, "utf-8")))
-    await kawaii.finish("我很可爱  请给我钱")
+    await kawaii.send(MessageChain([
+        MessageSegment.plain("我很可爱  请给我钱"),
+        MessageSegment.image(base64=str(buf, "utf-8"))
+    ]))

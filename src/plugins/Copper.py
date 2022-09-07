@@ -1,6 +1,16 @@
-from nonebot import on_keyword
+from nonebot.adapters import Event
+from nonebot.rule import Rule
+from nonebot import on_message
 
-copper = on_keyword(["炼", "铜"])
+async def copper_ai(event: Event) -> bool:
+    return "炼" in  event.get_plaintext()
+
+async def copper_cu(event: Event) -> bool:
+    return "铜" in event.get_plaintext()
+
+copper_checker = Rule(copper_ai, copper_cu)
+
+copper = on_message(rule=copper_checker)
 
 @copper.handle()
 async def copper_handler():
