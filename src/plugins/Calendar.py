@@ -30,6 +30,12 @@ async def MikuBirthdayReminder():
         desc = f.read()
     await sendNotice(desc)
 
+@scheduler.scheduled_job("cron", month=9, day=8, hour=9, minute=0, second=0, id="Kupa Day Reminder")
+async def KupaDayReminder():
+    with open(f"{ASSETS_ROOT}/calendar/0908-KupaDay.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
+
 @scheduler.scheduled_job("cron", month=9, day=9, hour=9, minute=9, second=9, id="Cirno Day Reminder")
 async def CirnoDayReminder():
     with open(f"{ASSETS_ROOT}/calendar/0909-CirnoDay.txt", "r") as f:
