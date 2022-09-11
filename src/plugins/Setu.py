@@ -20,8 +20,8 @@ async def sendSetu():
     db = sqlite3.connect(f"{ASSETS_ROOT}/Setu.db")
     cur = db.cursor()
     sql = "SELECT extension FROM setus WHERE illust_id = ?"
-    for i in range(5):
-        illust_id = randint(29201, 49200)
+    for i in range(6):
+        illust_id = randint(29801, 49800)
         res = cur.execute(sql, (illust_id,))
         ext = res.fetchall()[0][0]
         #infile = open(f"{ASSETS_ROOT}/setu/H{illust_id}.{ext}", "rb").read()
