@@ -2,6 +2,7 @@ from nonebot import require
 
 require("nonebot_plugin_apscheduler")
 
+from nonebot import on_command
 from nonebot_plugin_apscheduler import scheduler
 from ..utils import ASSETS_ROOT
 from ..utils import sendFriendMessage
@@ -13,6 +14,9 @@ import base64
 from nonebot.adapters.mirai2.message import MessageSegment
 from nonebot.adapters.mirai2.message import MessageChain
 
+setu = on_command("来点黄色")
+
+@setu.handle()
 @scheduler.scheduled_job("cron", hour=7, minute=30, second=0, id="AM Setu")
 @scheduler.scheduled_job("cron", hour=12, minute=50, second=0, id="Noon Setu")
 @scheduler.scheduled_job("cron", hour=18, minute=0, second=0, id="PM Setu")

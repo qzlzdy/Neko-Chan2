@@ -9,4 +9,4 @@ echo = on_command("echo")
 @echo.handle()
 async def echo_handler(args: Message = CommandArg()):
     text = args.extract_plain_text()
-    await echo.finish()
+    await echo.finish(text)

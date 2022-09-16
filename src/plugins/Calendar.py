@@ -3,6 +3,8 @@ from nonebot import require
 require("nonebot_plugin_apscheduler")
 
 from nonebot_plugin_apscheduler import scheduler
+from nonebot.adapters.mirai2.message import MessageChain
+from nonebot.adapters.mirai2.message import MessageSegment
 from ..utils import ASSETS_ROOT
 from ..utils import sendNotice
 
@@ -28,7 +30,10 @@ async def PantsDay():
 async def HatsuneMikuBirthday():
     with open(f"{ASSETS_ROOT}/calendar/0831-HatsuneMikuBirthday.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://ec.crypton.co.jp/img/special/vocaloid/img_MIKU_us.png")
+    ]))
 
 @scheduler.scheduled_job("cron", month=9, day=8, hour=9, minute=0, second=0, id="Kupa Day")
 async def KupaDay():
@@ -46,13 +51,37 @@ async def CirnoDay():
 async def MinamiKotoriBirthday():
     with open(f"{ASSETS_ROOT}/calendar/0912-MinamiKotoriBirthday.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.lovelive-anime.jp/otonokizaka/worldwide/img/member/member03_01.png")
+    ]))
 
 @scheduler.scheduled_job("cron", month=9, day=15, hour=9, minute=0, second=0, id="Komichi Aya's Birthday")
 async def KomichiAyaBirthday():
     with open(f"{ASSETS_ROOT}/calendar/0915-KomichiAyaBirthday.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="http://kinmosa.com/assets/character/c/3.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=9, day=19, hour=9, minute=0, second=0, id="Ujimatsu Chiya's Birthday")
+async def UjimatsuChiyaBirthday():
+    with open(f"{ASSETS_ROOT}/calendar/0919-UjimatsuChiyaBirthday.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://gochiusa.com/core_sys/images/main/cont/chara/chiya_body.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=9, day=21, hour=9, minute=0, second=0, id="Kurosawa Ruby's Birthday")
+async def KurosawaRubyBirthday():
+    with open(f"{ASSETS_ROOT}/calendar/0921-KurosawaRubyBirthday.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.lovelive-anime.jp/uranohoshi/js/sunshine_member4.hyperesources/09b-1.png")
+    ]))
 
 @scheduler.scheduled_job("cron", month=10, day=10, hour=9, minute=0, second=0, id="Moe Day")
 async def MoeDay():
