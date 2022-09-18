@@ -17,15 +17,13 @@ from nonebot.adapters.mirai2.message import MessageChain
 setu = on_command("来点黄色")
 
 @setu.handle()
-@scheduler.scheduled_job("cron", hour=7, minute=30, second=0, id="AM Setu")
-@scheduler.scheduled_job("cron", hour=12, minute=50, second=0, id="Noon Setu")
-@scheduler.scheduled_job("cron", hour=18, minute=0, second=0, id="PM Setu")
+@scheduler.scheduled_job("cron", hour="5-22", minute=50, second=11, id="AM Setu")
 async def sendSetu():
     db = sqlite3.connect(f"{ASSETS_ROOT}/Setu.db")
     cur = db.cursor()
     sql = "SELECT extension FROM setus WHERE illust_id = ?"
-    for i in range(6):
-        illust_id = randint(29801, 49800)
+    for i in range(1):
+        illust_id = randint(30301, 50300)
         res = cur.execute(sql, (illust_id,))
         ext = res.fetchall()[0][0]
         #infile = open(f"{ASSETS_ROOT}/setu/H{illust_id}.{ext}", "rb").read()
