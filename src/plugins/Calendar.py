@@ -83,6 +83,15 @@ async def KurosawaRubyBirthday():
         MessageSegment.image(url="https://www.lovelive-anime.jp/uranohoshi/js/sunshine_member4.hyperesources/09b-1.png")
     ]))
 
+@scheduler.scheduled_job("cron", month=9, day=26, hour=9, minute=0, second=0, id="Doma Umaru's Birthday")
+async def DomaUmaruBirthday():
+    with open(f"{ASSETS_ROOT}/calendar/0926-DomaUmaruBirthday.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://umaru-ani.me/img/character/chara1_stand.png")
+    ]))
+
 @scheduler.scheduled_job("cron", month=10, day=10, hour=9, minute=0, second=0, id="Moe Day")
 async def MoeDay():
     with open(f"{ASSETS_ROOT}/calendar/1010-MoeDay.txt", "r") as f:
