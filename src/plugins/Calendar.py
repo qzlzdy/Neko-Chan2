@@ -92,6 +92,15 @@ async def DomaUmaruBirthday():
         MessageSegment.image(url="https://umaru-ani.me/img/character/chara1_stand.png")
     ]))
 
+@scheduler.scheduled_job("cron", month=9, day=28, hour=9, minute=0, second=0, id="Yoshida Yuuko's Biethday")
+async def YoshidaYuukoBirthday():
+    with open(f"{ASSETS_ROOT}/calendar/0928-YoshidaYuukoBirthday.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.tbs.co.jp/anime/machikado/1st/character/img/chara_img_01.png")
+    ]))
+
 @scheduler.scheduled_job("cron", month=10, day=10, hour=9, minute=0, second=0, id="Moe Day")
 async def MoeDay():
     with open(f"{ASSETS_ROOT}/calendar/1010-MoeDay.txt", "r") as f:
