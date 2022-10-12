@@ -31,7 +31,7 @@ def redirectToBaidu(keyword):
 @question1.handle()
 @question2.handle()
 async def question_handler(matcher: Matcher, event: Event):
-    if randint(0, 9) == 0:
+    if randint(0, 19) == 0:
         keyword = event.get_plaintext()
         await matcher.finish(redirectToBaidu(keyword))
 
