@@ -113,6 +113,21 @@ async def LoliDay():
         desc = f.read()
     await sendNotice(desc)
 
+@scheduler.scheduled_job("cron", month=10, day=24, hour=9, minute=0, second=0, id="1024 Day")
+async def ProgrammerDay():
+    with open(f"{ASSETS_ROOT}/calendar/1024-1024Day.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", month=10, day=28, hour=9, minute=0, second=0, id="Koishi x2 Day")
+async def KoishiX2Day():
+    with open(f"{ASSETS_ROOT}/calendar/1028-KoishiX2Day.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://static.wikia.nocookie.net/touhou/images/6/6e/Koishi.png/revision/latest/scale-to-width-down/200?cb=20091024182756")
+    ]))
+
 @scheduler.scheduled_job("cron", month=11, day=2, hour=9, minute=0, second=0, id="Tights Day")
 async def TightsDay():
     with open(f"{ASSETS_ROOT}/calendar/1102-TightsDay.txt", "r") as f:

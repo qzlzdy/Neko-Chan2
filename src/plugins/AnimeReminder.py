@@ -2,6 +2,7 @@ from nonebot import require
 
 require("nonebot_plugin_apscheduler")
 
+from nonebot import on_command
 from nonebot_plugin_apscheduler import scheduler
 from ..utils import sendNotice
 
@@ -51,6 +52,9 @@ def getVariables():
         season = "SUMMER"
     return {"page": 1, "season": season, "seasonYear": seasonYear}
 
+anime = on_command("今日番剧")
+
+@anime.handle()
 @scheduler.scheduled_job("cron", hour=8, minute=40, second=0, id="Anime Reminder")
 async def AnimeReminder():
     AniList = ""
