@@ -47,15 +47,6 @@ async def CirnoDay():
         desc = f.read()
     await sendNotice(desc)
 
-@scheduler.scheduled_job("cron", month=9, day=12, hour=9, minute=0, second=0, id="Minami Kotori's Birthday")
-async def MinamiKotoriBirthday():
-    with open(f"{ASSETS_ROOT}/calendar/0912-MinamiKotoriBirthday.txt", "r") as f:
-        desc = f.read()
-    await sendNotice(MessageChain([
-        MessageSegment.plain(desc),
-        MessageSegment.image(url="https://www.lovelive-anime.jp/otonokizaka/worldwide/img/member/member03_01.png")
-    ]))
-
 @scheduler.scheduled_job("cron", month=9, day=15, hour=9, minute=0, second=0, id="Komichi Aya's Birthday")
 async def KomichiAyaBirthday():
     with open(f"{ASSETS_ROOT}/calendar/0915-KomichiAyaBirthday.txt", "r") as f:
@@ -72,15 +63,6 @@ async def UjimatsuChiyaBirthday():
     await sendNotice(MessageChain([
         MessageSegment.plain(desc),
         MessageSegment.image(url="https://gochiusa.com/core_sys/images/main/cont/chara/chiya_body.png")
-    ]))
-
-@scheduler.scheduled_job("cron", month=9, day=21, hour=9, minute=0, second=0, id="Kurosawa Ruby's Birthday")
-async def KurosawaRubyBirthday():
-    with open(f"{ASSETS_ROOT}/calendar/0921-KurosawaRubyBirthday.txt", "r") as f:
-        desc = f.read()
-    await sendNotice(MessageChain([
-        MessageSegment.plain(desc),
-        MessageSegment.image(url="https://www.lovelive-anime.jp/uranohoshi/js/sunshine_member4.hyperesources/09b-1.png")
     ]))
 
 @scheduler.scheduled_job("cron", month=9, day=26, hour=9, minute=0, second=0, id="Doma Umaru's Birthday")
