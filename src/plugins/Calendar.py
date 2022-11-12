@@ -122,21 +122,15 @@ async def GoodButt():
         desc = f.read()
     await sendNotice(desc)
 
-@scheduler.scheduled_job("cron", month=11, day=7, hour=9, minute=0, second=0, id="Oct. Revolution")
-async def OctRevo():
-    with open(f"{ASSETS_ROOT}/calendar/1107-OctRevo.txt", "r") as f:
+@scheduler.scheduled_job("cron", month=11, day=7, hour=9, minute=0, second=0, id="Good Belly")
+async def GoodBelly():
+    with open(f"{ASSETS_ROOT}/calendar/1107-GoodBellyDay.txt", "r") as f:
         desc = f.read()
     await sendNotice(desc)
 
 @scheduler.scheduled_job("cron", month=11, day=8, hour=9, minute=0, second=0, id="Good Oppai Day")
 async def GoodOppaiDay():
     with open(f"{ASSETS_ROOT}/calendar/1108-GoodOppaiDay.txt", "r") as f:
-        desc = f.read()
-    await sendNotice(desc)
-
-@scheduler.scheduled_job("cron", month=11, day=11, hour=9, minute=0, second=0, id="Pocky Day")
-async def PockyDay():
-    with open(f"{ASSETS_ROOT}/calendar/1111-PockyDay.txt", "r") as f:
         desc = f.read()
     await sendNotice(desc)
 
