@@ -129,8 +129,14 @@ async def GoodOppaiDay():
 async def HirasawaYuiBirthday():
     with open(f"{ASSETS_ROOT}/calendar/1127-HirasawaYuiBirthday.txt", "r") as f:
         desc = f.read()
-    await sendNotive(MessageChain([
+    await sendNotice(MessageChain([
         MessageSegment.plain(desc),
         MessageSegment.image(url="https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo01_1.gif")
     ]))
+
+@scheduler.scheduled_job("cron", month=11, day=29, hour=9, minute=0, second=0, id="Good Meat Day")
+async def GoodMeatDay():
+    with open(f"{ASSETS_ROOT}/calendar/1129-GoodMeatDay.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
 
