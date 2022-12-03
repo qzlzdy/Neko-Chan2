@@ -3,8 +3,7 @@ from nonebot import require
 require("nonebot_plugin_apscheduler")
 
 from nonebot_plugin_apscheduler import scheduler
-from nonebot.adapters.mirai2.message import MessageChain
-from nonebot.adapters.mirai2.message import MessageSegment
+from nonebot.adapters.mirai2.message import MessageChain, MessageSegment
 from ..utils import ASSETS_ROOT
 from ..utils import sendNotice
 
