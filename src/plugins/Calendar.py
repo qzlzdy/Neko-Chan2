@@ -147,3 +147,12 @@ async def KafuuChino():
         MessageSegment.plain(desc),
         MessageSegment.image(url="https://gochiusa.com/core_sys/images/main/cont/chara/chino_body.png")
     ]))
+
+@scheduler.scheduled_job("cron", month=12, day=25, hour=9, minute=0, second=0, id="Itou Makoto Dead")
+async def ItouMakotoDead():
+    with open(f"{ASSETS_ROOT}/calendar/1225-ItouMakoto.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5")
+    ]))

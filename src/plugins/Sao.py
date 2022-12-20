@@ -29,3 +29,15 @@ async def Sao221214():
     with open(f"{ASSETS_ROOT}/sword_art_online/221214.txt", "r") as f:
         desc = f.read()
     await sendNotice(desc)
+
+@scheduler.schedueld_job("cron", year=2022, month=12, day=21, hour=9, minute=10, second=0, id="221221")
+async def Sao221221():
+    with open(f"{ASSETS_ROOT}/sword_art_online/221221.txt", "r") as f:
+        desc = f.read()
+    await sendNotive(desc)
+
+@scheduler.scheduled_job("cron", year=2022, month=12, day=23, hour=9, minute=10, second=0, id="221223")
+async def Sao221223():
+    with open(f"{ASSETS_ROOT}/sword_art_online/221223.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
