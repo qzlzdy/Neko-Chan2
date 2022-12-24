@@ -30,14 +30,26 @@ async def Sao221214():
         desc = f.read()
     await sendNotice(desc)
 
-@scheduler.schedueld_job("cron", year=2022, month=12, day=21, hour=9, minute=10, second=0, id="221221")
+@scheduler.scheduled_job("cron", year=2022, month=12, day=21, hour=9, minute=10, second=0, id="221221")
 async def Sao221221():
     with open(f"{ASSETS_ROOT}/sword_art_online/221221.txt", "r") as f:
         desc = f.read()
-    await sendNotive(desc)
+    await sendNotice(desc)
 
 @scheduler.scheduled_job("cron", year=2022, month=12, day=23, hour=9, minute=10, second=0, id="221223")
 async def Sao221223():
     with open(f"{ASSETS_ROOT}/sword_art_online/221223.txt", "r") as f:
         desc = f.read()
     await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", year=2022, month=12, day=27, hour=9, minute=10, second=0, id="221227")
+async def Sao221227():
+    with open(f"{ASSETS_ROOT}/sword_art_online/221227.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", year=2022, month=12, day=31, hour=9, minute=10, second=0, id="221231")
+async def Sao221231():
+    with open(f"{ASSETS_ROOT}/sword_art_online/221231.txt", "r") as f:
+        desc = f.read()
+    await sendNotive(desc)
