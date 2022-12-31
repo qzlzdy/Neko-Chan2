@@ -148,11 +148,29 @@ async def KafuuChino():
         MessageSegment.image(url="https://gochiusa.com/core_sys/images/main/cont/chara/chino_body.png")
     ]))
 
+@scheduler.scheduled_job("cron", month=12, day=23, hour=9, minute=0, second=0, id="Hoshikawa Mafuyu's Birthday")
+async def HoshikawaMafuyu():
+    with open(f"{ASSETS_ROOT}/calendar/1223-HoshikawaMafuyu.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://blend-s.jp/assets/img/character/chara_03/chara03_1.png")
+    ]))
+
 @scheduler.scheduled_job("cron", month=12, day=25, hour=9, minute=0, second=0, id="Itou Makoto Dead")
 async def ItouMakotoDead():
-    with open(f"{ASSETS_ROOT}/calendar/1225-ItouMakoto.txt", "r") as f:
+    with open(f"{ASSETS_ROOT}/calendar/1225-ItouMakotoDead.txt", "r") as f:
         desc = f.read()
     await sendNotice(MessageChain([
         MessageSegment.plain(desc),
         MessageSegment.image(url="https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5")
+    ]))
+
+@scheduler.scheduled_job("cron", month=12, day=31, hour=9, minute=0, second=0, id="Hanakoizumi Anne's Birthday")
+async def HanakoizumiAnne():
+    with open(f"{ASSETS_ROOT}/calendar/1231-HanakoizumiAnne.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://anne-happy.com/wp-content/uploads/2016/02/ch1-1-1.png")
     ]))

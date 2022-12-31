@@ -6,8 +6,8 @@ from nonebot_plugin_apscheduler import scheduler
 from nonebot.adapters.mirai2.message import MessageChain, MessageSegment
 from ..utils import sendFriendMessage, sendGroupMessage
 
-@scheduler.scheduled_job("cron", hour=8, minute=30, second=0, id="AM Work Reminder")
-@scheduler.scheduled_job("cron", hour=17, minute=35, second=0, id="PM Work Reminder")
+#@scheduler.scheduled_job("cron", hour=8, minute=30, second=0, id="AM Work Reminder")
+#@scheduler.scheduled_job("cron", hour=17, minute=35, second=0, id="PM Work Reminder")
 async def WorkReminder():
     await sendFriendMessage(419286376, "今天你打卡了吗")
 
