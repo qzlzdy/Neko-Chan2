@@ -7,6 +7,24 @@ from nonebot.adapters.mirai2.message import MessageChain, MessageSegment
 from ..utils import ASSETS_ROOT
 from ..utils import sendNotice
 
+@scheduler.scheduled_job("cron", month=1, day=1, hour=9, minute=0, second=0, id="Satonaka Chie's Birthday")
+async def SatonakaChie():
+    with open(f"{ASSETS_ROOT}/calendar/0101-SatonakaChie.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://img.moegirl.org.cn/common/thumb/f/ff/55319988_p0.jpg/420px-55319988_p0.jpg")
+    ]))
+
+@scheduler.scheduled_job("cron", month=1, day=4, hour=9, minute=0, second=0, id="Minagi Hiyori's Birthday")
+async def MinagiHiyori():
+    with open(f"{ASSETS_ROOT}/calendar/0104-MinagiHiyori.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://slowlooptv.com/images/chara/p_001.png")
+    ]))
+
 @scheduler.scheduled_job("cron", month=2, day=2, hour=9, minute=0, second=0, id="Twin Tail Day")
 async def TwinTailDay():
     with open(f"{ASSETS_ROOT}/calendar/0202-TainTailDay.txt", "r") as f:
