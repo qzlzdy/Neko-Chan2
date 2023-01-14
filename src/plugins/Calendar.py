@@ -25,6 +25,15 @@ async def MinagiHiyori():
         MessageSegment.image(url="https://slowlooptv.com/images/chara/p_001.png")
     ]))
 
+@scheduler.scheduled_job("cron", month=1, day=11, hour=9, minute=0, second=0, id="Miniwa Tsumiki's Birthday")
+async def MiniwaTsumiki():
+    with open(f"{ASSETS_ROOT}/calendar/0111-MiniwaTsumiki.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.tbs.co.jp/anime/ackc/character/images/chara_img01.jpg")
+    ]))
+
 @scheduler.scheduled_job("cron", month=2, day=2, hour=9, minute=0, second=0, id="Twin Tail Day")
 async def TwinTailDay():
     with open(f"{ASSETS_ROOT}/calendar/0202-TainTailDay.txt", "r") as f:
