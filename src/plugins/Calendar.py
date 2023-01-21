@@ -34,6 +34,15 @@ async def MiniwaTsumiki():
         MessageSegment.image(url="https://www.tbs.co.jp/anime/ackc/character/images/chara_img01.jpg")
     ]))
 
+@scheduler.scheduled_job("cron", month=1, day=15, hour=9, minute=0, second=0, id="Akiyama Mio's Birthday")
+async def AkiyamaMio():
+    with open (f"{ASSETS_ROOT}/calendar/0115-AkiyamaMio.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://img.moegirl.org.cn/common/thumb/2/2e/The_Bowl.jpg/420px-The_Bowl.jpg")
+    ]))
+
 @scheduler.scheduled_job("cron", month=2, day=2, hour=9, minute=0, second=0, id="Twin Tail Day")
 async def TwinTailDay():
     with open(f"{ASSETS_ROOT}/calendar/0202-TainTailDay.txt", "r") as f:
