@@ -3,7 +3,7 @@ from nonebot.adapters.mirai2.event.base import PrivateChatInfo, GroupChatInfo, G
 from nonebot.adapters.mirai2.event.message import FriendMessage, GroupMessage
 import time
 
-ASSETS_ROOT = "/home/pi/Neko-Chan/Neko-Chan2/assets"
+ASSETS_ROOT = "/home/alarm/Neko-Chan/Neko-Chan2/assets"
 
 GroupId = [855524548, 1161079807]
 
