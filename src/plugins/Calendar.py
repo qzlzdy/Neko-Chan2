@@ -52,7 +52,25 @@ async def TakimotoHifumi():
         MessageSegment.image(url="http://newgame-anime.com/assets/character/c4.png")
     ]))
 
-@scheduler.scheduled_job("cron", month=2, day=2, hour=9, minute=0, second=0, id="Twin Tail Day")
+@scheduler.scheduled_job("cron", month=2, day=1, hour=9, minute=0, second=0, id="Yukimi Koume's Birthday")
+async def YukimiKoume():
+    with open(f"{ASSETS_ROOT}/calendar/0201-YukimiKoume.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.tbs.co.jp/anime/urara/chara/img/koume_left.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=2, day=2, hour=9, minute=0, second=0, id="Suzukaze Aoba's Birthday")
+async def SuzukazeAoba():
+    with open(f"{ASSETS_ROOT}/calendar/0202-SuzukazeAoba.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="http://newgame-anime.com/assets/character/c1.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=2, day=2, hour=9, minute=0, second=5, id="Twin Tail Day")
 async def TwinTailDay():
     with open(f"{ASSETS_ROOT}/calendar/0202-TainTailDay.txt", "r") as f:
         desc = f.read()
