@@ -29,7 +29,7 @@ async def sendSetu():
         #infile = open(f"{ASSETS_ROOT}/setu/H{illust_id}.{ext}", "rb").read()
         #buf = base64.b64encode(infile)
         img = Image.open(f"{ASSETS_ROOT}/setu/H{illust_id}.{ext}")
-        img = img.rotate(180)
+        img = img.rotate(90)
         buf = io.BytesIO()
         img.save(buf, format="png")
         buf = buf.getvalue()

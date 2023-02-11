@@ -76,6 +76,24 @@ async def TwinTailDay():
         desc = f.read()
     await sendNotice(desc)
 
+@scheduler.scheduled_job("cron", month=2, day=7, hour=9, minute=0, second=0, id="Futanari Day")
+async def FutanariDay():
+    with open(f"{ASSETS_ROOT}/calendar/0207-FutanariDay.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", month=2, day=8, hour=9, minute=0, second=0, id="Knee-High Day")
+async def KneeHighDay():
+    with open(f"{ASSETS_ROOT}/calendar/0208-KneeHighDay.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", month=5, day=10, hour=9, minute=0, second=0, id="Maid Day")
+async def MaidDay():
+    with open(f"{ASSETS_ROOT}/calendar/0510-MaidDay.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
+
 @scheduler.scheduled_job("cron", month=8, day=1, hour=9, minute=0, second=0, id="Oppai Day")
 async def OppaiDay():
     with open(f"{ASSETS_ROOT}/calendar/0801-OppaiDay.txt", "r") as f:
