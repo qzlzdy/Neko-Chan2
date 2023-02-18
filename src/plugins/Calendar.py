@@ -76,6 +76,15 @@ async def TwinTailDay():
         desc = f.read()
     await sendNotice(desc)
 
+@scheduler.scheduled_job("cron", month=2, day=5, hour=9, minute=0, second=0, id="Kasugano Sora's Birthday")
+async def KasuganoSora():
+    with open(f"{ASSETS_ROOT}/calendar/0205-KasuganoSora.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://img.moegirl.org.cn/common/thumb/7/75/Kasugano_sora_game_CG_ring.jpg/420px-Kasugano_sora_game_CG_ring.jpg")
+    ]))
+
 @scheduler.scheduled_job("cron", month=2, day=7, hour=9, minute=0, second=0, id="Futanari Day")
 async def FutanariDay():
     with open(f"{ASSETS_ROOT}/calendar/0207-FutanariDay.txt", "r") as f:
@@ -87,6 +96,24 @@ async def KneeHighDay():
     with open(f"{ASSETS_ROOT}/calendar/0208-KneeHighDay.txt", "r") as f:
         desc = f.read()
     await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", month=2, day=14, hour=9, minute=0, second=0, id="Tedeza Rize's Birthday")
+async def TedezaRize():
+    with open(f"{ASSETS_ROOT}/calendar/0214-TedezaRize.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://gochiusa.com/core_sys/images/main/cont/chara/rize_body.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=2, day=17, hour=9, minute=0, second=0, id="Shiina's Birthday")
+async def Shiina():
+    with open(f"{ASSETS_ROOT}/calendar/0217-Shiina.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img03.jpg")
+    ]))
 
 @scheduler.scheduled_job("cron", month=5, day=10, hour=9, minute=0, second=0, id="Maid Day")
 async def MaidDay():
