@@ -115,6 +115,33 @@ async def Shiina():
         MessageSegment.image(url="https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img03.jpg")
     ]))
 
+@scheduler.scheduled_job("cron", month=2, day=19, hour=9, minute=0, second=0, id="Morino Mari's Birthday")
+async def MorinoMari():
+    with open(f"{ASSETS_ROOT}/calendar/0219-MorinoMari.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="http://koiastv.com/images/chara/p_005.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=2, day=21, hour=9, minute=0, second=0, id="Gotou Hitori's Birthday")
+async def GotouHitori():
+    with open(f"{ASSETS_ROOT}/calendar/0221-GotouHitori.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://img.moegirl.org.cn/common/thumb/c/c7/Gotou_hitori_goods.jpg/375px-Gotou_hitori_goods.jpg")
+    ]))
+
+@scheduler.scheduled_job("cron", month=2, day=23, hour=9, minute=0, second=0, id="Kumegawa Botan's Birthday")
+async def KumegawaBotan():
+    with open(f"{ASSETS_ROOT}/calendar/0223-KumegawaBotan.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://anne-happy.com/wp-content/uploads/2016/02/ch3-2.png")
+    ]))
+
 @scheduler.scheduled_job("cron", month=5, day=10, hour=9, minute=0, second=0, id="Maid Day")
 async def MaidDay():
     with open(f"{ASSETS_ROOT}/calendar/0510-MaidDay.txt", "r") as f:
