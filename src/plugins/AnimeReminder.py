@@ -61,7 +61,11 @@ async def AnimeReminder():
     total = 0
     variables = getVariables();
     while True:
-        response = requests.post(ALurl, json={"query": QueryStr, "variables": variables})
+        try:
+            response = requests.post(ALurl, json={"query": QueryStr, "variables": variables}, timeout=10)
+        except requests.exceptions.RequestException as e:
+            print(e)
+            continue
         page = json.loads(response.text)["data"]["Page"]
         pageInfo = page["pageInfo"]
         media = page["media"]
