@@ -142,6 +142,42 @@ async def KumegawaBotan():
         MessageSegment.image(url="https://anne-happy.com/wp-content/uploads/2016/02/ch3-2.png")
     ]))
 
+@scheduler.scheduled_job("cron", month=3, day=3, hour=9, minute=0, second=0, id="Koizuka Koyume's Birthday")
+async def KoizukaKoyume():
+    with open(f"{ASSETS_ROOT}/calendar/0303-KoizukaKoyume.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="http://comic-girls.com/character/img/chara2.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=3, day=3, hour=9, minute=0, second=5, id="Momoki Run's Birthday")
+async def MomokiRun():
+    with open(f"{ASSETS_ROOT}/calendar/0303-MomokiRun.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.a-ch.jp/character/img/ch02.jpg")
+    ]))
+
+@scheduler.scheduled_job("cron", month=3, day=3, hour=9, minute=0, second=10, id="Nakamachi Kana's Birthday")
+async def NakamachiKana():
+    with open(f"{ASSETS_ROOT}/calendar/0303-NakamachiKana.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.tv-tokyo.co.jp/contents/kanamemo/chara/images/chara_01.jpg")
+    ]))
+
+@scheduler.scheduled_job("cron", month=3, day=4, hour=9, minute=0, second=0, id="Kagamihara Nadeshiko's Birthday")
+async def KagamiharaNadeshiko():
+    with open(f"{ASSETS_ROOT}/calendar/0304-KagamiharaNadeshiko.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://yurucamp.jp/first/images/chara_list1.png")
+    ]))
+
 @scheduler.scheduled_job("cron", month=5, day=10, hour=9, minute=0, second=0, id="Maid Day")
 async def MaidDay():
     with open(f"{ASSETS_ROOT}/calendar/0510-MaidDay.txt", "r") as f:
