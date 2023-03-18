@@ -178,6 +178,15 @@ async def KagamiharaNadeshiko():
         MessageSegment.image(url="https://yurucamp.jp/first/images/chara_list1.png")
     ]))
 
+@scheduler.scheduled_job("cron", month=3, day=15, hour=9, minute=0, second=0, id="Tatusmi Kon's Birthday")
+async def TatsumiKon():
+    with open(f"{ASSETS_ROOT}/calendar/0315-TatsumiKon.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png")
+    ]))
+
 @scheduler.scheduled_job("cron", month=5, day=10, hour=9, minute=0, second=0, id="Maid Day")
 async def MaidDay():
     with open(f"{ASSETS_ROOT}/calendar/0510-MaidDay.txt", "r") as f:
