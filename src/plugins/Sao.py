@@ -66,3 +66,9 @@ async def Sao230331():
         desc = f.read()
     await sendNotice(desc)
 
+@scheduler.scheduled_job("cron", year=2023, month=4, day=8, hour=9, minute=10, second=0, id="230408")
+async def Sao230408():
+    with open(f"{ASSETS_ROOT}/sword_art_online/230408.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
+
