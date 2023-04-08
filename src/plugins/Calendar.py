@@ -187,6 +187,69 @@ async def TatsumiKon():
         MessageSegment.image(url="https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png")
     ]))
 
+@scheduler.scheduled_job("cron", month=4, day=3, hour=9, minute=0, second=0, id="Kurawashi Riko's Birthday")
+async def KurawashiRiko():
+    with open(f"{ASSETS_ROOT}/calendar/0403-KurawashiRiko.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.love-lab.tv/chara/img/riko00.jpg?1680924886863")
+    ]))
+
+@scheduler.scheduled_job("cron", month=4, day=4, hour=9, minute=0, second=0, id="Sakuranomiya Maika's Birthday")
+async def SakuranomiyaMaika():
+    with open(f"{ASSETS_ROOT}/calendar/0404-SakuranomiyaMaika.txt", "r"):
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://blend-s.jp/assets/img/character/chara_01/02.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=4, day=4, hour=9, minute=0, second=5, id="Sakura Ino's Birthday")
+async def SakuraIno():
+    with open(f"{ASSETS_ROOT}/calendar/0404-SakuraIno.txt", "r"):
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="http://ochifuru-anime.com/images/chara/001/p_002.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=4, day=5, hour=9, minute=0, second=0, id="Takeya Yuki's Birthday")
+async def TakeyaYuki():
+    with open(f"{ASSETS_ROOT}/calenadr/0405-TakeyaYuki.txt", "r"):
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://gakkougurashi.com/core_sys/images/main/cont/chara/ch01-1.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=4, day=5, hour=9, minute=0, second=5, id="Alice·Cartelet's Birthday")
+async def AliceCartelet():
+    with open(f"{ASSETS_ROOT}/calendar/0405-AliceCartelet.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="http://kinmosa.com/series/images/s2character/c2.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=4, day=6, hour=9, minute=0, second=0, id="Higa Kanata's Birthday")
+async def HigaKanata():
+    with open(f"{ASSETS_ROOT}/calendar/0406-HigaKanata.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://www.harukana-receive.jp/assets/character/1b.png")
+    ]))
+
+@scheduler.scheduled_job("cron", month=4, day=6, hour=9, minute=0, second=5, id="Ichinose Hana's Birthday")
+async def IchinoseHana():
+    with open(f"{ASSETS_ROOT}/calendar/0406-IchinoseHana.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(url="https://slow-start.com/shared/images/top/chara_d_hana_img.png")
+    ]))
+
 @scheduler.scheduled_job("cron", month=5, day=10, hour=9, minute=0, second=0, id="Maid Day")
 async def MaidDay():
     with open(f"{ASSETS_ROOT}/calendar/0510-MaidDay.txt", "r") as f:
