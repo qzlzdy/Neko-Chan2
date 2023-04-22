@@ -201,6 +201,12 @@ async def SawatariUki():
         "0412-SawatariUki",
         url="http://animayell.com/core_sys/images/main/cont/chara/main_uki.png")
 
+@scheduler.scheduled_job("cron", month=4, day=21, hour=9, minute=0, second=0, id="Kita Ikuyo's Birthday")
+async def KitaIkuyo():
+    await sendBirthdayNote(
+        "0421-KitaIkuyo",
+        url="https://bocchi.rocks/assets/img/page/character/ikuyo/main.png")
+
 @scheduler.scheduled_job("cron", month=5, day=10, hour=9, minute=0, second=0, id="Maid Day")
 async def MaidDay():
     with open(f"{ASSETS_ROOT}/calendar/0510-MaidDay.txt", "r") as f:
