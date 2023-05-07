@@ -207,6 +207,30 @@ async def KitaIkuyo():
         "0421-KitaIkuyo",
         url="https://bocchi.rocks/assets/img/page/character/ikuyo/main.png")
 
+@scheduler.scheduled_job("cron", month=5, day=1, hour=9, minute=0, second=0, id="Ichii Yui's Birthday")
+async def IchiiYui():
+    await sendBirthdayNote(
+        "0501-IchiiYui",
+        url="https://www.yuyushiki.net/core_sys/images/main/cont/chara/chara2_cos1.jpg")
+
+@scheduler.scheduled_job("cron", month=5, day=2, hour=9, minute=0, second=0, id="Hana N Fountainstand's Birthday")
+async def HanaNFountainstand():
+    await sendBirthdayNote(
+        "0502-HanaNFountainstand",
+        url="https://hanayamata.com/assets/images/profile/chara02_off.png")
+
+@scheduler.scheduled_job("cron", month=5, day=2, hour=9, minute=0, second=5, id="Odagiri Futaba's Birthday")
+async def OdagiriFutaba():
+    await sendBirthdayNote(
+        "0502-OdagiriFutaba",
+        url="https://sansyasanyou.com/core_sys/images/contents/00000003/base/sn_001.png?1552483627")
+
+@scheduler.scheduled_job("cron", month=5, day=4, hour=9, minute=0, second=0, id="Katsuki Tsubasa's Birthday")
+async def KatsukiTsubasa():
+    await sendBirthdayNote(
+        "0504-KatsukiTsubasa",
+        url="http://comic-girls.com/character/img/chara4.png")
+
 @scheduler.scheduled_job("cron", month=5, day=10, hour=9, minute=0, second=0, id="Maid Day")
 async def MaidDay():
     with open(f"{ASSETS_ROOT}/calendar/0510-MaidDay.txt", "r") as f:

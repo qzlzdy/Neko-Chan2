@@ -16,7 +16,7 @@ async def WorkReminder():
 @scheduler.scheduled_job("cron", hour=20, minute=40, second=0, id="Jap Reminder")
 async def JapReminder():
     await sendGroupMessage(1161079807, MessageChain([
-        MessageSegment.plain("今天你开潜艇了吗"),
-        MessageSegment.at(1020051753)
+        MessageSegment.plain("今天你开潜艇了吗")
+        #MessageSegment.at(1020051753)
     ]))
 
