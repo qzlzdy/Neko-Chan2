@@ -93,12 +93,6 @@ async def Shiina():
         "0217-Shiina",
         url="https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img03.jpg")
 
-@scheduler.scheduled_job("cron", month=2, day=19, hour=9, minute=0, second=0, id="Morino Mari's Birthday")
-async def MorinoMari():
-    await sendBirthdayNote(
-        "0219-MorinoMari",
-        url="http://koiastv.com/images/chara/p_005.png")
-
 @scheduler.scheduled_job("cron", month=2, day=21, hour=9, minute=0, second=0, id="Gotou Hitori's Birthday")
 async def GotouHitori():
     await sendBirthdayNote(
@@ -234,6 +228,12 @@ async def KatsukiTsubasa():
 @scheduler.scheduled_job("cron", month=5, day=10, hour=9, minute=0, second=0, id="Maid Day")
 async def MaidDay():
     with open(f"{ASSETS_ROOT}/calendar/0510-MaidDay.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", month=5, day=15, hour=9, minute=0, second=0, id="Stocking Day")
+async def StockingDay():
+    with open(f"{ASSETS_ROOT}/calendar/0515-StockingDay.txt", "r") as f:
         desc = f.read()
     await sendNotice(desc)
 
