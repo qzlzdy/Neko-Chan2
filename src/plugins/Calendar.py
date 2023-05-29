@@ -237,6 +237,30 @@ async def StockingDay():
         desc = f.read()
     await sendNotice(desc)
 
+@scheduler.scheduled_job("cron", month=5, day=23, hour=9, minute=0, second=0, id="Kiss Day")
+async def KissDay():
+    with open(f"{ASSETS_ROOT}/calendar/0523-KissDay.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", month=5, day=24, hour=9, minute=0, second=0, id="Nishi Yuuko's Birthday")
+async def NishiYuuko():
+    await sendBirthdayNote(
+        "0524-NishiYuuko",
+        url="https://www.a-ch.jp/character/img/ch03.jpg")
+
+@scheduler.scheduled_job("cron", month=5, day=29, hour=9, minute=0, second=0, id="Ijichi Nijika's Birthday")
+async def IjichiNijika():
+    await sendBirtdayNote(
+        "0529-IjichiNijika",
+        url="https://bocchi.rocks/assets/img/page/character/nijika/main.png")
+
+@scheduler.scheduled_job("cron", month=7, day=7, hour=9, minute=0, second=0, id="Pony Tail Day")
+async def PonyTailDay():
+    with open(f"{ASSETS_ROOT}/calendar/0707-PonyTailDay.txt", "r") as f:
+        desc = f.read()
+    await sendNotice(desc)
+
 @scheduler.scheduled_job("cron", month=8, day=1, hour=9, minute=0, second=0, id="Oppai Day")
 async def OppaiDay():
     with open(f"{ASSETS_ROOT}/calendar/0801-OppaiDay.txt", "r") as f:
