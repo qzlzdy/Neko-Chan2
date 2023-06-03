@@ -255,6 +255,12 @@ async def IjichiNijika():
         "0529-IjichiNijika",
         url="https://bocchi.rocks/assets/img/page/character/nijika/main.png")
 
+@scheduler.scheduled_job("cron", month=6, day=1, hour=9, minute=0, second=0, id="Sasame Yaya's Birthday")
+async def SasameYaya():
+    await sendBirthdayNote(
+        "0601-SasameYaya",
+        url="https://hanayamata.com/assets/images/profile/chara03_off.png")
+
 @scheduler.scheduled_job("cron", month=7, day=7, hour=9, minute=0, second=0, id="Pony Tail Day")
 async def PonyTailDay():
     with open(f"{ASSETS_ROOT}/calendar/0707-PonyTailDay.txt", "r") as f:

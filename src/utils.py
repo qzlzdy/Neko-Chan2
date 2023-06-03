@@ -12,7 +12,7 @@ async def sendFriendMessage(friend_id, message):
 
 async def sendGroupMessage(group_id, message):
     bot = get_bot()
-    await bot.send_group_message(target=group_id, message_chain=MessageChain(message))
+    await bot.send_group_message(target=group_id, message_chain=message)
 
 async def sendNotice(desc):
     for group_id in GroupId:
