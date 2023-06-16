@@ -267,6 +267,12 @@ async def AmanoMiu():
         "0609-AmanoMiu",
         url="https://blend-s.jp/assets/img/character/chara_04/chara04_1.png")
 
+@scheduler.scheduled_job("cron", month=6, day=13, hour=9, minute=0, second=0, id="Konohata Mira's Birthday")
+async def KonohataMira():
+    await sendBirthdayNote(
+        "0613-KonohataMira",
+        url="http://koiastv.com/images/chara/p_001.png")
+
 @scheduler.scheduled_job("cron", month=7, day=7, hour=9, minute=0, second=0, id="Pony Tail Day")
 async def PonyTailDay():
     with open(f"{ASSETS_ROOT}/calendar/0707-PonyTailDay.txt", "r") as f:
