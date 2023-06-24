@@ -273,6 +273,24 @@ async def KonohataMira():
         "0613-KonohataMira",
         url="http://koiastv.com/images/chara/p_001.png")
 
+@scheduler.scheduled_job("cron", month=6, day=20, hour=9, minute=0, second=0, id="Tokura Eiko's Birthday")
+async def TokuraEiko():
+    await sendBirthdayNote(
+        "0620-TokuraEiko",
+        url="https://slow-start.com/shared/images/top/chara_d_eiko_img.png")
+
+@scheduler.scheduled_job("cron", month=6, day=22, hour=9, minute=0, second=0, id="Machiko Ryou's Birthday")
+async def MachikoRyou():
+    await sendBirthdayNote(
+        "0622-MachikoRyou",
+        url="https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img01.jpg")
+
+@scheduler.scheduled_job("cron", month=6, day=24, hour=9, minute=0, second=0, id="Sonoda Yuu's Birthday")
+async def SonodaYuu():
+    await sendBirthdayNote(
+        "0624-SonodaYuu",
+        url="https://www.tbs.co.jp/anime/sakura/chara/images/chara_img02.jpg")
+
 @scheduler.scheduled_job("cron", month=7, day=7, hour=9, minute=0, second=0, id="Pony Tail Day")
 async def PonyTailDay():
     with open(f"{ASSETS_ROOT}/calendar/0707-PonyTailDay.txt", "r") as f:
