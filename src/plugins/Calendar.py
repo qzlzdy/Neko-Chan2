@@ -291,6 +291,18 @@ async def SonodaYuu():
         "0624-SonodaYuu",
         url="https://www.tbs.co.jp/anime/sakura/chara/images/chara_img02.jpg")
 
+@scheduler.scheduled_job("cron", month=6, day=30, hour=9, minute=0, second=0, id="Yoshinaga Koi's Birthday")
+async def YoshinagaKoi():
+    await sendBirthdayNote(
+        "0630-YoshinagaKoi",
+        url="https://slowlooptv.com/images/chara/p_003.png")
+
+@scheduler.scheduled_job("cron", month=7, day=2, hour=9, minute=0, second=0, id="Kotobuki Tsumugi's Birthday")
+async def KotobukiTsumugi():
+    await sendBirthdayNote(
+        "0702-KotobukiTsumugi",
+        url="https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo04.gif")
+
 @scheduler.scheduled_job("cron", month=7, day=7, hour=9, minute=0, second=0, id="Pony Tail Day")
 async def PonyTailDay():
     with open(f"{ASSETS_ROOT}/calendar/0707-PonyTailDay.txt", "r") as f:
