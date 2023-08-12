@@ -2,8 +2,10 @@ from nonebot import require
 
 require("nonebot_plugin_apscheduler")
 
+import base64
 from nonebot_plugin_apscheduler import scheduler
-from nonebot.adapters.mirai2.message import MessageChain, MessageSegment
+from nonebot.adapters.mirai2.message import MessageChain
+from nonebot.adapters.mirai2.message import MessageSegment
 from ..utils import ASSETS_ROOT
 from ..utils import sendNotice
 
@@ -303,11 +305,52 @@ async def KotobukiTsumugi():
         "0702-KotobukiTsumugi",
         url="https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo04.gif")
 
+@scheduler.scheduled_job("cron", month=7, day=4, hour=9, minute=0, second=0, id="Hatoya Kohane's Birthday")
+async def HatoyaKohane():
+    await sendBirthdayNote(
+        "0704-HatoyaKohane",
+        url="http://animayell.com/core_sys/images/main/cont/chara/details_kohane_school.png")
+
 @scheduler.scheduled_job("cron", month=7, day=7, hour=9, minute=0, second=0, id="Pony Tail Day")
 async def PonyTailDay():
     with open(f"{ASSETS_ROOT}/calendar/0707-PonyTailDay.txt", "r") as f:
         desc = f.read()
     await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", month=7, day=9, hour=9, minute=0, second=0, id="Hibarigaoka Ruri's Birthday")
+async def HibarigaokaRuri():
+    await sendBirthdayNote(
+        "0709-HibarigaokaRuri",
+        url="https://anne-happy.com/wp-content/uploads/2016/02/ch2-1-1.png")
+
+@scheduler.scheduled_job("cron", month=7, day=10, hour=9, minute=0, second=0, id="Kanzaki Hideri's Birthday")
+async def KanzakiHideri():
+    await sendBirthdayNote(
+        "0710-KanzakiHideri",
+        url="https://blend-s.jp/assets/img/character/chara_05/chara05_1.png")
+
+@scheduler.scheduled_job("cron", month=7, day=15, hour=9, minute=0, second=0, id="Kirima Sharo's Birthday")
+async def KirimaSharo():
+    await sendBirthdayNote(
+        "0715-KirimaSharo",
+        url="https://gochiusa.com/core_sys/images/main/cont/chara/syaro_body.png")
+
+@scheduler.scheduled_job("cron", month=7, day=17, hour=9, minute=0, second=0, id="Kurokawa Mao's Birthday")
+async def KurokawaMao():
+    await sendBirthdayNote(
+        "0717-KurokawaMao",
+        url="https://wakabagirl.com/core_sys/images/contents/00000010/base/001.jpg?1555054911")
+
+@scheduler.scheduled_job("cron", month=7, day=21, hour=9, minute=0, second=0, id="Onanie Day")
+async def OnanieDay():
+    with open(f"{ASSETS_ROOT}/calendar/0721-OnanieDay.txt", "r") as f:
+        desc = f.read()
+    infile = open(f"{ASSETS_ROOT}/0721.jpg", "rb").read()
+    buf = base64.b64encode(infile)
+    await sendNotice(MessageChain([
+        MessageSegment.plain(desc),
+        MessageSegment.image(base64=str(buf, "utf-8"))
+    ]))
 
 @scheduler.scheduled_job("cron", month=8, day=1, hour=9, minute=0, second=0, id="Oppai Day")
 async def OppaiDay():
@@ -320,6 +363,18 @@ async def PantsDay():
     with open(f"{ASSETS_ROOT}/calendar/0802-PantsDay.txt", "r") as f:
         desc = f.read()
     await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", month=8, day=11, hour=9, minute=0, second=0, id="Nishikawa Yoko's Birthday")
+async def NishikawaYoko():
+    await sendBirthdayNote(
+        "0811-NishikawaYoko",
+        url="http://sansyasanyou.com/core_sys/images/contents/00000002/base/sn_001.png?1552483627")
+
+@scheduler.scheduled_job("cron", month=8, day=12, hour=9, minute=0, second=0, id="Hinata Kaho's Birthday")
+async def HinataKaho():
+    await sendBirthdayNote(
+        "0812-HinataKaho",
+        url="https://blend-s.jp/assets/img/character/chara_02/chara02_1.png")
 
 @scheduler.scheduled_job("cron", month=8, day=31, hour=9, minute=0, second=0, id="Hatsune Miku's Birthday")
 async def HatsuneMiku():
