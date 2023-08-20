@@ -376,6 +376,12 @@ async def HinataKaho():
         "0812-HinataKaho",
         url="https://blend-s.jp/assets/img/character/chara_02/chara02_1.png")
 
+@scheduler.scheduled_job("cron", month=8, day=20, hour=9, minute=0, second=0, id="Inokuma Youko's Birthday")
+async def InokumaYouko():
+    await sendBirthdayNote(
+        "0820-InokumaYouko",
+        url="http://www.kinmosa.com/series/images/s2character/c4.png")
+
 @scheduler.scheduled_job("cron", month=8, day=31, hour=9, minute=0, second=0, id="Hatsune Miku's Birthday")
 async def HatsuneMiku():
     await sendBirthdayNote(
