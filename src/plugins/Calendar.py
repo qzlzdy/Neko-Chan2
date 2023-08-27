@@ -382,6 +382,24 @@ async def InokumaYouko():
         "0820-InokumaYouko",
         url="http://www.kinmosa.com/series/images/s2character/c4.png")
 
+@scheduler.scheduled_job("cron", month=8, day=21, hour=9, minute=0, second=0, id="Tainaka Ritsu's Birthday")
+async def TainakaRitsu():
+    await sendBirthdayNote(
+        "0821-TainakaRitsu",
+        url="https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo03.gif")
+
+@scheduler.scheduled_job("cron", month=8, day=23, hour=9, minute=0, second=0, id="Maki Natsuo's Birthday")
+async def MakiNatsuo():
+    await sendBirthdayNote(
+        "0823-MakiNatsuo",
+        url="https://www.love-lab.tv/chara/img/maki00.jpg")
+
+@scheduler.scheduled_job("cron", month=8, day=25, hour=9, minute=0, second=0, id="Takayama Haruka's Birthday")
+async def TakayamaHaruka():
+    await sendBirthdayNote(
+        "0825-TakayamaHaruka",
+        url="https://www.tbs.co.jp/anime/sakura/chara/images/chara_img01.jpg")
+
 @scheduler.scheduled_job("cron", month=8, day=31, hour=9, minute=0, second=0, id="Hatsune Miku's Birthday")
 async def HatsuneMiku():
     await sendBirthdayNote(
