@@ -400,6 +400,12 @@ async def TakayamaHaruka():
         "0825-TakayamaHaruka",
         url="https://www.tbs.co.jp/anime/sakura/chara/images/chara_img01.jpg")
 
+@scheduler.scheduled_job("cron", month=8, day=28, hour=9, minute=0, second=0, id="Honda Tamaki's Birthday")
+async def HondaTamaki():
+    await sendBirthdayNote(
+        "0828-HondaTamaki",
+        url="http://www.dokidokivisual.com/magic_of_stella/img/banner/banner_kari_anim_l.jpg")
+
 @scheduler.scheduled_job("cron", month=8, day=31, hour=9, minute=0, second=0, id="Hatsune Miku's Birthday")
 async def HatsuneMiku():
     await sendBirthdayNote(
