@@ -418,6 +418,12 @@ async def KupaDay():
         desc = f.read()
     await sendNotice(desc)
 
+@scheduler.scheduled_job("cron", month=9, day=9, hour=9, minute=0, second=0, id="Midori Hemo's Birthday")
+async def MidoriHemo():
+    await sendBirthdayNote(
+        "0909-MidoriHemo",
+        url="http://ochifuru-anime.com/images/chara/005/p_002.png")
+
 @scheduler.scheduled_job("cron", month=9, day=9, hour=9, minute=9, second=9, id="Cirno Day")
 async def CirnoDay():
     with open(f"{ASSETS_ROOT}/calendar/0909-CirnoDay.txt", "r") as f:
