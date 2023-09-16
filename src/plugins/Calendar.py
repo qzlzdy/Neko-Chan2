@@ -454,6 +454,12 @@ async def YoshidaYuuko():
         "0928-YoshidaYuuko",
         url="https://www.tbs.co.jp/anime/machikado/1st/character/img/chara_img_01.png")
 
+@scheduler.scheduled_job("cron", month=9, day=30, hour=9, minute=0, second=0, id="Yuuki Asuna's Birthday")
+async def YuukiAsune():
+    await sendBirthdayNote(
+        "0930-YuukiAsuna",
+        url="https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png")
+
 @scheduler.scheduled_job("cron", month=10, day=10, hour=9, minute=0, second=0, id="Moe Day")
 async def MoeDay():
     with open(f"{ASSETS_ROOT}/calendar/1010-MoeDay.txt", "r") as f:
