@@ -179,6 +179,12 @@ async def IchinoseHana():
         "0406-IchinoseHana",
         url="https://slow-start.com/shared/images/top/chara_d_hana_img.png")
 
+@scheduler.scheduled_job("cron", month=4, day=8, hour=9, minute=0, second=0, id="Kousaka Kirino's Birthday")
+async def KousakaKirino():
+    await sendBirthdayNote(
+        "0408-KousakaKirino",
+        url="https://www.oreimo-anime.com/1st/chara/img/chara01.jpg")
+
 @scheduler.scheduled_job("cron", month=4, day=10, hour=9, minute=0, second=0, id="Hoto Kokoa's Birthday")
 async def HotoKokoa():
     await sendBirthdayNote(
