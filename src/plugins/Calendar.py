@@ -275,6 +275,12 @@ async def AmanoMiu():
         "0609-AmanoMiu",
         url="https://blend-s.jp/assets/img/character/chara_04/chara04_1.png")
 
+@scheduler.scheduled_job("cron", month=6, day=10, hour=9, minute=0, second=0, id="Tokisaki Kurumi's Birthday")
+async def TokisakiKurumi():
+    await sendBirthdayNote(
+        "0610-TokisakiKurumi",
+        url="https://date-a-live4th-anime.com/common/images/character/character06.png")
+
 @scheduler.scheduled_job("cron", month=6, day=13, hour=9, minute=0, second=0, id="Konohata Mira's Birthday")
 async def KonohataMira():
     await sendBirthdayNote(
@@ -317,11 +323,11 @@ async def HatoyaKohane():
         "0704-HatoyaKohane",
         url="http://animayell.com/core_sys/images/main/cont/chara/details_kohane_school.png")
 
-@scheduler.scheduled_job("cron", month=7, day=7, hour=9, minute=0, second=0, id="Pony Tail Day")
-async def PonyTailDay():
-    with open(f"{ASSETS_ROOT}/calendar/0707-PonyTailDay.txt", "r") as f:
-        desc = f.read()
-    await sendNotice(desc)
+@scheduler.scheduled_job("cron", month=7, day=7, hour=9, minute=0, second=0, id="Senjyougahara Hitagi's Birthday")
+async def SenjyougaharaHitagi():
+    await sendBirthdayNote(
+        "0707-SenjyougaharaHitagi",
+        url="https://www.monogatari-series.com/bakemonogatari/chara/images/i01.jpg")
 
 @scheduler.scheduled_job("cron", month=7, day=9, hour=9, minute=0, second=0, id="Hibarigaoka Ruri's Birthday")
 async def HibarigaokaRuri():
