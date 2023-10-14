@@ -227,6 +227,12 @@ async def OdagiriFutaba():
         "0502-OdagiriFutaba",
         url="https://sansyasanyou.com/core_sys/images/contents/00000003/base/sn_001.png?1552483627")
 
+@scheduler.scheduled_job("cron", month=5, day=2, hour=9, minute=0, second=10, id="Misaka Mikoto's Birthday")
+async def MisakaMikoto():
+    await sendBirthdayNote(
+        "0502-MisakaMikoto",
+        url="https://toaru-project.com/railgun/core_sys/images/contents/00000004/base/001.jpg?1615808050")
+
 @scheduler.scheduled_job("cron", month=5, day=4, hour=9, minute=0, second=0, id="Katsuki Tsubasa's Birthday")
 async def KatsukiTsubasa():
     await sendBirthdayNote(
@@ -476,19 +482,19 @@ async def YuukiAsune():
 async def MoeDay():
     with open(f"{ASSETS_ROOT}/calendar/1010-MoeDay.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageSegment.plain(desc))
 
 @scheduler.scheduled_job("cron", month=10, day=11, hour=9, minute=0, second=0, id="Loli Day")
 async def LoliDay():
     with open(f"{ASSETS_ROOT}/calendar/1011-LoliDay.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageSegment.plain(desc))
 
 @scheduler.scheduled_job("cron", month=10, day=24, hour=9, minute=0, second=0, id="1024 Day")
 async def ProgrammerDay():
     with open(f"{ASSETS_ROOT}/calendar/1024-1024Day.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageSegment.plain(desc))
 
 @scheduler.scheduled_job("cron", month=11, day=2, hour=9, minute=0, second=0, id="Tights Day")
 async def TightsDay():
