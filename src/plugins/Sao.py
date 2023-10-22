@@ -62,3 +62,16 @@ async def Sao230612():
 @scheduler.scheduled_job("cron", year=2023, month=10, day=15, hour=9, minute=10, second=0, id="231015")
 async def Sao231015():
     await sendSaoNote("231015")
+
+@scheduler.scheduled_job("cron", year=2023, month=10, day=16, hour=9, minute=10, second=0, id="231016")
+async def Sao231016():
+    await sendSaoNote("231016")
+
+@scheduler.scheduled_job("cron", year=2023, month=10, day=17, hour=9, minute=10, second=0, id="231017")
+async def Sao231017():
+    await sendSaoNote("231017")
+
+@scheduler.scheduled_job("cron", year=2023, month=10, day=18, hour=9, minute=10, second=0, id="231018")
+async def Sao231018():
+    await sendSaoNote("231018")
+

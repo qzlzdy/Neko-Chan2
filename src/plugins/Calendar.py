@@ -203,6 +203,12 @@ async def SawatariUki():
         "0412-SawatariUki",
         url="http://animayell.com/core_sys/images/main/cont/chara/main_uki.png")
 
+@scheduler.scheduled_job("cron", month=4, day=20, hour=9, minute=0, second=0, id="Gokou Ruri's Birthday")
+async def GokouRuri():
+    await sendBirthdayNote(
+        "0420-GokouRuri",
+        url="https://www.oreimo-anime.com/1st/chara/img/chara04.jpg")
+
 @scheduler.scheduled_job("cron", month=4, day=21, hour=9, minute=0, second=0, id="Kita Ikuyo's Birthday")
 async def KitaIkuyo():
     await sendBirthdayNote(
@@ -232,6 +238,12 @@ async def MisakaMikoto():
     await sendBirthdayNote(
         "0502-MisakaMikoto",
         url="https://toaru-project.com/railgun/core_sys/images/contents/00000004/base/001.jpg?1615808050")
+
+@scheduler.scheduled_job("cron", month=5, day=2, hour=9, minute=0, second=15, id="Aragaki Ayase's Birthday")
+async def AragakiAyase():
+    await sendBirthdayNote(
+        "0502-AragakiAyase",
+        url="https://www.oreimo-anime.com/1st/chara/img/chara06.jpg")
 
 @scheduler.scheduled_job("cron", month=5, day=4, hour=9, minute=0, second=0, id="Katsuki Tsubasa's Birthday")
 async def KatsukiTsubasa():
@@ -381,6 +393,12 @@ async def PantsDay():
     with open(f"{ASSETS_ROOT}/calendar/0802-PantsDay.txt", "r") as f:
         desc = f.read()
     await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", month=8, day=3, hour=9, minute=0, second=0, id="Itsuka Kotori's Birthday")
+async def ItsukaKotori():
+    await sendBirthdayNote(
+        "0803-ItsukaKotori",
+        url="https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_kotori.png")
 
 @scheduler.scheduled_job("cron", month=8, day=11, hour=9, minute=0, second=0, id="Nishikawa Yoko's Birthday")
 async def NishikawaYoko():
