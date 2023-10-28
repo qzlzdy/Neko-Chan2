@@ -137,6 +137,12 @@ async def TatsumiKon():
         "0315-TatsumiKon",
         url="https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png")
 
+@scheduler.scheduled_job("cron", month=3, day=20, hour=9, minute=0, second=0, id="Himekawa Yoshino's Birthday")
+async def HimekawaYoshino():
+    await sendBirthdayNote(
+        "0320-HimekawaYoshino",
+        url="https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_yoshino.png")
+
 @scheduler.scheduled_job("cron", month=4, day=3, hour=9, minute=0, second=0, id="Kurawashi Riko's Birthday")
 async def KurawashiRiko():
     await sendBirthdayNote(
@@ -537,6 +543,12 @@ async def GoodOppai():
     with open(f"{ASSETS_ROOT}/calendar/1108-GoodOppaiDay.txt", "r") as f:
         desc = f.read()
     await sendNotice(desc)
+
+@scheduler.scheduled_job("cron", month=11, day=11, hour=9, minute=0, second=0, id="Tobiichi Origami's Birthday")
+async def TobiichiOrigami():
+    await sendBirthdayNote(
+        "1111-TobiichiOrigami",
+        url="https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_origami.png")
 
 @scheduler.scheduled_job("cron", month=11, day=27, hour=9, minute=0, second=0, id="Hirasawa Yui's Birthday")
 async def HirasawaYui():
