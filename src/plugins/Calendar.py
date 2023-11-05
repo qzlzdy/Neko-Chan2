@@ -131,6 +131,12 @@ async def KagamiharaNadeshiko():
         "0304-KagamiharaNadeshiko",
         url="https://yurucamp.jp/first/images/chara_list1.png")
 
+@scheduler.scheduled_job("cron", month=3, day=10, hour=9, minute=0, second=0, id="Saten Ruiko's Birthday")
+async def SatenRuiko():
+    await sendBirthdayNote(
+        "0310-SatenRuiko",
+        url="https://toaru-project.com/railgun_t/core_sys/images/main/cont_chara/11_body.png")
+
 @scheduler.scheduled_job("cron", month=3, day=15, hour=9, minute=0, second=0, id="Tatusmi Kon's Birthday")
 async def TatsumiKon():
     await sendBirthdayNote(
@@ -292,6 +298,12 @@ async def SasameYaya():
     await sendBirthdayNote(
         "0601-SasameYaya",
         url="https://hanayamata.com/assets/images/profile/chara03_off.png")
+
+@scheduler.scheduled_job("cron", month=6, day=3, hour=9, minute=0, second=0, id="Sengoku Nadeko's Birthday")
+async def SengokuNadeko():
+    await sendBirthdayNote(
+        "0603-SengokuNadeko",
+        url="https://www.monogatari-series.com/bakemonogatari/chara/images/i04.jpg")
 
 @scheduler.scheduled_job("cron", month=6, day=9, hour=9, minute=0, second=0, id="Amano Miu's Birthday")
 async def AmanoMiu():
@@ -524,25 +536,25 @@ async def ProgrammerDay():
 async def TightsDay():
     with open(f"{ASSETS_ROOT}/calendar/1102-TightsDay.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageSegment.plain(desc))
 
 @scheduler.scheduled_job("cron", month=11, day=4, hour=9, minute=0, second=0, id="Good Butt")
 async def GoodButt():
     with open(f"{ASSETS_ROOT}/calendar/1104-GoodButtDay.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageSegment.plain(desc))
 
 @scheduler.scheduled_job("cron", month=11, day=7, hour=9, minute=0, second=0, id="Good Belly")
 async def GoodBelly():
     with open(f"{ASSETS_ROOT}/calendar/1107-GoodBellyDay.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageSegment.plain(desc))
 
 @scheduler.scheduled_job("cron", month=11, day=8, hour=9, minute=0, second=0, id="Good Oppai Day")
 async def GoodOppai():
     with open(f"{ASSETS_ROOT}/calendar/1108-GoodOppaiDay.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageSegment.plain(desc))
 
 @scheduler.scheduled_job("cron", month=11, day=11, hour=9, minute=0, second=0, id="Tobiichi Origami's Birthday")
 async def TobiichiOrigami():
