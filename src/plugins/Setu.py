@@ -23,7 +23,7 @@ async def sendSetu():
     cur = db.cursor()
     sql = "SELECT extension FROM setus WHERE illust_id = ?"
     for i in range(1):
-        illust_id = randint(57101, 77100)
+        illust_id = randint(58801, 78800)
         res = cur.execute(sql, (illust_id,))
         ext = res.fetchall()[0][0]
         #infile = open(f"{ASSETS_ROOT}/setu/H{illust_id}.{ext}", "rb").read()
