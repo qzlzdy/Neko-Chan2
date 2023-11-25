@@ -59,11 +59,11 @@ async def SuzukazeAoba():
         "0202-SuzukazeAoba",
         url="http://newgame-anime.com/assets/character/c1.png")
 
-@scheduler.scheduled_job("cron", month=2, day=2, hour=9, minute=0, second=5, id="Twin Tail Day")
-async def TwinTailDay():
-    with open(f"{ASSETS_ROOT}/calendar/0202-TainTailDay.txt", "r") as f:
-        desc = f.read()
-    await sendNotice(desc)
+@scheduler.scheduled_job("cron", month=2, day=2, hour=9, minute=0, second=5, id="Tsutsukakushi Tsukiko's Birthday")
+async def TsutsukakushiTsukiko():
+    await sendBirthdayNote(
+        "0202-TsutsukakushiTsukiko",
+        url="http://www.henneko.jp/character/img/p_tsukiko.png")
 
 @scheduler.scheduled_job("cron", month=2, day=5, hour=9, minute=0, second=0, id="Kasugano Sora's Birthday")
 async def KasuganoSora():
@@ -166,6 +166,12 @@ async def SakuraIno():
     await sendBirthdayNote(
         "0404-SakuraIno",
         url="http://ochifuru-anime.com/images/chara/001/p_002.png")
+
+@scheduler.scheduled_job("cron", month=4, day=4, hour=9, minute=0, second=10, id="Azuki Azusa's Birthday")
+async def AzukiAzusa():
+    await sendBirthdayNote(
+        "0404-AzukiAzusa",
+        url="http://www.henneko.jp/character/img/p_azusa.png")
 
 @scheduler.scheduled_job("cron", month=4, day=5, hour=9, minute=0, second=0, id="Takeya Yuki's Birthday")
 async def TakeyaYuki():
@@ -578,7 +584,7 @@ async def HirasawaYui():
 async def GoodMeat():
     with open(f"{ASSETS_ROOT}/calendar/1129-GoodMeatDay.txt", "r") as f:
         desc = f.read()
-    await sendNotice(desc)
+    await sendNotice(MessageChain([MessageSegment.plain(desc)]))
 
 @scheduler.scheduled_job("cron", month=12, day=4, hour=9, minute=0, second=0, id="Kafuu Chino's Birthday")
 async def KafuuChino():
