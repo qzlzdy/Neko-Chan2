@@ -472,6 +472,12 @@ async def HondaTamaki():
         "0828-HondaTamaki",
         url="http://www.dokidokivisual.com/magic_of_stella/img/banner/banner_kari_anim_l.jpg")
 
+@scheduler.scheduled_job("cron", month=8, day=28, hour=9, minute=0, second=5, id="Asahina Mikuru's Birthday")
+async def AsahinaMikuru():
+    await sendBirthdayNote(
+        "0828-AsahinaMikuru",
+        url="https://img.moegirl.org.cn/common/thumb/3/39/1096%E5%A5%B3%E4%BB%86%E8%A3%85.jpg/450px-1096%E5%A5%B3%E4%BB%86%E8%A3%85.jpg")
+
 @scheduler.scheduled_job("cron", month=8, day=31, hour=9, minute=0, second=0, id="Hatsune Miku's Birthday")
 async def HatsuneMiku():
     await sendBirthdayNote(
@@ -526,6 +532,12 @@ async def YuukiAsune():
         "0930-YuukiAsuna",
         url="https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png")
 
+@scheduler.scheduled_job("cron", month=10, day=8, hour=9, minute=0, second=0, id="Suzumiya Haruhi's Birthday")
+async def SuzumiyaHaruhi():
+    await sendBirthdayNote(
+        "1008-SuzumiyaHaruhi",
+        url="https://img.moegirl.org.cn/common/f/fd/Haruhi_Suzumiya_.jpg")
+
 @scheduler.scheduled_job("cron", month=10, day=10, hour=9, minute=0, second=0, id="Moe Day")
 async def MoeDay():
     with open(f"{ASSETS_ROOT}/calendar/1010-MoeDay.txt", "r") as f:
@@ -573,6 +585,12 @@ async def TobiichiOrigami():
     await sendBirthdayNote(
         "1111-TobiichiOrigami",
         url="https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_origami.png")
+
+@scheduler.scheduled_job("cron", month=11, day=18, hour=9, minute=0, second=0, id="Nagato Yuki's Birthday")
+async def NagatoYuki():
+    await sendBirthdayNote(
+        "1118-NagatoYuki",
+        url="https://img.moegirl.org.cn/common/thumb/4/4b/Nagato_Yuki2.jpg/420px-Nagato_Yuki2.jpg")
 
 @scheduler.scheduled_job("cron", month=11, day=27, hour=9, minute=0, second=0, id="Hirasawa Yui's Birthday")
 async def HirasawaYui():
