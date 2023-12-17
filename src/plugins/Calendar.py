@@ -233,6 +233,12 @@ async def KitaIkuyo():
         "0421-KitaIkuyo",
         url="https://bocchi.rocks/assets/img/page/character/ikuyo/main.png")
 
+@scheduler.scheduled_job("cron", month=4, day=27, hour=9, minute=0, second=0, id="Misaki Mei's Birthday")
+async def MisakiMei():
+    await sendBirthdayNote(
+        "0427-MisakiMei",
+        url="https://www.pa-works.jp/wp-content/uploads/2012/04/08_another-727x1024.jpg")
+
 @scheduler.scheduled_job("cron", month=5, day=1, hour=9, minute=0, second=0, id="Ichii Yui's Birthday")
 async def IchiiYui():
     await sendBirthdayNote(
@@ -292,6 +298,12 @@ async def NishiYuuko():
     await sendBirthdayNote(
         "0524-NishiYuuko",
         url="https://www.a-ch.jp/character/img/ch03.jpg")
+
+@scheduler.scheduled_job("cron", month=5, day=28, hour=9, minute=0, second=0, id="Izumi Konata's Birthday")
+async def IzumiKonata():
+    await sendBirthdayNote(
+        "0528-IzumiKonata",
+        url="https://img.moegirl.org.cn/common/thumb/0/0e/Izumi_Konata_Hinnyuu.jpg/450px-Izumi_Konata_Hinnyuu.jpg")
 
 @scheduler.scheduled_job("cron", month=5, day=29, hour=9, minute=0, second=0, id="Ijichi Nijika's Birthday")
 async def IjichiNijika():
