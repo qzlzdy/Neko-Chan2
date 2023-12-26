@@ -147,7 +147,7 @@ calendars = {
 "1231": [["HanakoizumiAnne", "https://anne-happy.com/wp-content/uploads/2016/02/ch1-1-1.png"]],
 }
 
-@scheduler.shceduled_job("cron", hour=9, minute=0, second=0)
+@scheduler.scheduled_job("cron", hour=9, minute=0, second=0)
 async def CalendarNote():
     now = time.localtime(time.time())
     today = time.strftime("%m%d", now)

@@ -21,9 +21,9 @@ eventDates = [
 ]
 
 for date in eventDates:
-    year = 2000 + int(eventDates[:2])
-    month = int(eventDates[2:4])
-    day = int(eventDates[4:6])
+    year = 2000 + int(date[0:2])
+    month = int(date[2:4])
+    day = int(date[4:6])
     scheduler.add_job(sendSaoNote,
         "cron", year=year, month=month, day=day,
         hour=9, minute=10, second=0,
