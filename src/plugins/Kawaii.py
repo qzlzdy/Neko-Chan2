@@ -1,5 +1,5 @@
-from nonebot import on_keyword
 import base64
+from nonebot import on_keyword
 from nonebot.adapters.mirai2.message import MessageChain
 from nonebot.adapters.mirai2.message import MessageSegment
 from ..utils import ASSETS_ROOT

@@ -1,8 +1,6 @@
 from nonebot import on_command
-from nonebot.matcher import Matcher
 from nonebot.adapters import Message
-from nonebot.params import Arg, CommandArg
-from ..utils import sendNotice
+from nonebot.params import CommandArg
 
 echo = on_command("echo")
 

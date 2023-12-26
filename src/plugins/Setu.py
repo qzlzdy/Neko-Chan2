@@ -2,17 +2,17 @@ from nonebot import require
 
 require("nonebot_plugin_apscheduler")
 
-from nonebot import on_command
-from nonebot_plugin_apscheduler import scheduler
-from ..utils import ASSETS_ROOT
-from ..utils import sendFriendMessage
+import base64
+import io
+from PIL import Image
 from random import randint
 import sqlite3
-from PIL import Image
-import io
-import base64
+from nonebot import on_command
+from nonebot_plugin_apscheduler import scheduler
 from nonebot.adapters.mirai2.message import MessageSegment
 from nonebot.adapters.mirai2.message import MessageChain
+from ..utils import ASSETS_ROOT
+from ..utils import sendFriendMessage
 
 setu = on_command("来点黄色")
 

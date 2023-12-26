@@ -2,15 +2,14 @@ from nonebot import require
 
 require("nonebot_plugin_apscheduler")
 
-from nonebot import on_command
-from nonebot_plugin_apscheduler import scheduler
-from nonebot.adapters.mirai2.message import MessageChain, MessageSegment
-from ..utils import sendNotice
-
 import json
 import requests
 import time
-import sys
+from nonebot import on_command
+from nonebot_plugin_apscheduler import scheduler
+from nonebot.adapters.mirai2.message import MessageChain
+from nonebot.adapters.mirai2.message import MessageSegment
+from ..utils import sendNotice
 
 WeekName = ["月", "火", "水", "木", "金", "土", "日"]
 
@@ -87,4 +86,3 @@ async def AnimeReminder():
     day = f"{WeekName[now.tm_wday]}曜日"
     AniList = Content.format(date=date, day=day, total=total) + AniList
     await sendNotice(MessageChain(MessageSegment.plain(AniList)))
-

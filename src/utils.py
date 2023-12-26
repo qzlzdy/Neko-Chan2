@@ -1,6 +1,5 @@
-from nonebot import get_bot
-from nonebot.adapters.mirai2.message import MessageChain
 import time
+from nonebot import get_bot
 
 ASSETS_ROOT = "/home/alarm/Neko-Chan/Neko-Chan2/assets"
 

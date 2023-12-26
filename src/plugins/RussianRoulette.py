@@ -1,6 +1,6 @@
+from random import randint
 from nonebot import get_bot, on_command
 from nonebot.adapters import Event
-from random import randint
 
 roulette = on_command("俄罗斯转盘")
 
