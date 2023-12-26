@@ -305,6 +305,12 @@ async def IzumiKonata():
         "0528-IzumiKonata",
         url="https://img.moegirl.org.cn/common/thumb/0/0e/Izumi_Konata_Hinnyuu.jpg/450px-Izumi_Konata_Hinnyuu.jpg")
 
+@scheduler.scheduled_job("cron", month=5, day=28, hour=9, minute=0, second=5, id="Ichijyou Hotaru's Birthday")
+async def IchijyouHotaru():
+    await sendBirthdayNote(
+        "0528-IchijyouHotaru",
+        url="https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/hotaru/ph_front_01.png")
+
 @scheduler.scheduled_job("cron", month=5, day=29, hour=9, minute=0, second=0, id="Ijichi Nijika's Birthday")
 async def IjichiNijika():
     await sendBirtdayNote(
@@ -514,6 +520,12 @@ async def CirnoDay():
         desc = f.read()
     await sendNotice(desc)
 
+@scheduler.scheduled_job("cron", month=9, day=14, hour=9, minute=0, second=0, id="Koshigaya Komari's Birthday")
+async def KoshigayaKomari():
+    await sendBirthdayNote(
+        "0914-KoshigayaKomari",
+        url="https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/komari/ph_front_01.png")
+
 @scheduler.scheduled_job("cron", month=9, day=15, hour=9, minute=0, second=0, id="Komichi Aya's Birthday")
 async def KomichiAya():
     await sendBirthdayNote(
@@ -615,6 +627,12 @@ async def GoodMeat():
     with open(f"{ASSETS_ROOT}/calendar/1129-GoodMeatDay.txt", "r") as f:
         desc = f.read()
     await sendNotice(MessageChain([MessageSegment.plain(desc)]))
+
+@scheduler.scheduled_job("cron", month=12, day=3, hour=9, minute=0, second=0, id="Miyauchi Renge's Birthday")
+async def MiyauchiRenge():
+    await sendBirthdayNote(
+        "1203-MiyauchiRenge",
+        url="https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/renge/ph_front_01.png")
 
 @scheduler.scheduled_job("cron", month=12, day=4, hour=9, minute=0, second=0, id="Kafuu Chino's Birthday")
 async def KafuuChino():
