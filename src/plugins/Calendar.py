@@ -35,6 +35,7 @@ calendars = {
 "0205": [["KasuganoSora", "https://img.moegirl.org.cn/common/thumb/7/75/Kasugano_sora_game_CG_ring.jpg/420px-Kasugano_sora_game_CG_ring.jpg"]],
 "0207": [["FutanariDay"]],
 "0208": [["KneeHighDay"]],
+"0210": [["Louise", "https://zh.moegirl.org.cn/File:Louise_francis.jpg"]],
 "0214": [["TedezaRize", "https://gochiusa.com/core_sys/images/main/cont/chara/rize_body.png"]],
 "0217": [["Shiina", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img03.jpg"]],
 "0221": [["GotouHitori", "https://img.moegirl.org.cn/common/thumb/c/c7/Gotou_hitori_goods.jpg/375px-Gotou_hitori_goods.jpg"]],
@@ -154,9 +155,9 @@ async def CalendarNote():
     if today in calendars.keys():
         for note in calendars[today]:
             if len(note) == 1:
-                sendCalendarNote(today, note[0])
+                await sendCalendarNote(today, note[0])
             else:
-                sendCalendarNote(today, note[0], note[1])
+                await sendCalendarNote(today, note[0], note[1])
 
 @scheduler.scheduled_job("cron", month=7, day=21, hour=9, minute=0, second=0)
 async def OnanieDay():
