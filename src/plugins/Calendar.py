@@ -32,6 +32,7 @@ calendars = {
     ["SuzukazeAoba", "http://newgame-anime.com/assets/character/c1.png"],
     ["TsutsukakushiTsukiko", "http://www.henneko.jp/character/img/p_tsukiko.png"]
 ],
+"0203": [["TohsakaRin", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_003.gif"]],
 "0205": [["KasuganoSora", "https://img.moegirl.org.cn/common/thumb/7/75/Kasugano_sora_game_CG_ring.jpg/420px-Kasugano_sora_game_CG_ring.jpg"]],
 "0207": [["FutanariDay"]],
 "0208": [["KneeHighDay"]],
@@ -40,6 +41,7 @@ calendars = {
 "0217": [["Shiina", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img03.jpg"]],
 "0221": [["GotouHitori", "https://img.moegirl.org.cn/common/thumb/c/c7/Gotou_hitori_goods.jpg/375px-Gotou_hitori_goods.jpg"]],
 "0223": [["KumegawaBotan", "https://anne-happy.com/wp-content/uploads/2016/02/ch3-2.png"]],
+"0302": [["MatouSakura", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_005.gif"]],
 "0303": [
     ["KoizukaKoyume", "http://comic-girls.com/character/img/chara2.png"],
     ["MomokiRun", "https://www.a-ch.jp/character/img/ch02.jpg"],
