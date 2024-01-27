@@ -24,6 +24,7 @@ async def sendCalendarNote(date, character, url=None):
 calendars = {
 "0101": [["SatonakaChie", "https://img.moegirl.org.cn/common/thumb/f/ff/55319988_p0.jpg/420px-55319988_p0.jpg"]],
 "0104": [["MinagiHiyori", "https://slowlooptv.com/images/chara/p_001.png"]],
+"0107": [["HimeragiYukina", "http://www.strike-the-blood.com/first/imgs/character/chara02.jpg"]],
 "0111": [["MiniwaTsumiki", "https://www.tbs.co.jp/anime/ackc/character/images/chara_img01.jpg"]],
 "0115": [["AkiyamaMio", "https://img.moegirl.org.cn/common/thumb/2/2e/The_Bowl.jpg/420px-The_Bowl.jpg"]],
 "0123": [["TakimotoHifumi", "http://newgame-anime.com/assets/character/c4.png"]],
