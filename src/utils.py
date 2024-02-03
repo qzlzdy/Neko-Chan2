@@ -3,7 +3,10 @@ from nonebot import get_bot
 
 ASSETS_ROOT = "/home/alarm/Neko-Chan/Neko-Chan2/assets"
 
-GroupId = [855524548, 1161079807]
+GROUP_TOKYO = 855524548
+GROUP_YANGV = 343327491
+
+GroupId = [GROUP_TOKYO, GROUP_YANGV]
 
 async def sendFriendMessage(friend_id, message):
     bot = get_bot()
