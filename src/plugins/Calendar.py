@@ -67,7 +67,7 @@ calendars = {
     ["IchinoseHana", "https://slow-start.com/shared/images/top/chara_d_hana_img.png"]
 ],
 "0408": [["KousakaKirino", "https://www.oreimo-anime.com/1st/chara/img/chara01.jpg"]],
-"0410": [["HotoKokoa", "https://gochiusa.com/core_sys/images/main/cont/chara/cocoa_body.png"]],
+"0410": [["HotoKokoa", "https://gochiusa.com/core_sys/images/main/cont/chara/cocoa_body.png"], ["ShibasakiRoka", "http://www.d-fragments.net/character/images/shibasaki_roka.jpg"]],
 "0411": [["AmanoSaki", "https://www.tv-tokyo.co.jp/contents/kanamemo/chara/images/chara_02.jpg"]],
 "0412": [["SawatariUki", "http://animayell.com/core_sys/images/main/cont/chara/main_uki.png"]],
 "0420": [["GokouRuri", "https://www.oreimo-anime.com/1st/chara/img/chara04.jpg"]],
@@ -151,6 +151,7 @@ calendars = {
 "1204": [["KafuuChino", "https://gochiusa.com/core_sys/images/main/cont/chara/chino_body.png"]],
 "1223": [["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"]],
 "1225": [["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]],
+"1226": [["Takao", "http://www.d-fragments.net/character/images/takao_bucho.jpg"]],
 "1231": [["HanakoizumiAnne", "https://anne-happy.com/wp-content/uploads/2016/02/ch1-1-1.png"]],
 }
 
