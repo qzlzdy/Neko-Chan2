@@ -22,7 +22,7 @@ async def sendCalendarNote(date, character, url=None):
         ]))
 
 calendars = {
-"0101": [["SatonakaChie", "https://img.moegirl.org.cn/common/thumb/f/ff/55319988_p0.jpg/420px-55319988_p0.jpg"]],
+"0101": [["IchinoseHaru", "http://akuma-riddle.com/character/img/detail_haru_chara.png?2"], ["SatonakaChie", "https://img.moegirl.org.cn/common/thumb/f/ff/55319988_p0.jpg/420px-55319988_p0.jpg"]],
 "0104": [["MinagiHiyori", "https://slowlooptv.com/images/chara/p_001.png"]],
 "0107": [["HimeragiYukina", "http://www.strike-the-blood.com/first/imgs/character/chara02.jpg"]],
 "0111": [["MiniwaTsumiki", "https://www.tbs.co.jp/anime/ackc/character/images/chara_img01.jpg"]],
@@ -42,6 +42,7 @@ calendars = {
 "0217": [["Shiina", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img03.jpg"]],
 "0221": [["GotouHitori", "https://img.moegirl.org.cn/common/thumb/c/c7/Gotou_hitori_goods.jpg/375px-Gotou_hitori_goods.jpg"]],
 "0223": [["KumegawaBotan", "https://anne-happy.com/wp-content/uploads/2016/02/ch3-2.png"]],
+"0224": [["AzumaTokaku", "http://akuma-riddle.com/character/img/detail_tokaku_chara.png?2"]],
 "0302": [["MatouSakura", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_005.gif"]],
 "0303": [
     ["KoizukaKoyume", "http://comic-girls.com/character/img/chara2.png"],
