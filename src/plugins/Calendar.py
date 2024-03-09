@@ -51,6 +51,7 @@ calendars = {
 ],
 "0304": [["KagamiharaNadeshiko", "https://yurucamp.jp/first/images/chara_list1.png"]],
 "0310": [["SatenRuiko", "https://toaru-project.com/railgun_t/core_sys/images/main/cont_chara/11_body.png"]],
+"0314": [["Elusia", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_02.png"]],
 "0315": [["TatsumiKon", "https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png"]],
 "0320": [["HimekawaYoshino", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_yoshino.png"]],
 "0403": [["KurawashiRiko", "https://www.love-lab.tv/chara/img/riko00.jpg?1680924886863"]],
@@ -73,6 +74,7 @@ calendars = {
 "0412": [["SawatariUki", "http://animayell.com/core_sys/images/main/cont/chara/main_uki.png"]],
 "0420": [["GokouRuri", "https://www.oreimo-anime.com/1st/chara/img/chara04.jpg"]],
 "0421": [["KitaIkuyo", "https://bocchi.rocks/assets/img/page/character/ikuyo/main.png"]],
+"0424": [["Haqua", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_03.png"]],
 "0427": [["MisakiMei", "https://www.pa-works.jp/wp-content/uploads/2012/04/08_another-727x1024.jpg"]],
 "0501": [["IchiiYui", "https://www.yuyushiki.net/core_sys/images/main/cont/chara/chara2_cos1.jpg"]],
 "0502": [
