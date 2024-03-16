@@ -111,7 +111,7 @@ calendars = {
 "0710": [["KanzakiHideri", "https://blend-s.jp/assets/img/character/chara_05/chara05_1.png"]],
 "0715": [["KirimaSharo", "https://gochiusa.com/core_sys/images/main/cont/chara/syaro_body.png"]],
 "0717": [["KurokawaMao", "https://wakabagirl.com/core_sys/images/contents/00000010/base/001.jpg?1555054911"]],
-"0801": [["OppaiDay"]],
+"0801": [["Nanami", "https://img.moegirl.org.cn/common/5/52/Nanami_gaworare.gif"], ["OppaiDay"]],
 "0802": [["PantsDay"]],
 "0803": [["AmatumeAkira", "https://img.moegirl.org.cn/common/6/6c/Akira_and_cat.jpeg"], ["ItsukaKotori", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_kotori.png"], ["MigiwaKazuha", "https://img.moegirl.org.cn/common/5/54/%E6%B8%9A%E4%B8%80%E5%8F%B6%E5%B0%8F%E6%8F%90%E7%90%B4.jpeg"]],
 "0811": [["NishikawaYoko", "http://sansyasanyou.com/core_sys/images/contents/00000002/base/sn_001.png?1552483627"]],
@@ -125,6 +125,7 @@ calendars = {
     ["HondaTamaki", "http://www.dokidokivisual.com/magic_of_stella/img/banner/banner_kari_anim_l.jpg"]
 ],
 "0831": [["HatsuneMiku", "https://ec.crypton.co.jp/img/special/vocaloid/img_MIKU_us.png"]],
+"0902": [["MahougasawaAkane", "https://img.moegirl.org.cn/common/b/bd/Akane_gaworare.png"]],
 "0908": [["KupaDay"]],
 "0909": [
     ["CirnoDay"],
