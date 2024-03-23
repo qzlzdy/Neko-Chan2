@@ -99,6 +99,7 @@ calendars = {
 "0610": [["TokisakiKurumi", "https://date-a-live4th-anime.com/common/images/character/character06.png"]],
 "0612": [["TakanashiRikka", "https://www.anime-chu-2.com/tv/img/character/rikka/01.png"]],
 "0613": [["KonohataMira", "http://koiastv.com/images/chara/p_001.png"]],
+"0615": [["AiharaEnjyu", "https://img.moegirl.org.cn/common/thumb/f/fa/Aihara_Enju.jpg/420px-Aihara_Enju.jpg"]],
 "0620": [["TokuraEiko", "https://slow-start.com/shared/images/top/chara_d_eiko_img.png"]],
 "0622": [["MachikoRyou", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img01.jpg"]],
 "0624": [["SonodaYuu", "https://www.tbs.co.jp/anime/sakura/chara/images/chara_img02.jpg"]],
