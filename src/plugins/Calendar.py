@@ -113,6 +113,7 @@ calendars = {
 "0710": [["KanzakiHideri", "https://blend-s.jp/assets/img/character/chara_05/chara05_1.png"]],
 "0715": [["KirimaSharo", "https://gochiusa.com/core_sys/images/main/cont/chara/syaro_body.png"]],
 "0717": [["KurokawaMao", "https://wakabagirl.com/core_sys/images/contents/00000010/base/001.jpg?1555054911"]],
+"0720": [["ChloeVonEinzbern", "https://anime.prisma-illya.jp/2wei/character/img/detail_kuro.png"], ["IllyasvielVonEinzbern", "https://anime.prisma-illya.jp/1st/character/img/detail_illya_pose.png"], ["MiyuEdelfelt", "https://anime.prisma-illya.jp/1st/character/img/detail_miyu_pose.png"]],
 "0801": [["Nanami", "https://img.moegirl.org.cn/common/5/52/Nanami_gaworare.gif"], ["OppaiDay"]],
 "0802": [["PantsDay"]],
 "0803": [["AmatumeAkira", "https://img.moegirl.org.cn/common/6/6c/Akira_and_cat.jpeg"], ["ItsukaKotori", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_kotori.png"], ["MigiwaKazuha", "https://img.moegirl.org.cn/common/5/54/%E6%B8%9A%E4%B8%80%E5%8F%B6%E5%B0%8F%E6%8F%90%E7%90%B4.jpeg"]],
