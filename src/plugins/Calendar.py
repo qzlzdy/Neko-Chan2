@@ -22,7 +22,10 @@ async def sendCalendarNote(date, character, url=None):
         ]))
 
 calendars = {
-"0101": [["IchinoseHaru", "http://akuma-riddle.com/character/img/detail_haru_chara.png?2"], ["SatonakaChie", "https://img.moegirl.org.cn/common/thumb/f/ff/55319988_p0.jpg/420px-55319988_p0.jpg"]],
+"0101": [
+    ["IchinoseHaru", "http://akuma-riddle.com/character/img/detail_haru_chara.png?2"],
+    ["SatonakaChie", "https://img.moegirl.org.cn/common/thumb/f/ff/55319988_p0.jpg/420px-55319988_p0.jpg"]
+],
 "0104": [["MinagiHiyori", "https://slowlooptv.com/images/chara/p_001.png"]],
 "0107": [["HimeragiYukina", "http://www.strike-the-blood.com/first/imgs/character/chara02.jpg"]],
 "0111": [["MiniwaTsumiki", "https://www.tbs.co.jp/anime/ackc/character/images/chara_img01.jpg"]],
@@ -38,7 +41,10 @@ calendars = {
 "0207": [["FutanariDay"]],
 "0208": [["KneeHighDay"]],
 "0210": [["Louise", "https://zh.moegirl.org.cn/File:Louise_francis.jpg"]],
-"0214": [["TedezaRize", "https://gochiusa.com/core_sys/images/main/cont/chara/rize_body.png"]],
+"0214": [
+    ["ShimotsukiMika", "https://psycho-pass.com/assets/img/character/chara06_d.png"],
+    ["TedezaRize", "https://gochiusa.com/core_sys/images/main/cont/chara/rize_body.png"]
+],
 "0217": [["Shiina", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img03.jpg"]],
 "0219": [["YukimuraAoi", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/aoi_stand.png"]],
 "0221": [["GotouHitori", "https://img.moegirl.org.cn/common/thumb/c/c7/Gotou_hitori_goods.jpg/375px-Gotou_hitori_goods.jpg"]],
@@ -55,6 +61,7 @@ calendars = {
 "0314": [["Elusia", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_02.png"]],
 "0315": [["TatsumiKon", "https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png"]],
 "0320": [["HimekawaYoshino", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_yoshino.png"]],
+"0401": [["TsunemoriAkane", "https://psycho-pass.com/assets/img/character/chara01_d.png"]],
 "0403": [["KurawashiRiko", "https://www.love-lab.tv/chara/img/riko00.jpg?1680924886863"]],
 "0404": [
     ["AzukiAzusa", "http://www.henneko.jp/character/img/p_azusa.png"],
@@ -70,7 +77,10 @@ calendars = {
     ["IchinoseHana", "https://slow-start.com/shared/images/top/chara_d_hana_img.png"]
 ],
 "0408": [["KousakaKirino", "https://www.oreimo-anime.com/1st/chara/img/chara01.jpg"]],
-"0410": [["HotoKokoa", "https://gochiusa.com/core_sys/images/main/cont/chara/cocoa_body.png"], ["ShibasakiRoka", "http://www.d-fragments.net/character/images/shibasaki_roka.jpg"]],
+"0410": [
+    ["HotoKokoa", "https://gochiusa.com/core_sys/images/main/cont/chara/cocoa_body.png"],
+    ["ShibasakiRoka", "http://www.d-fragments.net/character/images/shibasaki_roka.jpg"]
+],
 "0411": [["AmanoSaki", "https://www.tv-tokyo.co.jp/contents/kanamemo/chara/images/chara_02.jpg"]],
 "0412": [["SawatariUki", "http://animayell.com/core_sys/images/main/cont/chara/main_uki.png"]],
 "0420": [["GokouRuri", "https://www.oreimo-anime.com/1st/chara/img/chara04.jpg"]],
@@ -89,6 +99,7 @@ calendars = {
 "0515": [["StockingDay"]],
 "0523": [["KissDay"]],
 "0524": [["NishiYuuko", "https://www.a-ch.jp/character/img/ch03.jpg"]],
+"0525": [["KaranomoriShion", "https://psycho-pass.com/assets/img/character/chara05_d.png"]],
 "0528": [
     ["IchijyouHotaru", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/hotaru/ph_front_01.png"],
     ["IzumiKonata", "https://img.moegirl.org.cn/common/thumb/0/0e/Izumi_Konata_Hinnyuu.jpg/450px-Izumi_Konata_Hinnyuu.jpg"]
@@ -113,11 +124,22 @@ calendars = {
 "0710": [["KanzakiHideri", "https://blend-s.jp/assets/img/character/chara_05/chara05_1.png"]],
 "0715": [["KirimaSharo", "https://gochiusa.com/core_sys/images/main/cont/chara/syaro_body.png"]],
 "0717": [["KurokawaMao", "https://wakabagirl.com/core_sys/images/contents/00000010/base/001.jpg?1555054911"]],
-"0720": [["ChloeVonEinzbern", "https://anime.prisma-illya.jp/2wei/character/img/detail_kuro.png"], ["IllyasvielVonEinzbern", "https://anime.prisma-illya.jp/1st/character/img/detail_illya_pose.png"], ["MiyuEdelfelt", "https://anime.prisma-illya.jp/1st/character/img/detail_miyu_pose.png"]],
+"0720": [
+    ["ChloeVonEinzbern", "https://anime.prisma-illya.jp/2wei/character/img/detail_kuro.png"],
+    ["IllyasvielVonEinzbern", "https://anime.prisma-illya.jp/1st/character/img/detail_illya_pose.png"],
+    ["MiyuEdelfelt", "https://anime.prisma-illya.jp/1st/character/img/detail_miyu_pose.png"]
+],
 "0801": [["Nanami", "https://img.moegirl.org.cn/common/5/52/Nanami_gaworare.gif"], ["OppaiDay"]],
 "0802": [["PantsDay"]],
-"0803": [["AmatumeAkira", "https://img.moegirl.org.cn/common/6/6c/Akira_and_cat.jpeg"], ["ItsukaKotori", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_kotori.png"], ["MigiwaKazuha", "https://img.moegirl.org.cn/common/5/54/%E6%B8%9A%E4%B8%80%E5%8F%B6%E5%B0%8F%E6%8F%90%E7%90%B4.jpeg"]],
-"0811": [["AobaKokona", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/kokona_stand.png"], ["NishikawaYoko", "http://sansyasanyou.com/core_sys/images/contents/00000002/base/sn_001.png?1552483627"]],
+"0803": [
+    ["AmatumeAkira", "https://img.moegirl.org.cn/common/6/6c/Akira_and_cat.jpeg"],
+    ["ItsukaKotori", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_kotori.png"],
+    ["MigiwaKazuha", "https://img.moegirl.org.cn/common/5/54/%E6%B8%9A%E4%B8%80%E5%8F%B6%E5%B0%8F%E6%8F%90%E7%90%B4.jpeg"]
+],
+"0811": [
+    ["AobaKokona", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/kokona_stand.png"],
+    ["NishikawaYoko", "http://sansyasanyou.com/core_sys/images/contents/00000002/base/sn_001.png?1552483627"]
+],
 "0812": [["HinataKaho", "https://blend-s.jp/assets/img/character/chara_02/chara02_1.png"]],
 "0820": [["InokumaYouko", "http://www.kinmosa.com/series/images/s2character/c4.png"]],
 "0821": [["TainakaRitsu", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo03.gif"]],
@@ -139,7 +161,10 @@ calendars = {
 "0919": [["UjimatsuChiya", "https://gochiusa.com/core_sys/images/main/cont/chara/chiya_body.png"]],
 "0923": [["KanzakiHolmesAria", "http://ariaaa.tv/character/images/img_chara-2.png"]],
 "0926": [["DomaUmaru", "https://umaru-ani.me/img/character/chara1_stand.png"]],
-"0928": [["YoshidaYuuko", "https://www.tbs.co.jp/anime/machikado/1st/character/img/chara_img_01.png"]],
+"0928": [
+    ["KunizukaYayoi", "https://psycho-pass.com/assets/img/character/chara04_d.png"],
+    ["YoshidaYuuko", "https://www.tbs.co.jp/anime/machikado/1st/character/img/chara_img_01.png"]
+],
 "0930": [["YuukiAsuna", "https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png"]],
 "1008": [["SuzumiyaHaruhi", "https://img.moegirl.org.cn/common/f/fd/Haruhi_Suzumiya_.jpg"]],
 "1010": [["MoeDay"]],
@@ -150,7 +175,10 @@ calendars = {
 "1104": [["GoodButt"]],
 "1107": [["GoodBelly"]],
 "1108": [["GoodOppai"]],
-"1111": [["KuraueHinata", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/hinata_stand.png"], ["TobiichiOrigami", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_origami.png"]],
+"1111": [
+    ["KuraueHinata", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/hinata_stand.png"],
+    ["TobiichiOrigami", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_origami.png"]
+],
 "1118": [["NagatoYuki", "https://img.moegirl.org.cn/common/thumb/4/4b/Nagato_Yuki2.jpg/420px-Nagato_Yuki2.jpg"]],
 "1127": [["HirasawaYui", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo01_1.gif"]],
 "1129": [["GoodMeat"]],
