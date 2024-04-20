@@ -29,6 +29,7 @@ calendars = {
 "0104": [["MinagiHiyori", "https://slowlooptv.com/images/chara/p_001.png"]],
 "0107": [["HimeragiYukina", "http://www.strike-the-blood.com/first/imgs/character/chara02.jpg"]],
 "0111": [["MiniwaTsumiki", "https://www.tbs.co.jp/anime/ackc/character/images/chara_img01.jpg"]],
+"0114": [["ShirokaneGinka", "https://www.geneitaiyo.com/character/img/main/ginka.png"]],
 "0115": [["AkiyamaMio", "https://img.moegirl.org.cn/common/thumb/2/2e/The_Bowl.jpg/420px-The_Bowl.jpg"]],
 "0123": [["TakimotoHifumi", "http://newgame-anime.com/assets/character/c4.png"]],
 "0201": [["YukimiKoume", "https://www.tbs.co.jp/anime/urara/chara/img/koume_left.png"]],
@@ -97,6 +98,7 @@ calendars = {
 "0504": [["KatsukiTsubasa", "http://comic-girls.com/character/img/chara4.png"]],
 "0510": [["MaidDay"]],
 "0515": [["StockingDay"]],
+"0517": [["HoshikawaSeira", "https://www.geneitaiyo.com/character/img/main/seira.png"]],
 "0523": [["KissDay"]],
 "0524": [["NishiYuuko", "https://www.a-ch.jp/character/img/ch03.jpg"]],
 "0525": [["KaranomoriShion", "https://psycho-pass.com/assets/img/character/chara05_d.png"]],
@@ -141,6 +143,7 @@ calendars = {
     ["NishikawaYoko", "http://sansyasanyou.com/core_sys/images/contents/00000002/base/sn_001.png?1552483627"]
 ],
 "0812": [["HinataKaho", "https://blend-s.jp/assets/img/character/chara_02/chara02_1.png"]],
+"0819": [["TaiyouAkari", "https://www.geneitaiyo.com/character/img/main/akari.png"]],
 "0820": [["InokumaYouko", "http://www.kinmosa.com/series/images/s2character/c4.png"]],
 "0821": [["TainakaRitsu", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo03.gif"]],
 "0823": [["MakiNatsuo", "https://www.love-lab.tv/chara/img/maki00.jpg"]],
@@ -179,7 +182,10 @@ calendars = {
     ["KuraueHinata", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/hinata_stand.png"],
     ["TobiichiOrigami", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_origami.png"]
 ],
-"1118": [["NagatoYuki", "https://img.moegirl.org.cn/common/thumb/4/4b/Nagato_Yuki2.jpg/420px-Nagato_Yuki2.jpg"]],
+"1118": [
+    ["NagatoYuki", "https://img.moegirl.org.cn/common/thumb/4/4b/Nagato_Yuki2.jpg/420px-Nagato_Yuki2.jpg"],
+    ["TsukiyomiRuna", "https://www.geneitaiyo.com/character/img/main/luna.png"]
+],
 "1127": [["HirasawaYui", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo01_1.gif"]],
 "1129": [["GoodMeat"]],
 "1203": [["MiyauchiRenge", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/renge/ph_front_01.png"]],
