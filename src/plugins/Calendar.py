@@ -111,7 +111,10 @@ calendars = {
 "0603": [["SengokuNadeko", "https://www.monogatari-series.com/bakemonogatari/chara/images/i04.jpg"]],
 "0609": [["AmanoMiu", "https://blend-s.jp/assets/img/character/chara_04/chara04_1.png"]],
 "0610": [["TokisakiKurumi", "https://date-a-live4th-anime.com/common/images/character/character06.png"]],
-"0612": [["TakanashiRikka", "https://www.anime-chu-2.com/tv/img/character/rikka/01.png"]],
+"0612": [
+    ["KushiedaMinori", "https://img.moegirl.org.cn/common/thumb/c/c4/%E9%BE%99%E4%B8%8E%E8%99%8E%E7%AC%AC01%E5%8D%B7.jpg/420px-%E9%BE%99%E4%B8%8E%E8%99%8E%E7%AC%AC01%E5%8D%B7.jpg"],
+    ["TakanashiRikka", "https://www.anime-chu-2.com/tv/img/character/rikka/01.png"]
+],
 "0613": [["KonohataMira", "http://koiastv.com/images/chara/p_001.png"]],
 "0615": [["AiharaEnjyu", "https://img.moegirl.org.cn/common/thumb/f/fa/Aihara_Enju.jpg/420px-Aihara_Enju.jpg"]],
 "0620": [["TokuraEiko", "https://slow-start.com/shared/images/top/chara_d_eiko_img.png"]],
