@@ -193,6 +193,7 @@ calendars = {
 "1129": [["GoodMeat"]],
 "1203": [["MiyauchiRenge", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/renge/ph_front_01.png"]],
 "1204": [["KafuuChino", "https://gochiusa.com/core_sys/images/main/cont/chara/chino_body.png"]],
+"1212": [["Shiro", "http://ngnl.jp/tv/images/img-character-siro.png"]],
 "1223": [["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"]],
 "1225": [["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]],
 "1226": [["Takao", "http://www.d-fragments.net/character/images/takao_bucho.jpg"]],
