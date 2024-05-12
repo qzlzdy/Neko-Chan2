@@ -51,6 +51,7 @@ calendars = {
 "0221": [["GotouHitori", "https://img.moegirl.org.cn/common/thumb/c/c7/Gotou_hitori_goods.jpg/375px-Gotou_hitori_goods.jpg"]],
 "0223": [["KumegawaBotan", "https://anne-happy.com/wp-content/uploads/2016/02/ch3-2.png"]],
 "0224": [["AzumaTokaku", "http://akuma-riddle.com/character/img/detail_tokaku_chara.png?2"]],
+"0229": [["HoshimiyaKeito", "https://www.sekaiseifuku-zzz.com/img/chara/ch01a.png"]],
 "0302": [["MatouSakura", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_005.gif"]],
 "0303": [
     ["KoizukaKoyume", "http://comic-girls.com/character/img/chara2.png"],
