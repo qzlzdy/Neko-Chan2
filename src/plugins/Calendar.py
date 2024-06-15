@@ -183,6 +183,7 @@ calendars = {
 "1024": [["ProgrammerDay"]],
 "1025": [["MamiyaAkari", "http://ariaaa.tv/character/images/img_chara-1.png"]],
 "1102": [["TightsDay"]],
+"1103": [["Noel", "https://sora-no-method.jp/character/img/chara_noel_body.png"]],
 "1104": [["GoodButt"]],
 "1107": [["GoodBelly"]],
 "1108": [["GoodOppai"]],
