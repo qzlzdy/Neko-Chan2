@@ -4,11 +4,14 @@ require("nonebot_plugin_apscheduler")
 
 import base64
 import time
+from nonebot import on_command
 from nonebot_plugin_apscheduler import scheduler
 from nonebot.adapters.mirai2.message import MessageChain
 from nonebot.adapters.mirai2.message import MessageSegment
 from ..utils import ASSETS_ROOT
 from ..utils import sendNotice
+
+cld = on_command("节日提醒")
 
 async def sendCalendarNote(date, character, url=None):
     with open(f"{ASSETS_ROOT}/calendar/{date}-{character}.txt", "r") as f:
@@ -55,6 +58,7 @@ calendars = {
 "0229": [["HoshimiyaKeito", "https://www.sekaiseifuku-zzz.com/img/chara/ch01a.png"]],
 "0302": [["MatouSakura", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_005.gif"]],
 "0303": [
+    ["KatsuraHinagiku", "http://hayatenogotoku.com/images/chara/hina.jpg"],
     ["KoizukaKoyume", "http://comic-girls.com/character/img/chara2.png"],
     ["MomokiRun", "https://www.a-ch.jp/character/img/ch02.jpg"],
     ["NakamachiKana", "https://www.tv-tokyo.co.jp/contents/kanamemo/chara/images/chara_01.jpg"],
@@ -198,7 +202,10 @@ calendars = {
 ],
 "1127": [["HirasawaYui", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo01_1.gif"]],
 "1129": [["GoodMeat"]],
-"1203": [["MiyauchiRenge", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/renge/ph_front_01.png"]],
+"1203": [
+    ["MiyauchiRenge", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/renge/ph_front_01.png"],
+    ["SanzeninNagi", "http://hayatenogotoku.com/images/chara/nagi.jpg"]
+],
 "1204": [["KafuuChino", "https://gochiusa.com/core_sys/images/main/cont/chara/chino_body.png"]],
 "1212": [["Shiro", "http://ngnl.jp/tv/images/img-character-siro.png"]],
 "1223": [["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"]],
@@ -210,6 +217,7 @@ calendars = {
 "1231": [["HanakoizumiAnne", "https://anne-happy.com/wp-content/uploads/2016/02/ch1-1-1.png"]],
 }
 
+@cld.handle()
 @scheduler.scheduled_job("cron", hour=9, minute=0, second=0)
 async def CalendarNote():
     now = time.localtime(time.time())
