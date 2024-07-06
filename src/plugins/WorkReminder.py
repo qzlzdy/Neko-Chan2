@@ -11,6 +11,6 @@ from ..utils import sendGroupMessage
 @scheduler.scheduled_job("cron", hour=20, minute=40, second=0, id="Jap Reminder")
 async def JapReminder():
     await sendGroupMessage(GROUP_YANGV, MessageChain([
-        MessageSegment.plain("今天你学語彙と文法了吗\n今天你玩STM32了吗\n今天你成为Master了吗\n今天你品尝美少女脚汗了吗")
+        MessageSegment.plain("今天你学語彙と文法了吗\n今天你入职了吗\n今天你品尝美少女脚汗了吗")
         #MessageSegment.at(1020051753)
     ]))

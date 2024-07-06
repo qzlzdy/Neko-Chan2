@@ -107,6 +107,7 @@ calendars = {
 "0510": [["MaidDay"]],
 "0515": [["StockingDay"]],
 "0517": [["HoshikawaSeira", "https://www.geneitaiyo.com/character/img/main/seira.png"]],
+"0519": [["KashiwazakiSena", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img03.jpg"]],
 "0523": [["KissDay"]],
 "0524": [["NishiYuuko", "https://www.a-ch.jp/character/img/ch03.jpg"]],
 "0525": [["KaranomoriShion", "https://psycho-pass.com/assets/img/character/chara05_d.png"]],
@@ -185,6 +186,7 @@ calendars = {
 "1008": [["SuzumiyaHaruhi", "https://img.moegirl.org.cn/common/f/fd/Haruhi_Suzumiya_.jpg"]],
 "1010": [["MoeDay"]],
 "1011": [["LoliDay"]],
+"1018": [["HasegawaKobato", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img06.jpg"]],
 "1024": [["ProgrammerDay"]],
 "1025": [["MamiyaAkari", "http://ariaaa.tv/character/images/img_chara-1.png"]],
 "1102": [["TightsDay"]],
@@ -210,6 +212,7 @@ calendars = {
 "1204": [["KafuuChino", "https://gochiusa.com/core_sys/images/main/cont/chara/chino_body.png"]],
 "1212": [["Shiro", "http://ngnl.jp/tv/images/img-character-siro.png"]],
 "1223": [["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"]],
+"1224": [["MikazukiYozora", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img02.jpg"]],
 "1225": [
     ["MatsushimaMichiru", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000005/base/001.png"],
     ["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]
