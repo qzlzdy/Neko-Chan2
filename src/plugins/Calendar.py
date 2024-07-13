@@ -128,14 +128,21 @@ calendars = {
 "0615": [["AiharaEnjyu", "https://img.moegirl.org.cn/common/thumb/f/fa/Aihara_Enju.jpg/420px-Aihara_Enju.jpg"]],
 "0620": [["TokuraEiko", "https://slow-start.com/shared/images/top/chara_d_eiko_img.png"]],
 "0622": [["MachikoRyou", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img01.jpg"]],
-"0624": [["SonodaYuu", "https://www.tbs.co.jp/anime/sakura/chara/images/chara_img02.jpg"]],
+"0624": [
+    ["HoujyouSatoko", "http://www.oyashirosama.com/web/kai/character/img/satoko-bottom.jpg"],
+    ["SonodaYuu", "https://www.tbs.co.jp/anime/sakura/chara/images/chara_img02.jpg"]
+],
 "0628": [["IkiHiyori", "https://noragami-anime.net/images_sub/chara_detail2.png"]],
 "0630": [["YoshinagaKoi", "https://slowlooptv.com/images/chara/p_003.png"]],
 "0702": [["KotobukiTsumugi", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo04.gif"]],
 "0704": [["HatoyaKohane", "http://animayell.com/core_sys/images/main/cont/chara/details_kohane_school.png"]],
 "0707": [["SenjyougaharaHitagi", "https://www.monogatari-series.com/bakemonogatari/chara/images/i01.jpg"]],
 "0709": [["HibarigaokaRuri", "https://anne-happy.com/wp-content/uploads/2016/02/ch2-1-1.png"]],
-"0710": [["KanzakiHideri", "https://blend-s.jp/assets/img/character/chara_05/chara05_1.png"]],
+"0710": [
+    ["KanzakiHideri", "https://blend-s.jp/assets/img/character/chara_05/chara05_1.png"],
+    ["SonozakiMion", "http://www.oyashirosama.com/web/kai/character/img/mion-bottom.jpg"],
+    ["SonozakiShion", "http://www.oyashirosama.com/web/kai/character/img/shion-bottom.jpg"]
+],
 "0715": [["KirimaSharo", "https://gochiusa.com/core_sys/images/main/cont/chara/syaro_body.png"]],
 "0717": [["KurokawaMao", "https://wakabagirl.com/core_sys/images/contents/00000010/base/001.jpg?1555054911"]],
 "0720": [
@@ -143,7 +150,12 @@ calendars = {
     ["IllyasvielVonEinzbern", "https://anime.prisma-illya.jp/1st/character/img/detail_illya_pose.png"],
     ["MiyuEdelfelt", "https://anime.prisma-illya.jp/1st/character/img/detail_miyu_pose.png"]
 ],
-"0801": [["Nanami", "https://img.moegirl.org.cn/common/5/52/Nanami_gaworare.gif"], ["OppaiDay"]],
+"0728": [["RyuuguuRena", "http://www.oyashirosama.com/web/kai/character/img/rena-bottom.jpg"]],
+"0801": [
+    ["Hanyuu", "http://www.oyashirosama.com/web/kai/character/img/hanyu-bottom.jpg"],
+    ["Nanami", "https://img.moegirl.org.cn/common/5/52/Nanami_gaworare.gif"],
+    ["OppaiDay"]
+],
 "0802": [["PantsDay"]],
 "0803": [
     ["AmatumeAkira", "https://img.moegirl.org.cn/common/6/6c/Akira_and_cat.jpeg"],
@@ -159,7 +171,10 @@ calendars = {
 "0818": [["MiyafujiYoshika", "http://w-witch.jp/s-witch/pc/chara/img/chara-miya-main.jpg"]],
 "0819": [["TaiyouAkari", "https://www.geneitaiyo.com/character/img/main/akari.png"]],
 "0820": [["InokumaYouko", "http://www.kinmosa.com/series/images/s2character/c4.png"]],
-"0821": [["TainakaRitsu", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo03.gif"]],
+"0821": [
+    ["FurudeRika", "http://www.oyashirosama.com/web/kai/character/img/rika-bottom.jpg"],
+    ["TainakaRitsu", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo03.gif"]
+],
 "0823": [["MakiNatsuo", "https://www.love-lab.tv/chara/img/maki00.jpg"]],
 "0825": [["TakayamaHaruka", "https://www.tbs.co.jp/anime/sakura/chara/images/chara_img01.jpg"]],
 "0828": [
