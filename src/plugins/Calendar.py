@@ -70,7 +70,10 @@ calendars = {
 "0315": [["TatsumiKon", "https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png"]],
 "0320": [["HimekawaYoshino", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_yoshino.png"]],
 "0325": [["ShibaMiyuki", "https://mahouka.jp/1st/img/character/c_img_2_l.png"]],
-"0401": [["TsunemoriAkane", "https://psycho-pass.com/assets/img/character/chara01_d.png"]],
+"0401": [
+    ["JulieSigtuna", "https://img.moegirl.org.cn/common/thumb/1/1a/Julie_sigtuna.jpg/420px-Julie_sigtuna.jpg"],
+    ["TsunemoriAkane", "https://psycho-pass.com/assets/img/character/chara01_d.png"]
+],
 "0403": [["KurawashiRiko", "https://www.love-lab.tv/chara/img/riko00.jpg?1680924886863"]],
 "0404": [
     ["AzukiAzusa", "http://www.henneko.jp/character/img/p_azusa.png"],

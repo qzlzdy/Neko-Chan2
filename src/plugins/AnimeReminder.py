@@ -55,7 +55,7 @@ def getVariables():
 anime = on_command("今日番剧")
 
 @anime.handle()
-@scheduler.scheduled_job("cron", hour=8, minute=40, second=0, id="Anime Reminder")
+@scheduler.scheduled_job("cron", hour=8, minute=30, second=0, id="Anime Reminder")
 async def AnimeReminder():
     AniList = ""
     total = 0
