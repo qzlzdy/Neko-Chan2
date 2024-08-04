@@ -37,6 +37,7 @@ calendars = {
 "0115": [["AkiyamaMio", "https://img.moegirl.org.cn/common/thumb/2/2e/The_Bowl.jpg/420px-The_Bowl.jpg"]],
 "0123": [["TakimotoHifumi", "http://newgame-anime.com/assets/character/c4.png"]],
 "0127": [["NaruseMio", "https://img.moegirl.org.cn/common/thumb/f/f0/%E6%88%90%E6%BF%91%E6%BE%AA.jpg/420px-%E6%88%90%E6%BF%91%E6%BE%AA.jpg"]],
+"0131": [["KasumiokaUtaha", "https://www.saenai.tv/images/character/chara_utaha_vsl.png"]],
 "0201": [["YukimiKoume", "https://www.tbs.co.jp/anime/urara/chara/img/koume_left.png"]],
 "0202": [
     ["SuzukazeAoba", "http://newgame-anime.com/assets/character/c1.png"],
@@ -69,7 +70,10 @@ calendars = {
 "0310": [["SatenRuiko", "https://toaru-project.com/railgun_t/core_sys/images/main/cont_chara/11_body.png"]],
 "0314": [["Elusia", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_02.png"]],
 "0315": [["TatsumiKon", "https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png"]],
-"0320": [["HimekawaYoshino", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_yoshino.png"]],
+"0320": [
+    ["HimekawaYoshino", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_yoshino.png"],
+    ["SawamuraSpencerEriri", "https://www.saenai.tv/images/character/chara_eriri_vsl.png"]
+],
 "0325": [["ShibaMiyuki", "https://mahouka.jp/1st/img/character/c_img_2_l.png"]],
 "0401": [
     ["JulieSigtuna", "https://img.moegirl.org.cn/common/thumb/1/1a/Julie_sigtuna.jpg/420px-Julie_sigtuna.jpg"],
@@ -165,7 +169,7 @@ calendars = {
 ],
 "0802": [["PantsDay"]],
 "0803": [
-    ["AmatumeAkira", "https://img.moegirl.org.cn/common/6/6c/Akira_and_cat.jpeg"],
+    ["AmatsumeAkira", "https://img.moegirl.org.cn/common/6/6c/Akira_and_cat.jpeg"],
     ["ItsukaKotori", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_kotori.png"],
     ["MigiwaKazuha", "https://img.moegirl.org.cn/common/5/54/%E6%B8%9A%E4%B8%80%E5%8F%B6%E5%B0%8F%E6%8F%90%E7%90%B4.jpeg"]
 ],
@@ -198,7 +202,10 @@ calendars = {
 "0914": [["KoshigayaKomari", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/komari/ph_front_01.png"]],
 "0915": [["KomichiAya", "http://kinmosa.com/assets/character/c/3.png"]],
 "0919": [["UjimatsuChiya", "https://gochiusa.com/core_sys/images/main/cont/chara/chiya_body.png"]],
-"0923": [["KanzakiHolmesAria", "http://ariaaa.tv/character/images/img_chara-2.png"]],
+"0923": [
+    ["KanzakiHolmesAria", "http://ariaaa.tv/character/images/img_chara-2.png"],
+    ["KatouMegumi", "https://www.saenai.tv/images/character/chara_megumi_vsl.png"]
+],
 "0926": [["DomaUmaru", "https://umaru-ani.me/img/character/chara1_stand.png"]],
 "0928": [
     ["KunizukaYayoi", "https://psycho-pass.com/assets/img/character/chara04_d.png"],
