@@ -69,7 +69,10 @@ calendars = {
 "0304": [["KagamiharaNadeshiko", "https://yurucamp.jp/first/images/chara_list1.png"]],
 "0310": [["SatenRuiko", "https://toaru-project.com/railgun_t/core_sys/images/main/cont_chara/11_body.png"]],
 "0314": [["Elusia", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_02.png"]],
-"0315": [["TatsumiKon", "https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png"]],
+"0315": [
+    ["MotobaKirie", "https://umaru-ani.me/img/character/chara4_stand.png"],
+    ["TatsumiKon", "https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png"]
+],
 "0320": [
     ["HimekawaYoshino", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_yoshino.png"],
     ["SawamuraSpencerEriri", "https://www.saenai.tv/images/character/chara_eriri_vsl.png"]
@@ -216,6 +219,7 @@ calendars = {
 "1010": [["MoeDay"]],
 "1011": [["LoliDay"]],
 "1018": [["HasegawaKobato", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img06.jpg"]],
+"1019": [["EbinaNana", "https://umaru-ani.me/img/character/chara3_stand.png"]],
 "1024": [["ProgrammerDay"]],
 "1025": [["MamiyaAkari", "http://ariaaa.tv/character/images/img_chara-1.png"]],
 "1102": [["TightsDay"]],
@@ -241,7 +245,10 @@ calendars = {
 "1204": [["KafuuChino", "https://gochiusa.com/core_sys/images/main/cont/chara/chino_body.png"]],
 "1212": [["Shiro", "http://ngnl.jp/tv/images/img-character-siro.png"]],
 "1223": [["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"]],
-"1224": [["MikazukiYozora", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img02.jpg"]],
+"1224": [
+    ["MikazukiYozora", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img02.jpg"],
+    ["TachibanaSylphinford", "https://umaru-ani.me/img/character/chara5_stand.png"]
+],
 "1225": [
     ["MatsushimaMichiru", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000005/base/001.png"],
     ["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]
