@@ -143,6 +143,7 @@ calendars = {
     ["HoujyouSatoko", "http://www.oyashirosama.com/web/kai/character/img/satoko-bottom.jpg"],
     ["SonodaYuu", "https://www.tbs.co.jp/anime/sakura/chara/images/chara_img02.jpg"]
 ],
+"0625": [["TakanashiNao", "https://img.moegirl.org.cn/common/thumb/f/f9/20150123134448804975.jpg/420px-20150123134448804975.jpg"]],
 "0628": [["IkiHiyori", "https://noragami-anime.net/images_sub/chara_detail2.png"]],
 "0630": [["YoshinagaKoi", "https://slowlooptv.com/images/chara/p_003.png"]],
 "0702": [["KotobukiTsumugi", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo04.gif"]],
