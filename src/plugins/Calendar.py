@@ -78,6 +78,7 @@ calendars = {
     ["SawamuraSpencerEriri", "https://www.saenai.tv/images/character/chara_eriri_vsl.png"]
 ],
 "0325": [["ShibaMiyuki", "https://mahouka.jp/1st/img/character/c_img_2_l.png"]],
+"0328": [["ToshinouKyouko", "https://yuruyuri.com/1st/character/img/detail_kyoko.jpg"]],
 "0401": [
     ["JulieSigtuna", "https://img.moegirl.org.cn/common/thumb/1/1a/Julie_sigtuna.jpg/420px-Julie_sigtuna.jpg"],
     ["TsunemoriAkane", "https://psycho-pass.com/assets/img/character/chara01_d.png"]
@@ -105,6 +106,7 @@ calendars = {
 "0412": [["SawatariUki", "http://animayell.com/core_sys/images/main/cont/chara/main_uki.png"]],
 "0420": [["GokouRuri", "https://www.oreimo-anime.com/1st/chara/img/chara04.jpg"]],
 "0421": [["KitaIkuyo", "https://bocchi.rocks/assets/img/page/character/ikuyo/main.png"]],
+"0422": [["FunamiYui", "https://yuruyuri.com/1st/character/img/detail_yui.jpg"]],
 "0424": [["Haqua", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_03.png"]],
 "0427": [["MisakiMei", "https://www.pa-works.jp/wp-content/uploads/2012/04/08_another-727x1024.jpg"]],
 "0501": [["IchiiYui", "https://www.yuyushiki.net/core_sys/images/main/cont/chara/chara2_cos1.jpg"]],
@@ -162,6 +164,7 @@ calendars = {
     ["IllyasvielVonEinzbern", "https://anime.prisma-illya.jp/1st/character/img/detail_illya_pose.png"],
     ["MiyuEdelfelt", "https://anime.prisma-illya.jp/1st/character/img/detail_miyu_pose.png"]
 ],
+"0724": [["AkazaAkari", "https://yuruyuri.com/1st/character/img/detail_akari.jpg"]],
 "0728": [
     ["RyuuguuRena", "http://www.oyashirosama.com/web/kai/character/img/rena-bottom.jpg"],
     ["SteinsGate"]
@@ -230,6 +233,7 @@ calendars = {
 "1102": [["TightsDay"]],
 "1103": [["Noel", "https://sora-no-method.jp/character/img/chara_noel_body.png"]],
 "1104": [["GoodButt"]],
+"1106": [["YoshikawaChinatsu", "https://yuruyuri.com/1st/character/img/detail_chinatsu.jpg"]],
 "1107": [["GoodBelly"]],
 "1108": [["GoodOppai"]],
 "1110": [["SakakiYumiko", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000003/base/001.png"]],
