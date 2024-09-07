@@ -181,6 +181,7 @@ calendars = {
     ["MigiwaKazuha", "https://img.moegirl.org.cn/common/5/54/%E6%B8%9A%E4%B8%80%E5%8F%B6%E5%B0%8F%E6%8F%90%E7%90%B4.jpeg"]
 ],
 "0807": [["EbisuzawaKurumi", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch02-1.png"]],
+"0808": [["JyougaMaya", "https://gochiusa.com/core_sys/images/main/cont/chara/maya_body.png"]],
 "0811": [
     ["AobaKokona", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/kokona_stand.png"],
     ["NishikawaYoko", "http://sansyasanyou.com/core_sys/images/contents/00000002/base/sn_001.png?1552483627"]
@@ -230,11 +231,17 @@ calendars = {
 "1019": [["EbinaNana", "https://umaru-ani.me/img/character/chara3_stand.png"]],
 "1024": [["ProgrammerDay"]],
 "1025": [["MamiyaAkari", "http://ariaaa.tv/character/images/img_chara-1.png"]],
-"1102": [["TightsDay"]],
+"1102": [
+    ["NatsuMegumi", "https://gochiusa.com/core_sys/images/main/cont/chara/megu_body.png"],
+    ["TightsDay"]
+],
 "1103": [["Noel", "https://sora-no-method.jp/character/img/chara_noel_body.png"]],
 "1104": [["GoodButt"]],
 "1106": [["YoshikawaChinatsu", "https://yuruyuri.com/1st/character/img/detail_chinatsu.jpg"]],
-"1107": [["GoodBelly"]],
+"1107": [
+    ["SuminoeXko", "https://img.moegirl.org.cn/common/a/a1/Suminoe_Ako_Riko.jpg"],
+    ["GoodBelly"]
+],
 "1108": [["GoodOppai"]],
 "1110": [["SakakiYumiko", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000003/base/001.png"]],
 "1111": [
