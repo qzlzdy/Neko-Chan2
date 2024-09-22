@@ -64,6 +64,7 @@ calendars = {
     ["KoizukaKoyume", "http://comic-girls.com/character/img/chara2.png"],
     ["MomokiRun", "https://www.a-ch.jp/character/img/ch02.jpg"],
     ["NakamachiKana", "https://www.tv-tokyo.co.jp/contents/kanamemo/chara/images/chara_01.jpg"],
+    ["SetoSun", "https://www.tv-tokyo.co.jp/contents/setohana/images/chara_san.jpg"],
     ["SuouAmane", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000004/base/001.png"]
 ],
 "0304": [["KagamiharaNadeshiko", "https://yurucamp.jp/first/images/chara_list1.png"]],
