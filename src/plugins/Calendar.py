@@ -96,7 +96,8 @@ calendars = {
 ],
 "0406": [
     ["HigaKanata", "https://www.harukana-receive.jp/assets/character/1b.png"],
-    ["IchinoseHana", "https://slow-start.com/shared/images/top/chara_d_hana_img.png"]
+    ["IchinoseHana", "https://slow-start.com/shared/images/top/chara_d_hana_img.png"],
+    ["LalatinaFordDustiness", "http://konosuba.com/3rd/character/img/darkness.png"]
 ],
 "0408": [["KousakaKirino", "https://www.oreimo-anime.com/1st/chara/img/chara01.jpg"]],
 "0410": [
@@ -171,6 +172,7 @@ calendars = {
     ["SteinsGate"]
 ],
 "0801": [
+    ["Aqua", "http://konosuba.com/3rd/character/img/aqua.png"],
     ["Hanyuu", "http://www.oyashirosama.com/web/kai/character/img/hanyu-bottom.jpg"],
     ["Nanami", "https://img.moegirl.org.cn/common/5/52/Nanami_gaworare.gif"],
     ["OppaiDay"]
@@ -259,7 +261,10 @@ calendars = {
     ["MiyauchiRenge", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/renge/ph_front_01.png"],
     ["SanzeninNagi", "http://hayatenogotoku.com/images/chara/nagi.jpg"]
 ],
-"1204": [["KafuuChino", "https://gochiusa.com/core_sys/images/main/cont/chara/chino_body.png"]],
+"1204": [
+    ["KafuuChino", "https://gochiusa.com/core_sys/images/main/cont/chara/chino_body.png"],
+    ["Megumin", "http://konosuba.com/3rd/character/img/megumin.png"]
+],
 "1210": [["NaokiMiki", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch04-1.png"]],
 "1212": [["Shiro", "http://ngnl.jp/tv/images/img-character-siro.png"]],
 "1223": [["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"]],
@@ -268,6 +273,7 @@ calendars = {
     ["TachibanaSylphinford", "https://umaru-ani.me/img/character/chara5_stand.png"]
 ],
 "1225": [
+    ["Eris", "http://konosuba.com/3rd/character/img/chris.png"],
     ["MatsushimaMichiru", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000005/base/001.png"],
     ["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]
 ],
