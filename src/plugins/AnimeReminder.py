@@ -59,13 +59,18 @@ anime = on_command("今日番剧")
 async def AnimeReminder():
     AniList = ""
     total = 0
-    variables = getVariables();
+    variables = getVariables()
+    retry = 0
     while True:
         try:
             response = requests.post(ALurl, json={"query": QueryStr, "variables": variables}, timeout=10)
         except requests.exceptions.RequestException as e:
             print(e)
-            continue
+            if retry < 5000:
+                retry += 1
+                continue
+            else:
+                return
         page = json.loads(response.text)["data"]["Page"]
         pageInfo = page["pageInfo"]
         media = page["media"]
