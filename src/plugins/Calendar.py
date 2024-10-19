@@ -60,6 +60,7 @@ calendars = {
 "0229": [["HoshimiyaKeito", "https://www.sekaiseifuku-zzz.com/img/chara/ch01a.png"]],
 "0302": [["MatouSakura", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_005.gif"]],
 "0303": [
+    ["IzumiReina", "https://phantom-world.com/img/character/reina.png"],
     ["KatsuraHinagiku", "http://hayatenogotoku.com/images/chara/hina.jpg"],
     ["KoizukaKoyume", "http://comic-girls.com/character/img/chara2.png"],
     ["MomokiRun", "https://www.a-ch.jp/character/img/ch02.jpg"],
@@ -110,6 +111,7 @@ calendars = {
 "0421": [["KitaIkuyo", "https://bocchi.rocks/assets/img/page/character/ikuyo/main.png"]],
 "0422": [["FunamiYui", "https://yuruyuri.com/1st/character/img/detail_yui.jpg"]],
 "0424": [["Haqua", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_03.png"]],
+"0425": [["MinaseKoito", "https://phantom-world.com/img/character/koito.png"]],
 "0427": [["MisakiMei", "https://www.pa-works.jp/wp-content/uploads/2012/04/08_another-727x1024.jpg"]],
 "0501": [["IchiiYui", "https://www.yuyushiki.net/core_sys/images/main/cont/chara/chara2_cos1.jpg"]],
 "0502": [
@@ -206,6 +208,7 @@ calendars = {
 ],
 "0831": [["HatsuneMiku", "https://ec.crypton.co.jp/img/special/vocaloid/img_MIKU_us.png"]],
 "0902": [["MahougasawaAkane", "https://img.moegirl.org.cn/common/b/bd/Akane_gaworare.png"]],
+"0903": [["KumamakuraKurumi", "https://phantom-world.com/img/character/kurumi.png"]],
 "0908": [["KupaDay"]],
 "0909": [
     ["CirnoDay"],
@@ -230,6 +233,7 @@ calendars = {
     ["WakasaYuuri", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch03-1.png"],
     ["LoliDay"]
 ],
+"1014": [["KawakamiMai", "https://phantom-world.com/img/character/mai.png"]],
 "1018": [["HasegawaKobato", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img06.jpg"]],
 "1019": [["EbinaNana", "https://umaru-ani.me/img/character/chara3_stand.png"]],
 "1024": [["ProgrammerDay"]],
