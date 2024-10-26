@@ -79,6 +79,7 @@ calendars = {
     ["HimekawaYoshino", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_yoshino.png"],
     ["SawamuraSpencerEriri", "https://www.saenai.tv/images/character/chara_eriri_vsl.png"]
 ],
+"0324": [["NarukaraFukune", "https://img.moegirl.org.cn/common/thumb/c/ca/Fukune_Narukara-2.jpg/420px-Fukune_Narukara-2.jpg"]],
 "0325": [["ShibaMiyuki", "https://mahouka.jp/1st/img/character/c_img_2_l.png"]],
 "0328": [["ToshinouKyouko", "https://yuruyuri.com/1st/character/img/detail_kyoko.jpg"]],
 "0401": [
