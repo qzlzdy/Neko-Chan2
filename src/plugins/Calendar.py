@@ -215,6 +215,7 @@ calendars = {
     ["CirnoDay"],
     ["MidoriHemo", "http://ochifuru-anime.com/images/chara/005/p_002.png"]
 ],
+"0910": [["SasakiChiho", "https://maousama.jp/assets/img/character/character03_main.png"]],
 "0914": [["KoshigayaKomari", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/komari/ph_front_01.png"]],
 "0915": [["KomichiAya", "http://kinmosa.com/assets/character/c/3.png"]],
 "0919": [["UjimatsuChiya", "https://gochiusa.com/core_sys/images/main/cont/chara/chiya_body.png"]],
@@ -228,6 +229,7 @@ calendars = {
     ["YoshidaYuuko", "https://www.tbs.co.jp/anime/machikado/1st/character/img/chara_img_01.png"]
 ],
 "0930": [["YuukiAsuna", "https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png"]],
+"1001": [["CrestiaBell", "https://maousama.jp/assets/img/character/character06_main.png"]],
 "1008": [["SuzumiyaHaruhi", "https://img.moegirl.org.cn/common/f/fd/Haruhi_Suzumiya_.jpg"]],
 "1010": [["MoeDay"]],
 "1011": [
@@ -238,7 +240,10 @@ calendars = {
 "1018": [["HasegawaKobato", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img06.jpg"]],
 "1019": [["EbinaNana", "https://umaru-ani.me/img/character/chara3_stand.png"]],
 "1024": [["ProgrammerDay"]],
-"1025": [["MamiyaAkari", "http://ariaaa.tv/character/images/img_chara-1.png"]],
+"1025": [
+    ["EmiliaJustina", "https://maousama.jp/assets/img/character/character02_main.png"],
+    ["MamiyaAkari", "http://ariaaa.tv/character/images/img_chara-1.png"]
+],
 "1102": [
     ["NatsuMegumi", "https://gochiusa.com/core_sys/images/main/cont/chara/megu_body.png"],
     ["TightsDay"]
