@@ -83,6 +83,7 @@ calendars = {
 "0325": [["ShibaMiyuki", "https://mahouka.jp/1st/img/character/c_img_2_l.png"]],
 "0328": [["ToshinouKyouko", "https://yuruyuri.com/1st/character/img/detail_kyoko.jpg"]],
 "0401": [
+    ["HagyuuHibiki", "https://anne-happy.com/wp-content/uploads/2016/02/ch4-1-1.png"],
     ["JulieSigtuna", "https://img.moegirl.org.cn/common/thumb/1/1a/Julie_sigtuna.jpg/420px-Julie_sigtuna.jpg"],
     ["TsunemoriAkane", "https://psycho-pass.com/assets/img/character/chara01_d.png"]
 ],
@@ -229,9 +230,15 @@ calendars = {
     ["YoshidaYuuko", "https://www.tbs.co.jp/anime/machikado/1st/character/img/chara_img_01.png"]
 ],
 "0930": [["YuukiAsuna", "https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png"]],
-"1001": [["CrestiaBell", "https://maousama.jp/assets/img/character/character06_main.png"]],
+"1001": [
+    ["CrestiaBell", "https://maousama.jp/assets/img/character/character06_main.png"],
+    ["ShimaRin", "https://yurucamp.jp/second/images/chara2_full.png"]
+],
 "1008": [["SuzumiyaHaruhi", "https://img.moegirl.org.cn/common/f/fd/Haruhi_Suzumiya_.jpg"]],
-"1010": [["MoeDay"]],
+"1010": [
+    ["EkodaRen", "https://anne-happy.com/wp-content/uploads/2016/02/ch5-1-1.png"],
+    ["MoeDay"]
+],
 "1011": [
     ["WakasaYuuri", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch03-1.png"],
     ["LoliDay"]
@@ -249,13 +256,13 @@ calendars = {
     ["TightsDay"]
 ],
 "1103": [["Noel", "https://sora-no-method.jp/character/img/chara_noel_body.png"]],
-"1104": [["GoodButt"]],
+"1104": [["GoodButtDay"]],
 "1106": [["YoshikawaChinatsu", "https://yuruyuri.com/1st/character/img/detail_chinatsu.jpg"]],
 "1107": [
     ["SuminoeXko", "https://img.moegirl.org.cn/common/a/a1/Suminoe_Ako_Riko.jpg"],
-    ["GoodBelly"]
+    ["GoodBellyDay"]
 ],
-"1108": [["GoodOppai"]],
+"1108": [["GoodOppaiDay"]],
 "1110": [["SakakiYumiko", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000003/base/001.png"]],
 "1111": [
     ["KuraueHinata", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/hinata_stand.png"],
@@ -266,7 +273,7 @@ calendars = {
     ["TsukiyomiRuna", "https://www.geneitaiyo.com/character/img/main/luna.png"]
 ],
 "1127": [["HirasawaYui", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo01_1.gif"]],
-"1129": [["GoodMeat"]],
+"1129": [["GoodMeatDai"]],
 "1203": [
     ["MiyauchiRenge", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/renge/ph_front_01.png"],
     ["SanzeninNagi", "http://hayatenogotoku.com/images/chara/nagi.jpg"]
