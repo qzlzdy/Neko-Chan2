@@ -44,7 +44,10 @@ calendars = {
     ["TsutsukakushiTsukiko", "http://www.henneko.jp/character/img/p_tsukiko.png"]
 ],
 "0203": [["TohsakaRin", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_003.gif"]],
-"0205": [["KasuganoSora", "https://img.moegirl.org.cn/common/thumb/7/75/Kasugano_sora_game_CG_ring.jpg/420px-Kasugano_sora_game_CG_ring.jpg"]],
+"0205": [
+    ["KasuganoSora", "https://img.moegirl.org.cn/common/thumb/7/75/Kasugano_sora_game_CG_ring.jpg/420px-Kasugano_sora_game_CG_ring.jpg"],
+    ["TamakiAko", "https://netogenoyome.com/core_sys/images/main/cont/chara/ch_img2-1.png"]
+],
 "0207": [["FutanariDay"]],
 "0208": [["KneeHighDay"]],
 "0210": [["Louise", "https://zh.moegirl.org.cn/File:Louise_francis.jpg"]],
