@@ -30,7 +30,7 @@ async def sendSetu():
     sql = "SELECT extension FROM setus WHERE illust_id = ?"
     ip_addresses = NetBIOS().queryName(HOSTNAME)
     for i in range(len(ip_addresses)):
-        illust_id = randint(1, 89400)
+        illust_id = randint(1, 99657)
         res = cur.execute(sql, (illust_id,))
         ext = res.fetchall()[0][0]
         #infile = open(f"{ASSETS_ROOT}/setu/H{illust_id}.{ext}", "rb").read()
