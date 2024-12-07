@@ -23,7 +23,7 @@ from ..config import HOSTNAME
 setu = on_command("来点黄色")
 
 @setu.handle()
-@scheduler.scheduled_job("cron", hour="7-22", minute=50, second=11, id="Setu please")
+@scheduler.scheduled_job("cron", hour="5-22", minute=50, second=11, id="Setu please")
 async def sendSetu():
     db = sqlite3.connect(f"{ASSETS_ROOT}/Setu.db")
     cur = db.cursor()

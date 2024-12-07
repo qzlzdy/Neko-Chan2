@@ -144,6 +144,7 @@ calendars = {
 "0529": [["IjichiNijika", "https://bocchi.rocks/assets/img/page/character/nijika/main.png"]],
 "0601": [["SasameYaya", "https://hanayamata.com/assets/images/profile/chara03_off.png"]],
 "0603": [["SengokuNadeko", "https://www.monogatari-series.com/bakemonogatari/chara/images/i04.jpg"]],
+"0606": [["YomokawaAyame", "https://kabaneri.com/assets/img/in/character/c_ayame.png"]],
 "0609": [["AmanoMiu", "https://blend-s.jp/assets/img/character/chara_04/chara04_1.png"]],
 "0610": [["TokisakiKurumi", "https://date-a-live4th-anime.com/common/images/character/character06.png"]],
 "0612": [
@@ -204,7 +205,7 @@ calendars = {
 ],
 "0811": [
     ["AobaKokona", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/kokona_stand.png"],
-    ["NishikawaYoko", "http://sansyasanyou.com/core_sys/images/contents/00000002/base/sn_001.png?1552483627"]
+    ["NishikawaYouko", "http://sansyasanyou.com/core_sys/images/contents/00000002/base/sn_001.png?1552483627"]
 ],
 "0812": [["HinataKaho", "https://blend-s.jp/assets/img/character/chara_02/chara02_1.png"]],
 "0817": [["KokonoeRin", "https://www.kojika-anime.com/img/chara_01_all.jpg"]],
@@ -259,6 +260,7 @@ calendars = {
 "1014": [["KawakamiMai", "https://phantom-world.com/img/character/mai.png"]],
 "1018": [["HasegawaKobato", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img06.jpg"]],
 "1019": [["EbinaNana", "https://umaru-ani.me/img/character/chara3_stand.png"]],
+"1020": [["Mumei", "https://kabaneri.com/assets/img/in/character/c_mumei.png"]],
 "1024": [["ProgrammerDay"]],
 "1025": [
     ["EmiliaJustina", "https://maousama.jp/assets/img/character/character02_main.png"],
@@ -289,7 +291,7 @@ calendars = {
 "1127": [["HirasawaYui", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo01_1.gif"]],
 "1129": [["GoodMeatDay"]],
 "1203": [
-    ["MiyauchiRenge", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/renge/ph_front_01.png"],
+    ["MiyauchiRenge", "https://zh.moegirl.org.cn/File:%E5%AE%AB%E5%86%85%E8%8E%B2%E5%8D%8E.jpg"],
     ["SanzeninNagi", "http://hayatenogotoku.com/images/chara/nagi.jpg"]
 ],
 "1204": [
@@ -305,6 +307,7 @@ calendars = {
 ],
 "1225": [
     ["Eris", "http://konosuba.com/3rd/character/img/chris.png"],
+    ["HayamaTeru", "http://sansyasanyou.com/core_sys/images/contents/00000004/base/sn_001.png"],
     ["MatsushimaMichiru", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000005/base/001.png"],
     ["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]
 ],
