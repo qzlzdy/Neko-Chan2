@@ -144,7 +144,10 @@ calendars = {
 "0529": [["IjichiNijika", "https://bocchi.rocks/assets/img/page/character/nijika/main.png"]],
 "0601": [["SasameYaya", "https://hanayamata.com/assets/images/profile/chara03_off.png"]],
 "0603": [["SengokuNadeko", "https://www.monogatari-series.com/bakemonogatari/chara/images/i04.jpg"]],
-"0606": [["YomokawaAyame", "https://kabaneri.com/assets/img/in/character/c_ayame.png"]],
+"0606": [
+    ["AkiyamaYukari", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/akiyama.png"],
+    ["YomokawaAyame", "https://kabaneri.com/assets/img/in/character/c_ayame.png"]
+],
 "0609": [["AmanoMiu", "https://blend-s.jp/assets/img/character/chara_04/chara04_1.png"]],
 "0610": [["TokisakiKurumi", "https://date-a-live4th-anime.com/common/images/character/character06.png"]],
 "0612": [
@@ -154,7 +157,10 @@ calendars = {
 "0613": [["KonohataMira", "http://koiastv.com/images/chara/p_001.png"]],
 "0615": [["AiharaEnjyu", "https://img.moegirl.org.cn/common/thumb/f/fa/Aihara_Enju.jpg/420px-Aihara_Enju.jpg"]],
 "0620": [["TokuraEiko", "https://slow-start.com/shared/images/top/chara_d_eiko_img.png"]],
-"0622": [["MachikoRyou", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img01.jpg"]],
+"0622": [
+    ["MachikoRyou", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img01.jpg"],
+    ["TakebeSaori", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/saori.png"]
+],
 "0624": [
     ["HoujyouSatoko", "http://www.oyashirosama.com/web/kai/character/img/satoko-bottom.jpg"],
     ["SonodaYuu", "https://www.tbs.co.jp/anime/sakura/chara/images/chara_img02.jpg"]
@@ -223,6 +229,7 @@ calendars = {
     ["HondaTamaki", "http://www.dokidokivisual.com/magic_of_stella/img/banner/banner_kari_anim_l.jpg"]
 ],
 "0831": [["HatsuneMiku", "https://ec.crypton.co.jp/img/special/vocaloid/img_MIKU_us.png"]],
+"0901": [["ReizeiMako", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/mako.png"]],
 "0902": [["MahougasawaAkane", "https://img.moegirl.org.cn/common/b/bd/Akane_gaworare.png"]],
 "0903": [["KumamakuraKurumi", "https://phantom-world.com/img/character/kurumi.png"]],
 "0908": [["KupaDay"]],
@@ -261,6 +268,7 @@ calendars = {
 "1018": [["HasegawaKobato", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img06.jpg"]],
 "1019": [["EbinaNana", "https://umaru-ani.me/img/character/chara3_stand.png"]],
 "1020": [["Mumei", "https://kabaneri.com/assets/img/in/character/c_mumei.png"]],
+"1023": [["NishizumiMiho", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/miho.png"]],
 "1024": [["ProgrammerDay"]],
 "1025": [
     ["EmiliaJustina", "https://maousama.jp/assets/img/character/character02_main.png"],
@@ -291,7 +299,7 @@ calendars = {
 "1127": [["HirasawaYui", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo01_1.gif"]],
 "1129": [["GoodMeatDay"]],
 "1203": [
-    ["MiyauchiRenge", "https://zh.moegirl.org.cn/File:%E5%AE%AB%E5%86%85%E8%8E%B2%E5%8D%8E.jpg"],
+    ["MiyauchiRenge", "https://img.moegirl.org.cn/common/thumb/1/1d/%E5%AE%AB%E5%86%85%E8%8E%B2%E5%8D%8E.jpg/540px-%E5%AE%AB%E5%86%85%E8%8E%B2%E5%8D%8E.jpg"],
     ["SanzeninNagi", "http://hayatenogotoku.com/images/chara/nagi.jpg"]
 ],
 "1204": [
@@ -299,7 +307,8 @@ calendars = {
     ["Megumin", "http://konosuba.com/3rd/character/img/megumin.png"]
 ],
 "1210": [["NaokiMiki", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch04-1.png"]],
-"1212": [["Shiro", "http://ngnl.jp/tv/images/img-character-siro.png"]],
+"1212": [["Shiro", "https://img.moegirl.org.cn/common/thumb/2/25/%E7%99%BD.png/420px-%E7%99%BD.png"]],
+"1216": [["IsuzuHana", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/isuzu.png"]],
 "1223": [["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"]],
 "1224": [
     ["MikazukiYozora", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img02.jpg"],
