@@ -27,6 +27,7 @@ async def sendCalendarNote(date, character, url=None):
 calendars = {
 "0101": [
     ["IchinoseHaru", "http://akuma-riddle.com/character/img/detail_haru_chara.png?2"],
+    ["KadotaniAnzu", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/sumitani.png"],
     ["SatonakaChie", "https://img.moegirl.org.cn/common/thumb/f/ff/55319988_p0.jpg/420px-55319988_p0.jpg"]
 ],
 "0104": [["MinagiHiyori", "https://slowlooptv.com/images/chara/p_001.png"]],
@@ -35,10 +36,14 @@ calendars = {
 "0113": [["IrisuMakina", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000006/base/001.png"]],
 "0114": [["ShirokaneGinka", "https://www.geneitaiyo.com/character/img/main/ginka.png"]],
 "0115": [["AkiyamaMio", "https://img.moegirl.org.cn/common/thumb/2/2e/The_Bowl.jpg/420px-The_Bowl.jpg"]],
+"0117": [["Kay", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/kei_03_03-1.png"]],
 "0123": [["TakimotoHifumi", "http://newgame-anime.com/assets/character/c4.png"]],
 "0127": [["NaruseMio", "https://img.moegirl.org.cn/common/thumb/f/f0/%E6%88%90%E6%BF%91%E6%BE%AA.jpg/420px-%E6%88%90%E6%BF%91%E6%BE%AA.jpg"]],
 "0128": [["IrizakiMei", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/04_irizaki/img_face03.jpg"]],
-"0131": [["KasumiokaUtaha", "https://www.saenai.tv/images/character/chara_utaha_vsl.png"]],
+"0131": [
+    ["KasumiokaUtaha", "https://www.saenai.tv/images/character/chara_utaha_vsl.png"],
+    ["Katyusha", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/kacyusya_03.png"]
+],
 "0201": [["YukimiKoume", "https://www.tbs.co.jp/anime/urara/chara/img/koume_left.png"]],
 "0202": [
     ["SuzukazeAoba", "http://newgame-anime.com/assets/character/c1.png"],
@@ -74,6 +79,7 @@ calendars = {
     ["SuouAmane", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000004/base/001.png"]
 ],
 "0304": [["KagamiharaNadeshiko", "https://yurucamp.jp/first/images/chara_list1.png"]],
+"0306": [["ItsumiErika", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/erika_03.png"]],
 "0310": [["SatenRuiko", "https://toaru-project.com/railgun_t/core_sys/images/main/cont_chara/11_body.png"]],
 "0314": [["Elusia", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_02.png"]],
 "0315": [
@@ -168,6 +174,7 @@ calendars = {
 "0625": [["TakanashiNao", "https://img.moegirl.org.cn/common/thumb/f/f9/20150123134448804975.jpg/420px-20150123134448804975.jpg"]],
 "0628": [["IkiHiyori", "https://noragami-anime.net/images_sub/chara_detail2.png"]],
 "0630": [["YoshinagaKoi", "https://slowlooptv.com/images/chara/p_003.png"]],
+"0701": [["NishizumiMaho", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/maho_03.png"]],
 "0702": [["KotobukiTsumugi", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo04.gif"]],
 "0704": [["HatoyaKohane", "http://animayell.com/core_sys/images/main/cont/chara/details_kohane_school.png"]],
 "0707": [["SenjyougaharaHitagi", "https://www.monogatari-series.com/bakemonogatari/chara/images/i01.jpg"]],
@@ -240,8 +247,10 @@ calendars = {
 "0910": [["SasakiChiho", "https://maousama.jp/assets/img/character/character03_main.png"]],
 "0914": [["KoshigayaKomari", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/komari/ph_front_01.png"]],
 "0915": [["KomichiAya", "http://kinmosa.com/assets/character/c/3.png"]],
+"0917": [["Darjeeling", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/drgilin_03.png"]],
 "0919": [["UjimatsuChiya", "https://gochiusa.com/core_sys/images/main/cont/chara/chiya_body.png"]],
 "0923": [
+    ["AnzaiChiyomi", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/ancyobi_03.png"],
     ["KanzakiHolmesAria", "http://ariaaa.tv/character/images/img_chara-2.png"],
     ["KatouMegumi", "https://www.saenai.tv/images/character/chara_megumi_vsl.png"]
 ],
