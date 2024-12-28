@@ -120,7 +120,10 @@ calendars = {
 ],
 "0411": [["AmanoSaki", "https://www.tv-tokyo.co.jp/contents/kanamemo/chara/images/chara_02.jpg"]],
 "0412": [["SawatariUki", "http://animayell.com/core_sys/images/main/cont/chara/main_uki.png"]],
-"0420": [["GokouRuri", "https://www.oreimo-anime.com/1st/chara/img/chara04.jpg"]],
+"0420": [
+    ["GokouRuri", "https://www.oreimo-anime.com/1st/chara/img/chara04.jpg"],
+    ["Marie", "https://girls-und-panzer-finale.jp/iaY7mRf2zJ/wp-content/uploads/2020/02/mary-daikarui-1.png"]
+],
 "0421": [["KitaIkuyo", "https://bocchi.rocks/assets/img/page/character/ikuyo/main.png"]],
 "0422": [["FunamiYui", "https://yuruyuri.com/1st/character/img/detail_yui.jpg"]],
 "0424": [["Haqua", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_03.png"]],
@@ -278,7 +281,10 @@ calendars = {
 "1019": [["EbinaNana", "https://umaru-ani.me/img/character/chara3_stand.png"]],
 "1020": [["Mumei", "https://kabaneri.com/assets/img/in/character/c_mumei.png"]],
 "1023": [["NishizumiMiho", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/miho.png"]],
-"1024": [["ProgrammerDay"]],
+"1024": [
+    ["ProgrammerDay"],
+    ["ShimadaArisu", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/arisu.png"]
+],
 "1025": [
     ["EmiliaJustina", "https://maousama.jp/assets/img/character/character02_main.png"],
     ["MamiyaAkari", "http://ariaaa.tv/character/images/img_chara-1.png"]
@@ -307,6 +313,7 @@ calendars = {
 ],
 "1127": [["HirasawaYui", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo01_1.gif"]],
 "1129": [["GoodMeatDay"]],
+"1130": [["Mika", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/mika.png"]],
 "1203": [
     ["MiyauchiRenge", "https://img.moegirl.org.cn/common/thumb/1/1d/%E5%AE%AB%E5%86%85%E8%8E%B2%E5%8D%8E.jpg/540px-%E5%AE%AB%E5%86%85%E8%8E%B2%E5%8D%8E.jpg"],
     ["SanzeninNagi", "http://hayatenogotoku.com/images/chara/nagi.jpg"]
@@ -315,6 +322,7 @@ calendars = {
     ["KafuuChino", "https://gochiusa.com/core_sys/images/main/cont/chara/chino_body.png"],
     ["Megumin", "http://konosuba.com/3rd/character/img/megumin.png"]
 ],
+"1208": [["NishiKinuyo", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/kinuyo.png"]],
 "1210": [["NaokiMiki", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch04-1.png"]],
 "1212": [["Shiro", "https://img.moegirl.org.cn/common/thumb/2/25/%E7%99%BD.png/420px-%E7%99%BD.png"]],
 "1216": [["IsuzuHana", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/isuzu.png"]],
@@ -329,7 +337,7 @@ calendars = {
     ["MatsushimaMichiru", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000005/base/001.png"],
     ["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]
 ],
-"1226": [["Takao", "http://www.d-fragments.net/character/images/takao_bucho.jpg"]],
+"1226": [["Takao", "https://img.moegirl.org.cn/common/thumb/e/ed/Takao_bucho.jpg/420px-Takao_bucho.jpg"]],
 "1231": [["HanakoizumiAnne", "https://anne-happy.com/wp-content/uploads/2016/02/ch1-1-1.png"]],
 }
 
