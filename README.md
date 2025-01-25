@@ -9,6 +9,7 @@
     - [2.1.2. Install adapter install mirai](#212-install-adapter-install-mirai)
     - [2.1.3. Fix issues](#213-fix-issues)
     - [2.1.4. Install plugin](#214-install-plugin)
+    - [2.1.5. Install Dependencies](#215-install-dependencies)
   - [2.2. Install Mirai2](#22-install-mirai2)
     - [2.2.1. Install plugin](#221-install-plugin)
     - [2.2.2. Configure plugin](#222-configure-plugin)
@@ -49,6 +50,12 @@ pip install --force-reinstall 'pydantic~=1.10'
 
 ```bash
 nb plugin install nonebot-plugin-apscheduler
+```
+
+### 2.1.5. Install Dependencies
+
+```bash
+pip install Pillow pysmb
 ```
 
 ## 2.2. Install Mirai2
