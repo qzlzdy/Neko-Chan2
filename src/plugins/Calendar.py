@@ -141,6 +141,7 @@ calendars = {
     ["TakeyaYuki", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch01-1.png"]
 ],
 "0406": [
+    ["ChirotigafuchiAine", "https://img.moegirl.org.cn/common/d/d4/Chidorigafuchi_Aine_Side.png"],
     ["HigaKanata", "https://www.harukana-receive.jp/assets/character/1b.png"],
     ["IchinoseHana", "https://slow-start.com/shared/images/top/chara_d_hana_img.png"],
     ["LalatinaFordDustiness", "http://konosuba.com/3rd/character/img/darkness.png"]
@@ -396,6 +397,7 @@ calendars = {
 "1127": [["HirasawaYui", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo01_1.gif"]],
 "1129": [["GoodMeatDay"]],
 "1130": [["Mika", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/mika.png"]],
+"1201": [["MiyamizuMitsuha", "https://www.kiminona.com/images/top/chara_mitsuha_vsl.png"]],
 "1203": [
     ["MiyauchiRenge", "https://img.moegirl.org.cn/common/thumb/1/1d/%E5%AE%AB%E5%86%85%E8%8E%B2%E5%8D%8E.jpg/540px-%E5%AE%AB%E5%86%85%E8%8E%B2%E5%8D%8E.jpg"],
     ["SanzeninNagi", "http://hayatenogotoku.com/images/chara/nagi.jpg"],
