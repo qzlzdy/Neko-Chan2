@@ -25,6 +25,7 @@ async def sendCalendarNote(date, character, url=None):
                 MessageSegment.image(url=url)
             ]))
         except:
+            print("get image failed")
             await sendNotice(MessageChain([MessageSegment.plain(desc)]))
 
 calendars = {
@@ -117,11 +118,12 @@ calendars = {
 "0315": [
     ["MotobaKirie", "https://umaru-ani.me/img/character/chara4_stand.png"],
     ["SonodaUmi", "https://www.lovelive-anime.jp/otonokizaka/img/member/member04_01.png"],
+    ["TakamachiNanoha", "https://img.moegirl.org.cn/common/thumb/3/3d/Nanoha.jpg/420px-Nanoha.jpg"],
     ["TatsumiKon", "https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png"]
 ],
 "0320": [
-    ["HimekawaYoshino", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_yoshino.png"],
-    ["SawamuraSpencerEriri", "https://www.saenai.tv/images/character/chara_eriri_vsl.png"]
+    ["HimekawaYoshino", "https://img.moegirl.org.cn/common/thumb/8/8f/Yoshino2.JPG/420px-Yoshino2.JPG"],
+    ["SawamuraSpencerEriri", "https://img.moegirl.org.cn/common/3/36/Eriri_Spencer_Sawamura.png"]
 ],
 "0324": [["NarukaraFukune", "https://img.moegirl.org.cn/common/thumb/c/ca/Fukune_Narukara-2.jpg/420px-Fukune_Narukara-2.jpg"]],
 "0325": [["ShibaMiyuki", "https://mahouka.jp/1st/img/character/c_img_2_l.png"]],
@@ -199,10 +201,14 @@ calendars = {
     ["IzumiKonata", "https://img.moegirl.org.cn/common/thumb/0/0e/Izumi_Konata_Hinnyuu.jpg/450px-Izumi_Konata_Hinnyuu.jpg"],
     ["NasaKouko", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/05_nosa/img_face03.jpg"]
 ],
-"0529": [["IjichiNijika", "https://bocchi.rocks/assets/img/page/character/nijika/main.png"]],
+"0529": [
+    ["FateTestarossaHarlaown", "https://img.moegirl.org.cn/common/thumb/8/8e/Myfate.jpg/420px-Myfate.jpg"],
+    ["IjichiNijika", "https://bocchi.rocks/assets/img/page/character/nijika/main.png"]
+],
 "0530": [["MiyashitaAi", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c06a.png"]],
 "0601": [["SasameYaya", "https://hanayamata.com/assets/images/profile/chara03_off.png"]],
 "0603": [["SengokuNadeko", "https://www.monogatari-series.com/bakemonogatari/chara/images/i04.jpg"]],
+"0604": [["YagamiHayate", "https://img.moegirl.org.cn/common/thumb/b/b4/Yagami_Hayate.jpg/420px-Yagami_Hayate.jpg"]],
 "0606": [
     ["AkiyamaYukari", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/akiyama.png"],
     ["YomokawaAyame", "https://kabaneri.com/assets/img/in/character/c_ayame.png"]
