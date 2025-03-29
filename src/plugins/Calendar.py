@@ -114,6 +114,7 @@ calendars = {
     ["AnastasiaHoshin", "https://img.moegirl.org.cn/common/4/4f/%E3%82%A2%E3%83%8A%E3%82%B9%E3%82%BF%E3%82%B7%E3%82%A2%E3%83%9B%E3%83%BC%E3%82%B7%E3%83%B3.png"],
     ["SatenRuiko", "https://toaru-project.com/railgun_t/core_sys/images/main/cont_chara/11_body.png"]
 ],
+"0312": [["KaminashiNozomi", "https://img.moegirl.org.cn/common/thumb/0/03/Keijo_nozomi.jpg/300px-Keijo_nozomi.jpg"]],
 "0314": [["Elusia", "https://web.archive.org/web/20240213052037im_/https://www.tv-tokyo.co.jp/contents/kaminomi/images/chara_02.png"]],
 "0315": [
     ["MotobaKirie", "https://umaru-ani.me/img/character/chara4_stand.png"],
@@ -191,7 +192,10 @@ calendars = {
 "0504": [["KatsukiTsubasa", "http://comic-girls.com/character/img/chara4.png"]],
 "0505": [["SakuraNene", "https://img.moegirl.org.cn/common/3/30/Sakura_Nene.jpg"]],
 "0516": [["NarumiTsubame", "https://img.moegirl.org.cn/common/thumb/d/d2/%E9%B8%A3%E6%B5%B7%E7%87%95C11.png/600px-%E9%B8%A3%E6%B5%B7%E7%87%95C11.png"]],
-"0517": [["HoshikawaSeira", "https://www.geneitaiyo.com/character/img/main/seira.png"]],
+"0517": [
+    ["AobaKazane", "https://img.moegirl.org.cn/common/thumb/1/18/Keijo_kazane.jpg/300px-Keijo_kazane.jpg"],
+    ["HoshikawaSeira", "https://www.geneitaiyo.com/character/img/main/seira.png"]
+],
 "0519": [["KashiwazakiSena", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img03.jpg"]],
 "0524": [["NishiYuuko", "https://www.a-ch.jp/character/img/ch03.jpg"]],
 "0525": [["KaranomoriShion", "https://psycho-pass.com/assets/img/character/chara05_d.png"]],
@@ -267,7 +271,10 @@ calendars = {
 ],
 "0722": [["YazawaNiko", "https://www.lovelive-anime.jp/otonokizaka/img/member/member09_01.png"]],
 "0723": [["SekiAyame", "https://img.moegirl.org.cn/common/thumb/1/16/Charaillust_chara_16030000.png/420px-Charaillust_chara_16030000.png"]],
-"0724": [["AkazaAkari", "https://yuruyuri.com/1st/character/img/detail_akari.jpg"]],
+"0724": [
+    ["AkazaAkari", "https://yuruyuri.com/1st/character/img/detail_akari.jpg"],
+    ["MiyataSayaka", "https://img.moegirl.org.cn/common/thumb/b/bf/Keijo_sayaka.jpg/300px-Keijo_sayaka.jpg"]
+],
 "0725": [["ChinaMoeka", "https://www.hai-furi.com/assets_mv/img/chara/06_other/01_china/img_main.png"]],
 "0728": [
     ["RyuuguuRena", "http://www.oyashirosama.com/web/kai/character/img/rena-bottom.jpg"],
@@ -320,7 +327,10 @@ calendars = {
 ],
 "0831": [["HatsuneMiku", "https://ec.crypton.co.jp/img/special/vocaloid/img_MIKU_us.png"]],
 "0901": [["ReizeiMako", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/mako.png"]],
-"0902": [["MahougasawaAkane", "https://img.moegirl.org.cn/common/b/bd/Akane_gaworare.png"]],
+"0902": [
+    ["MahougasawaAkane", "https://img.moegirl.org.cn/common/b/bd/Akane_gaworare.png"],
+    ["ToyoguchiNon", "https://img.moegirl.org.cn/common/thumb/f/f2/Keijo_non.jpg/300px-Keijo_non.jpg"]
+],
 "0903": [["KumamakuraKurumi", "https://phantom-world.com/img/character/kurumi.png"]],
 "0907": [["PriscillaBarielle", "http://re-zero-anime.jp/tv/assets/character/c/15c.webp"]],
 "0909": [
