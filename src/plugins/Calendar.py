@@ -443,6 +443,7 @@ calendars = {
     ["IsuzuHana", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/isuzu.png"],
     ["KonoeKanata", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c07a.png"]
 ],
+"1222": [["EnmaAi", "https://img.moegirl.org.cn/common/7/70/Cute.jpg"]],
 "1223": [["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"]],
 "1224": [
     ["MikazukiYozora", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img02.jpg"],
