@@ -136,7 +136,10 @@ calendars = {
     ["JulieSigtuna", "https://img.moegirl.org.cn/common/thumb/1/1a/Julie_sigtuna.jpg/420px-Julie_sigtuna.jpg"],
     ["TsunemoriAkane", "https://psycho-pass.com/assets/img/character/chara01_d.png"]
 ],
-"0402": [["FujikawaKayo", "https://img.moegirl.org.cn/common/thumb/1/16/Charaillust_chara_16030000.png/420px-Charaillust_chara_16030000.png"]],
+"0402": [
+    ["Chiya", "https://img.moegirl.org.cn/common/thumb/3/3e/%E5%8D%83%E7%9F%A2_I.jpg/420px-%E5%8D%83%E7%9F%A2_I.jpg"],
+    ["FujikawaKayo", "https://img.moegirl.org.cn/common/thumb/1/16/Charaillust_chara_16030000.png/420px-Charaillust_chara_16030000.png"]
+],
 "0403": [
     ["KurawashiRiko", "https://www.love-lab.tv/chara/img/riko00.jpg?1680924886863"],
     ["OusakaShizuku", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c04a.png"]
@@ -178,7 +181,7 @@ calendars = {
 "0422": [["FunamiYui", "https://yuruyuri.com/1st/character/img/detail_yui.jpg"]],
 "0424": [["Haqua", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_03.png"]],
 "0425": [["MinaseKoito", "https://phantom-world.com/img/character/koito.png"]],
-"0427": [["MisakiMei", "https://www.pa-works.jp/wp-content/uploads/2012/04/08_another-727x1024.jpg"]],
+"0427": [["MisakiMei", "https://img.moegirl.org.cn/common/thumb/5/51/1046253.jpg/420px-1046253.jpg"]],
 "0429": [["ElsaGranhiert", "http://re-zero-anime.jp/tv/assets/character/c/17.webp"]],
 "0501": [
     ["IchiiYui", "https://www.yuyushiki.net/core_sys/images/main/cont/chara/chara2_cos1.jpg"],
@@ -188,9 +191,9 @@ calendars = {
     ["MisakaMikoto", "https://toaru-project.com/railgun/core_sys/images/contents/00000004/base/001.jpg?1615808050"],
     ["AragakiAyase", "https://www.oreimo-anime.com/1st/chara/img/chara06.jpg"],
     ["HanaNFountainstand", "https://hanayamata.com/assets/images/profile/chara02_off.png"],
-    ["OdagiriFutaba", "https://sansyasanyou.com/core_sys/images/contents/00000003/base/sn_001.png?1552483627"]
+    ["OdagiriFutaba", "https://img.moegirl.org.cn/common/thumb/6/6b/Odagiri_Futaba.jpg/276px-Odagiri_Futaba.jpg"]
 ],
-"0504": [["KatsukiTsubasa", "http://comic-girls.com/character/img/chara4.png"]],
+"0504": [["KatsukiTsubasa", "https://img.moegirl.org.cn/common/thumb/f/fc/Katsuki_Tsubasa_.jpg/420px-Katsuki_Tsubasa_.jpg"]],
 "0505": [["SakuraNene", "https://img.moegirl.org.cn/common/3/30/Sakura_Nene.jpg"]],
 "0516": [["NarumiTsubame", "https://img.moegirl.org.cn/common/thumb/d/d2/%E9%B8%A3%E6%B5%B7%E7%87%95C11.png/600px-%E9%B8%A3%E6%B5%B7%E7%87%95C11.png"]],
 "0517": [
@@ -441,7 +444,8 @@ calendars = {
 "1215": [["KaramaruChitose", "https://img.moegirl.org.cn/common/thumb/e/e8/Karasuma_blu.png/420px-Karasuma_blu.png"]],
 "1216": [
     ["IsuzuHana", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/isuzu.png"],
-    ["KonoeKanata", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c07a.png"]
+    ["KonoeKanata", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c07a.png"],
+    ["NatsumeNono", "https://img.moegirl.org.cn/common/thumb/0/04/%E4%B9%83%E4%B9%83_I.jpg/420px-%E4%B9%83%E4%B9%83_I.jpg"]
 ],
 "1222": [["EnmaAi", "https://img.moegirl.org.cn/common/7/70/Cute.jpg"]],
 "1223": [["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"]],
