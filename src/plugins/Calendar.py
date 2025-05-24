@@ -123,6 +123,7 @@ calendars = {
     ["TakamachiNanoha", "https://img.moegirl.org.cn/common/thumb/3/3d/Nanoha.jpg/420px-Nanoha.jpg"],
     ["TatsumiKon", "https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png"]
 ],
+"0319": [["ShirahaRaphielAinsworth", "https://img.moegirl.org.cn/common/f/f0/Gabriel_Dropout_Vol4.jpg"]],
 "0320": [
     ["HimekawaYoshino", "https://img.moegirl.org.cn/common/thumb/8/8f/Yoshino2.JPG/420px-Yoshino2.JPG"],
     ["SawamuraSpencerEriri", "https://img.moegirl.org.cn/common/3/36/Eriri_Spencer_Sawamura.png"]
@@ -175,7 +176,8 @@ calendars = {
 "0420": [
     ["GokouRuri", "https://www.oreimo-anime.com/1st/chara/img/chara04.jpg"],
     ["KugayamaYae", "https://img.moegirl.org.cn/common/thumb/6/61/Kugayama_Yae.png/420px-Kugayama_Yae.png"],
-    ["Marie", "https://girls-und-panzer-finale.jp/iaY7mRf2zJ/wp-content/uploads/2020/02/mary-daikarui-1.png"]
+    ["Marie", "https://girls-und-panzer-finale.jp/iaY7mRf2zJ/wp-content/uploads/2020/02/mary-daikarui-1.png"],
+    ["TenmaGabrielWhite", "https://img.moegirl.org.cn/common/3/38/Gabriel_Dropout_Vol1.jpg"]
 ],
 "0421": [["KitaIkuyo", "https://bocchi.rocks/assets/img/page/character/ikuyo/main.png"]],
 "0422": [["FunamiYui", "https://yuruyuri.com/1st/character/img/detail_yui.jpg"]],
@@ -319,6 +321,7 @@ calendars = {
     ["NishikawaYouko", "http://sansyasanyou.com/core_sys/images/contents/00000002/base/sn_001.png?1552483627"]
 ],
 "0812": [["HinataKaho", "https://blend-s.jp/assets/img/character/chara_02/chara02_1.png"]],
+"0815": [["KurumizawaSatanichiaMcDowell", "https://img.moegirl.org.cn/common/2/25/Gabriel_Dropout_Vol3.jpg"]],
 "0817": [["KokonoeRin", "https://www.kojika-anime.com/img/chara_01_all.jpg"]],
 "0818": [["MiyafujiYoshika", "http://w-witch.jp/s-witch/pc/chara/img/chara-miya-main.jpg"]],
 "0819": [["TaiyouAkari", "https://www.geneitaiyo.com/character/img/main/akari.png"]],
@@ -381,6 +384,7 @@ calendars = {
 "1008": [["SuzumiyaHaruhi", "https://img.moegirl.org.cn/common/f/fd/Haruhi_Suzumiya_.jpg"]],
 "1010": [
     ["EkodaRen", "https://anne-happy.com/wp-content/uploads/2016/02/ch5-1-1.png"],
+    ["TsukinoseVignetteApril", "https://img.moegirl.org.cn/common/a/a8/%E6%9C%88%E4%B9%83%E6%BF%912.jpg"],
     ["MoeDay"]
 ],
 "1011": [
