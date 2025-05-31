@@ -88,6 +88,7 @@ calendars = {
     ["KatakuraKoto", "https://img.moegirl.org.cn/common/thumb/c/cf/%E7%89%87%E4%BB%93%E4%BA%AC5.jpg/420px-%E7%89%87%E4%BB%93%E4%BA%AC5.jpg"],
     ["Shiina", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img03.jpg"]
 ],
+"0218": [["Hibari", "https://senran.tv/images/character/p5.jpg"]],
 "0219": [["YukimuraAoi", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/aoi_stand.png"]],
 "0221": [["GotouHitori", "https://img.moegirl.org.cn/common/thumb/c/c7/Gotou_hitori_goods.jpg/375px-Gotou_hitori_goods.jpg"]],
 "0222": [["KowataMakoto", "https://www.vap.co.jp/flyingwitch/images/character/makoto_body.png"]],
@@ -259,7 +260,10 @@ calendars = {
 "0701": [["NishizumiMaho", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/maho_03.png"]],
 "0702": [["KotobukiTsumugi", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo04.gif"]],
 "0704": [["HatoyaKohane", "http://animayell.com/core_sys/images/main/cont/chara/details_kohane_school.png"]],
-"0707": [["SenjyougaharaHitagi", "https://www.monogatari-series.com/bakemonogatari/chara/images/i01.jpg"]],
+"0707": [
+    ["Ikaruga", "https://senran.tv/images/character/p2.jpg"],
+    ["SenjyougaharaHitagi", "https://www.monogatari-series.com/bakemonogatari/chara/images/i01.jpg"]
+],
 "0709": [["HibarigaokaRuri", "https://anne-happy.com/wp-content/uploads/2016/02/ch2-1-1.png"]],
 "0710": [
     ["KanzakiHideri", "https://blend-s.jp/assets/img/character/chara_05/chara05_1.png"],
@@ -344,6 +348,7 @@ calendars = {
 ],
 "0903": [["KumamakuraKurumi", "https://phantom-world.com/img/character/kurumi.png"]],
 "0907": [["PriscillaBarielle", "http://re-zero-anime.jp/tv/assets/character/c/15c.webp"]],
+"0908": [["Asuka", "https://senran.tv/images/character/p1.jpg"]],
 "0909": [
     ["CirnoDay"],
     ["MidoriHemo", "http://ochifuru-anime.com/images/chara/005/p_002.png"]
@@ -412,6 +417,7 @@ calendars = {
 "1101": [["HoshizoraRin", "https://www.lovelive-anime.jp/otonokizaka/img/member/member05_01.png"]],
 "1102": [["NatsuMegumi", "https://gochiusa.com/core_sys/images/main/cont/chara/megu_body.png"]],
 "1103": [["Noel", "https://sora-no-method.jp/character/img/chara_noel_body.png"]],
+"1105": [["Katsuragi", "https://senran.tv/images/character/p3.jpg"]],
 "1106": [["YoshikawaChinatsu", "https://yuruyuri.com/1st/character/img/detail_chinatsu.jpg"]],
 "1107": [["SuminoeXko", "https://img.moegirl.org.cn/common/a/a1/Suminoe_Ako_Riko.jpg"]],
 "1109": [["TsukiyomiUtau", "https://img.moegirl.org.cn/common/thumb/5/53/Tsukiyomi_Utau2.jpg/420px-Tsukiyomi_Utau2.jpg"]],
@@ -454,7 +460,10 @@ calendars = {
     ["NatsumeNono", "https://img.moegirl.org.cn/common/thumb/0/04/%E4%B9%83%E4%B9%83_I.jpg/420px-%E4%B9%83%E4%B9%83_I.jpg"]
 ],
 "1222": [["EnmaAi", "https://img.moegirl.org.cn/common/7/70/Cute.jpg"]],
-"1223": [["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"]],
+"1223": [
+    ["HoshikawaMafuyu", "https://blend-s.jp/assets/img/character/chara_03/chara03_1.png"],
+    ["Yagyuu", "https://senran.tv/images/character/p4.jpg"]
+],
 "1224": [
     ["AdagakiAki", "https://img.moegirl.org.cn/common/0/0d/Adagakiaki.jpg"],
     ["MikazukiYozora", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img02.jpg"],
