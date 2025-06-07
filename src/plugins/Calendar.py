@@ -36,6 +36,7 @@ calendars = {
     ["SatonakaChie", "https://img.moegirl.org.cn/common/thumb/f/ff/55319988_p0.jpg/420px-55319988_p0.jpg"],
     ["ShinodaHajime", "https://img.moegirl.org.cn/common/thumb/3/31/%E7%AF%A0%E7%94%B0%E5%88%9D%E4%BA%BA%E8%AE%BE%E5%9B%BE.png/675px-%E7%AF%A0%E7%94%B0%E5%88%9D%E4%BA%BA%E8%AE%BE%E5%9B%BE.png"]
 ],
+"0103": [["Homura", "https://senran.tv/images/character/p6.jpg"]],
 "0104": [["MinagiHiyori", "https://img.moegirl.org.cn/common/thumb/5/5f/Minagi_Hiyori_Chara.png/124px-Minagi_Hiyori_Chara.png"]],
 "0107": [["HimeragiYukina", "http://www.strike-the-blood.com/first/imgs/character/chara02.jpg"]],
 "0108": [["ShibasakiKazuha", "https://img.moegirl.org.cn/common/thumb/9/91/Disc_05.jpg/420px-Disc_05.jpg"]],
@@ -77,7 +78,8 @@ calendars = {
 "0206": [["MachiroRima", "https://img.moegirl.org.cn/common/thumb/2/25/Mashiro_Rima.jpg/420px-Mashiro_Rima.jpg"]],
 "0210": [
     ["Louise", "https://img.moegirl.org.cn/common/a/a3/Louise_francis.jpg"],
-    ["MatsuuraKanan", "https://www.lovelive-anime.jp/uranohoshi/img/member/03.png"]
+    ["MatsuuraKanan", "https://www.lovelive-anime.jp/uranohoshi/img/member/03.png"],
+    ["Yomi", "https://senran.tv/images/character/p7.jpg"]
 ],
 "0214": [
     ["ShimotsukiMika", "https://psycho-pass.com/assets/img/character/chara06_d.png"],
@@ -222,7 +224,7 @@ calendars = {
 "0530": [["MiyashitaAi", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c06a.png"]],
 "0601": [["SasameYaya", "https://hanayamata.com/assets/images/profile/chara03_off.png"]],
 "0603": [["SengokuNadeko", "https://www.monogatari-series.com/bakemonogatari/chara/images/i04.jpg"]],
-"0604": [["YagamiHayate", "https://img.moegirl.org.cn/common/thumb/b/b4/Yagami_Hayate.jpg/420px-Yagami_Hayate.jpg"]],
+"0604": [["YagamiHayate", "https://www.nanoha.com/archive2/chara/images/chr_132.gif"]],
 "0606": [
     ["AkiyamaYukari", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/akiyama.png"],
     ["YomokawaAyame", "https://kabaneri.com/assets/img/in/character/c_ayame.png"]
@@ -279,6 +281,7 @@ calendars = {
 "0720": [
     ["AhagonUmiko", "https://img.moegirl.org.cn/common/thumb/f/fa/%E9%98%BF%E6%B3%A2%E6%A0%B9%E6%B5%B7%E5%AD%90C8.png/750px-%E9%98%BF%E6%B3%A2%E6%A0%B9%E6%B5%B7%E5%AD%90C8.png"],
     ["ChloeVonEinzbern", "https://anime.prisma-illya.jp/2wei/character/img/detail_kuro.png"],
+    ["Haruka", "https://senran.tv/images/character/p10.jpg"],
     ["IllyasvielVonEinzbern", "https://anime.prisma-illya.jp/1st/character/img/detail_illya_pose.png"],
     ["MisakiAkeno", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/01_misaki/img_face01.jpg"],
     ["MiyuEdelfelt", "https://anime.prisma-illya.jp/1st/character/img/detail_miyu_pose.png"]
@@ -350,8 +353,9 @@ calendars = {
 "0907": [["PriscillaBarielle", "http://re-zero-anime.jp/tv/assets/character/c/15c.webp"]],
 "0908": [["Asuka", "https://senran.tv/images/character/p1.jpg"]],
 "0909": [
-    ["CirnoDay"],
-    ["MidoriHemo", "http://ochifuru-anime.com/images/chara/005/p_002.png"]
+    ["Hikage", "https://senran.tv/images/character/p8.jpg"],
+    ["MidoriHemo", "http://ochifuru-anime.com/images/chara/005/p_002.png"],
+    ["CirnoDay"]
 ],
 "0910": [["SasakiChiho", "https://maousama.jp/assets/img/character/character03_main.png"]],
 "0912": [["MinamiKotori", "https://www.lovelive-anime.jp/otonokizaka/img/member/member03_01.png"]],
@@ -477,7 +481,10 @@ calendars = {
     ["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]
 ],
 "1226": [["Takao", "https://img.moegirl.org.cn/common/thumb/e/ed/Takao_bucho.jpg/420px-Takao_bucho.jpg"]],
-"1228": [["OnitsukaTomari", "https://www.lovelive-anime.jp/yuigaoka/member/img/c11a.png"]],
+"1228": [
+    ["Mirai", "https://senran.tv/images/character/p9.jpg"],
+    ["OnitsukaTomari", "https://www.lovelive-anime.jp/yuigaoka/member/img/c11a.png"]
+],
 "1231": [["HanakoizumiAnne", "https://anne-happy.com/wp-content/uploads/2016/02/ch1-1-1.png"]],
 }
 
