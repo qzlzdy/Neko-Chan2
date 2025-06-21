@@ -200,6 +200,7 @@ calendars = {
 "0425": [["MinaseKoito", "https://phantom-world.com/img/character/koito.png"]],
 "0427": [["MisakiMei", "https://img.moegirl.org.cn/common/thumb/5/51/1046253.jpg/420px-1046253.jpg"]],
 "0429": [["ElsaGranhiert", "http://re-zero-anime.jp/tv/assets/character/c/17.webp"]],
+"0430": [["SakuragiHinako", "https://hinakonote.jp/assets/character/c1.jpg"]],
 "0501": [
     ["IchiiYui", "https://www.yuyushiki.net/core_sys/images/main/cont/chara/chara2_cos1.jpg"],
     ["ShibuyaKanon", "https://www.lovelive-anime.jp/yuigaoka/member/img/c01b.png"]
@@ -212,6 +213,7 @@ calendars = {
 ],
 "0504": [["KatsukiTsubasa", "https://img.moegirl.org.cn/common/thumb/f/fc/Katsuki_Tsubasa_.jpg/420px-Katsuki_Tsubasa_.jpg"]],
 "0505": [["SakuraNene", "https://img.moegirl.org.cn/common/3/30/Sakura_Nene.jpg"]],
+"0510": [["NakajimaYua", "https://hinakonote.jp/assets/character/c5.jpg"]],
 "0516": [["NarumiTsubame", "https://img.moegirl.org.cn/common/thumb/d/d2/%E9%B8%A3%E6%B5%B7%E7%87%95C11.png/600px-%E9%B8%A3%E6%B5%B7%E7%87%95C11.png"]],
 "0517": [
     ["AobaKazane", "https://img.moegirl.org.cn/common/thumb/1/18/Keijo_kazane.jpg/300px-Keijo_kazane.jpg"],
@@ -279,6 +281,7 @@ calendars = {
 "0704": [["HatoyaKohane", "http://animayell.com/core_sys/images/main/cont/chara/details_kohane_school.png"]],
 "0707": [
     ["Ikaruga", "https://senran.tv/images/character/p2.jpg"],
+    ["NatsukawaKuina", "https://hinakonote.jp/assets/character/c2.jpg"],
     ["SenjyougaharaHitagi", "https://www.monogatari-series.com/bakemonogatari/chara/images/i01.jpg"]
 ],
 "0709": [["HibarigaokaRuri", "https://anne-happy.com/wp-content/uploads/2016/02/ch2-1-1.png"]],
@@ -405,6 +408,7 @@ calendars = {
 "0930": [["YuukiAsuna", "https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png"]],
 "1001": [
     ["CrestiaBell", "https://maousama.jp/assets/img/character/character06_main.png"],
+    ["HaginoChiaki", "https://hinakonote.jp/assets/character/c4.jpg"],
     ["ShimaRin", "https://yurucamp.jp/second/images/chara2_full.png"]
 ],
 "1005": [["MifuneShioriko", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c11a.png"]],
@@ -490,6 +494,7 @@ calendars = {
 ],
 "1224": [
     ["AdagakiAki", "https://img.moegirl.org.cn/common/0/0d/Adagakiaki.jpg"],
+    ["HiiragiMayuki", "https://hinakonote.jp/assets/character/c3.jpg"],
     ["MikazukiYozora", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img02.jpg"],
     ["TachibanaSylphinford", "https://umaru-ani.me/img/character/chara5_stand.png"]
 ],
