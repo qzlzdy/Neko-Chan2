@@ -272,8 +272,8 @@ calendars = {
     ["HoujyouSatoko", "http://www.oyashirosama.com/web/kai/character/img/satoko-bottom.jpg"],
     ["SonodaYuu", "https://www.tbs.co.jp/anime/sakura/chara/images/chara_img02.jpg"]
 ],
-"0625": [["TakanashiNao", "https://img.moegirl.org.cn/common/thumb/f/f9/20150123134448804975.jpg/420px-20150123134448804975.jpg"]],
-"0628": [["IkiHiyori", "https://noragami-anime.net/images_sub/chara_detail2.png"]],
+"0625": [["TakanashiNao", "local"]],
+"0628": [["IkiHiyori", "local"]],
 "0629": [["AsakaKarin", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c05a.png"]],
 "0630": [["YoshinagaKoi", "https://slowlooptv.com/images/chara/p_003.png"]],
 "0701": [["NishizumiMaho", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/maho_03.png"]],
@@ -479,7 +479,10 @@ calendars = {
     ["MiaTaylor", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c12a.png"]
 ],
 "1208": [["NishiKinuyo", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/kinuyo.png"]],
-"1210": [["NaokiMiki", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch04-1.png"]],
+"1210": [
+    ["IzumiSagiri", "https://eromanga-sensei.com/assets/img/character/chara_02.png"],
+    ["NaokiMiki", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch04-1.png"]
+],
 "1212": [["Shiro", "https://img.moegirl.org.cn/common/thumb/2/25/%E7%99%BD.png/420px-%E7%99%BD.png"]],
 "1215": [["KaramaruChitose", "https://img.moegirl.org.cn/common/thumb/e/e8/Karasuma_blu.png/420px-Karasuma_blu.png"]],
 "1216": [
