@@ -70,7 +70,10 @@ calendars = {
     ["KasumigaokaUtaha", "https://img.moegirl.org.cn/common/3/37/Utaha.png"],
     ["Katyusha", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/kacyusya_03.png"]
 ],
-"0201": [["YukimiKoume", "https://www.tbs.co.jp/anime/urara/chara/img/koume_left.png"]],
+"0201": [
+    ["ShiinaMayuri", "http://steinsgate.tv/character/images/img_mayuri.jpg"],
+    ["YukimiKoume", "https://www.tbs.co.jp/anime/urara/chara/img/koume_left.png"]
+],
 "0202": [
     ["Ram", "http://re-zero-anime.jp/tv/assets/character/c/5b.webp"],
     ["Rem", "http://re-zero-anime.jp/tv/assets/character/c/4b.webp"],
@@ -157,6 +160,7 @@ calendars = {
     ["FujikawaKayo", "https://img.moegirl.org.cn/common/thumb/1/16/Charaillust_chara_16030000.png/420px-Charaillust_chara_16030000.png"]
 ],
 "0403": [
+    ["AkihaRumiho", "http://steinsgate.tv/character/images/img_feiris.jpg"],
     ["KurawashiRiko", "https://www.love-lab.tv/chara/img/riko00.jpg?1680924886863"],
     ["OusakaShizuku", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c04a.png"]
 ],
@@ -310,7 +314,10 @@ calendars = {
     ["AkazaAkari", "https://yuruyuri.com/1st/character/img/detail_akari.jpg"],
     ["MiyataSayaka", "https://img.moegirl.org.cn/common/thumb/b/bf/Keijo_sayaka.jpg/300px-Keijo_sayaka.jpg"]
 ],
-"0725": [["ChinaMoeka", "https://www.hai-furi.com/assets_mv/img/chara/06_other/01_china/img_main.png"]],
+"0725": [
+    ["ChinaMoeka", "https://www.hai-furi.com/assets_mv/img/chara/06_other/01_china/img_main.png"],
+    ["MakiseKurisu", "http://steinsgate.tv/character/images/img_chris.jpg"]
+],
 "0728": [
     ["RyuuguuRena", "http://www.oyashirosama.com/web/kai/character/img/rena-bottom.jpg"],
     ["SteinsGate"]
@@ -364,6 +371,7 @@ calendars = {
     ["AsahinaMikuru", "https://img.moegirl.org.cn/common/thumb/3/39/1096%E5%A5%B3%E4%BB%86%E8%A3%85.jpg/450px-1096%E5%A5%B3%E4%BB%86%E8%A3%85.jpg"],
     ["HondaTamaki", "http://www.dokidokivisual.com/magic_of_stella/img/banner/banner_kari_anim_l.jpg"]
 ],
+"0830": [["UrushibaraRuka", "http://steinsgate.tv/character/images/img_ruka.jpg"]],
 "0831": [["HatsuneMiku", "https://ec.crypton.co.jp/img/special/vocaloid/img_MIKU_us.png"]],
 "0901": [["ReizeiMako", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/mako.png"]],
 "0902": [
@@ -400,6 +408,7 @@ calendars = {
 ],
 "0924": [["HinamoriAmu", "https://img.moegirl.org.cn/common/thumb/9/92/Hinamori_Amu.jpg/420px-Hinamori_Amu.jpg"]],
 "0926": [["DomaUmaru", "https://umaru-ani.me/img/character/chara1_stand.png"]],
+"0927": [["AmaneSuzuha", "http://steinsgate.tv/character/images/img_suzuha.jpg"]],
 "0928": [
     ["HeannaSumire", "https://www.lovelive-anime.jp/yuigaoka/member/img/c04b.png"],
     ["KunizukaYayoi", "https://psycho-pass.com/assets/img/character/chara04_d.png"],
@@ -442,7 +451,10 @@ calendars = {
     ["YonemeMei", "https://www.lovelive-anime.jp/yuigaoka/member/img/c07a.png"]
 ],
 "1101": [["HoshizoraRin", "https://www.lovelive-anime.jp/otonokizaka/img/member/member05_01.png"]],
-"1102": [["NatsuMegumi", "https://gochiusa.com/core_sys/images/main/cont/chara/megu_body.png"]],
+"1102": [
+    ["HiyajyouMaho", "https://steinsgate0-anime.com/wp-content/themes/steinsgate/img/index/img_charamain09_1.png"],
+    ["NatsuMegumi", "https://gochiusa.com/core_sys/images/main/cont/chara/megu_body.png"]
+],
 "1103": [["Noel", "https://sora-no-method.jp/character/img/chara_noel_body.png"]],
 "1105": [["Katsuragi", "https://senran.tv/images/character/p3.jpg"]],
 "1106": [["YoshikawaChinatsu", "https://yuruyuri.com/1st/character/img/detail_chinatsu.jpg"]],
