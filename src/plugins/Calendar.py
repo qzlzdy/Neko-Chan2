@@ -146,13 +146,17 @@ calendars = {
     ["SawamuraSpencerEriri", "https://img.moegirl.org.cn/common/3/36/Eriri_Spencer_Sawamura.png"]
 ],
 "0324": [["NarukaraFukune", "https://img.moegirl.org.cn/common/thumb/c/ca/Fukune_Narukara-2.jpg/420px-Fukune_Narukara-2.jpg"]],
-"0325": [["ShibaMiyuki", "https://mahouka.jp/1st/img/character/c_img_2_l.png"]],
+"0325": [
+    ["LiMeiling", "local"],
+    ["ShibaMiyuki", "https://mahouka.jp/1st/img/character/c_img_2_l.png"]
+],
 "0326": [["HanasakaWarabi", "local"]],
 "0328": [["ToshinouKyouko", "https://yuruyuri.com/1st/character/img/detail_kyoko.jpg"]],
 "0331": [["SonouMomoka", "https://img.moegirl.org.cn/common/thumb/8/8f/%E8%8B%91%E7%94%9F%E7%99%BE%E8%8A%B16.jpeg/420px-%E8%8B%91%E7%94%9F%E7%99%BE%E8%8A%B16.jpeg"]],
 "0401": [
     ["HagyuuHibiki", "https://anne-happy.com/wp-content/uploads/2016/02/ch4-1-1.png"],
     ["JulieSigtuna", "https://img.moegirl.org.cn/common/thumb/1/1a/Julie_sigtuna.jpg/420px-Julie_sigtuna.jpg"],
+    ["KinomotoSakura", "local"],
     ["TsunemoriAkane", "https://psycho-pass.com/assets/img/character/chara01_d.png"]
 ],
 "0402": [
@@ -323,7 +327,7 @@ calendars = {
     ["SteinsGate"]
 ],
 "0801": [
-    ["Aqua", "http://konosuba.com/3rd/character/img/aqua.png"],
+    ["Aqua", "local"],
     ["Hanyuu", "http://www.oyashirosama.com/web/kai/character/img/hanyu-bottom.jpg"],
     ["Nanami", "https://img.moegirl.org.cn/common/5/52/Nanami_gaworare.gif"],
     ["TakamiChika", "https://www.lovelive-anime.jp/uranohoshi/img/member/01.png"]
@@ -333,7 +337,7 @@ calendars = {
 ],
 "0803": [
     ["AmatsumeAkira", "https://img.moegirl.org.cn/common/6/6c/Akira_and_cat.jpeg"],
-    ["ItsukaKotori", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_kotori.png"],
+    ["ItsukaKotori", "local"],
     ["KousakaHonoka", "https://www.lovelive-anime.jp/otonokizaka/img/member/member01_01.png"],
     ["MigiwaKazuha", "https://img.moegirl.org.cn/common/5/54/%E6%B8%9A%E4%B8%80%E5%8F%B6%E5%B0%8F%E6%8F%90%E7%90%B4.jpeg"]
 ],
@@ -378,7 +382,10 @@ calendars = {
     ["MahougasawaAkane", "https://img.moegirl.org.cn/common/b/bd/Akane_gaworare.png"],
     ["ToyoguchiNon", "https://img.moegirl.org.cn/common/thumb/f/f2/Keijo_non.jpg/300px-Keijo_non.jpg"]
 ],
-"0903": [["KumamakuraKurumi", "https://phantom-world.com/img/character/kurumi.png"]],
+"0903": [
+    ["DaidoujiTomoyo", "local"],
+    ["KumamakuraKurumi", "https://phantom-world.com/img/character/kurumi.png"]
+],
 "0907": [["PriscillaBarielle", "http://re-zero-anime.jp/tv/assets/character/c/15c.webp"]],
 "0908": [["Asuka", "https://senran.tv/images/character/p1.jpg"]],
 "0909": [
