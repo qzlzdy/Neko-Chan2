@@ -123,6 +123,7 @@ calendars = {
     ["SetoSun", "https://www.tv-tokyo.co.jp/contents/setohana/images/chara_san.jpg"],
     ["SuouAmane", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000004/base/001.png"]
 ],
+"0305": [["Compilation"]],
 "0304": [
     ["KagamiharaNadeshiko", "https://yurucamp.jp/first/images/chara_list1.png"],
     ["KunikidaHanamaru", "https://www.lovelive-anime.jp/uranohoshi/img/member/07.png"]
