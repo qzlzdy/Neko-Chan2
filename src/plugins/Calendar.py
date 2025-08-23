@@ -354,8 +354,7 @@ calendars = {
 "0817": [["KokonoeRin", "https://www.kojika-anime.com/img/chara_01_all.jpg"]],
 "0818": [["MiyafujiYoshika", "http://w-witch.jp/s-witch/pc/chara/img/chara-miya-main.jpg"]],
 "0819": [
-    ["AmouKirukiru", "local"],
-    ["TaiyouAkari", "https://www.geneitaiyo.com/character/img/main/akari.png"]
+    ["Compilation"],
 ],
 "0820": [["InokumaYouko", "http://www.kinmosa.com/series/images/s2character/c4.png"]],
 "0821": [
@@ -379,6 +378,7 @@ calendars = {
     ["DaidoujiTomoyo", "local"],
     ["KumamakuraKurumi", "https://phantom-world.com/img/character/kurumi.png"]
 ],
+"0906": [["Compilation"]],
 "0907": [["PriscillaBarielle", "http://re-zero-anime.jp/tv/assets/character/c/15c.webp"]],
 "0908": [["Asuka", "https://senran.tv/images/character/p1.jpg"]],
 "0909": [
@@ -394,6 +394,7 @@ calendars = {
     ["KoshigayaKomari", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/komari/ph_front_01.png"]
 ],
 "0915": [["KomichiAya", "http://kinmosa.com/assets/character/c/3.png"]],
+"0916": [["Compilation"]],
 "0917": [["Darjeeling", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/drgilin_03.png"]],
 "0919": [
     ["SakurauchiRiko", "https://www.lovelive-anime.jp/uranohoshi/img/member/02.png"],
@@ -423,6 +424,7 @@ calendars = {
     ["HaginoChiaki", "https://hinakonote.jp/assets/character/c4.jpg"],
     ["ShimaRin", "https://yurucamp.jp/second/images/chara2_full.png"]
 ],
+"1004": [["Compilation"]],
 "1005": [["MifuneShioriko", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c11a.png"]],
 "1006": [["Izetta", "https://img.moegirl.org.cn/common/thumb/f/f0/Izetta2.jpg/420px-Izetta2.jpg"]],
 "1008": [["SuzumiyaHaruhi", "https://img.moegirl.org.cn/common/f/fd/Haruhi_Suzumiya_.jpg"]],
@@ -449,6 +451,7 @@ calendars = {
     ["EmiliaJustina", "https://maousama.jp/assets/img/character/character02_main.png"],
     ["MamiyaAkari", "http://ariaaa.tv/character/images/img_chara-1.png"]
 ],
+"1027": [["Compilation"]],
 "1029": [
     ["ShiretokoRin", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/06_shiretoko/img_main.png"],
     ["YonemeMei", "https://www.lovelive-anime.jp/yuigaoka/member/img/c07a.png"]
@@ -468,7 +471,7 @@ calendars = {
     ["KuraueHinata", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/hinata_stand.png"],
     ["TobiichiOrigami", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_origami.png"]
 ],
-"1113": [["TennoujiRina", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c10.png"]],
+"1113": [["Compilation"]],
 "1118": [
     ["NagatoYuki", "https://img.moegirl.org.cn/common/thumb/4/4b/Nagato_Yuki2.jpg/420px-Nagato_Yuki2.jpg"],
     ["TsukiyomiRuna", "https://www.geneitaiyo.com/character/img/main/luna.png"]
