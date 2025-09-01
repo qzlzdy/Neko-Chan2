@@ -12,8 +12,8 @@ import sqlite3
 import urllib
 from nonebot import on_command
 from nonebot_plugin_apscheduler import scheduler
-from nonebot.adapters.mirai2.message import MessageSegment
-from nonebot.adapters.mirai2.message import MessageChain
+from nonebot.adapters.onebot.v11.message import MessageSegment
+from nonebot.adapters.onebot.v11.message import Message
 from ..utils import ASSETS_ROOT
 from ..utils import sendFriendMessage
 from ..config import USERNAME
@@ -44,10 +44,8 @@ async def sendSetu():
         img.save(buf, format="png")
         buf = buf.getvalue()
         buf = base64.b64encode(buf)
-        await sendFriendMessage(419286376, MessageChain([
-            MessageSegment.image(
-                base64=str(buf, "utf-8")
-            ),
-            MessageSegment.plain(str(illust_id))
+        await sendFriendMessage(419286376, Message([
+            MessageSegment.image("base64://" + str(buf, "utf-8")),
+            MessageSegment.text(str(illust_id))
         ]))
     db.close()

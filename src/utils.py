@@ -10,11 +10,11 @@ GroupId = [GROUP_TOKYO, GROUP_YANGV]
 
 async def sendFriendMessage(friend_id, message):
     bot = get_bot()
-    await bot.send_friend_message(target=friend_id, message_chain=message)
+    await bot.send_private_msg(user_id=friend_id, message=message)
 
 async def sendGroupMessage(group_id, message):
     bot = get_bot()
-    await bot.send_group_message(target=group_id, message_chain=message)
+    await bot.send_group_msg(group_id=group_id, message=message)
 
 async def sendNotice(desc):
     for group_id in GroupId:

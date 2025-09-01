@@ -8,8 +8,8 @@ roulette = on_command("俄罗斯转盘")
 async def russianRoulette_handler(event: Event):
     bot = get_bot()
     groupId = event.get_session_id().split("_")[1]
-    memberList = await bot.member_list(target=groupId)
-    memberList = [mb["id"] for mb in memberList["data"]]
+    memberList = await bot.get_group_member_list(group_id=groupId)
+    memberList = [mb["user_id"] for mb in memberList]
     luckGuy = memberList[randint(0, len(memberList) - 1)]
     await roulette.send("随机挑选一名幸运群友禁言")
-    await bot.mute(target=groupId, member_id=luckGuy, time=randint(60, 600))
+    await bot.set_group_ban(group_id=groupId, user_id=luckGuy, duration=randint(60, 600))

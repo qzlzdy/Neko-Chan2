@@ -6,8 +6,8 @@ import base64
 import time
 from nonebot import on_command
 from nonebot_plugin_apscheduler import scheduler
-from nonebot.adapters.mirai2.message import MessageChain
-from nonebot.adapters.mirai2.message import MessageSegment
+from nonebot.adapters.onebot.v11.message import Message
+from nonebot.adapters.onebot.v11.message import MessageSegment
 from ..utils import ASSETS_ROOT
 from ..utils import sendNotice
 
@@ -18,23 +18,23 @@ async def sendCalendarNote(date, character, url=None):
     with open(f"{basename}.txt", "r") as f:
         desc = f.read()
     if url is None:
-        await sendNotice(MessageChain([MessageSegment.plain(desc)]))
+        await sendNotice(Message([MessageSegment.plain(desc)]))
     elif url == "local":
         with open(f"{basename}.png", "rb") as infile:
             buf = base64.b64encode(infile)
-        await sendNotice(MessageChain([
-            MessageSegment.plain(desc),
-            MessageSegment.image(base64=str(buf, "utf-8"))
+        await sendNotice(Message([
+            MessageSegment.text(desc),
+            MessageSegment.image("base64://" + str(buf, "utf-8"))
         ]))
     else:
         try:
-            await sendNotice(MessageChain([
-                MessageSegment.plain(desc),
-                MessageSegment.image(url=url)
+            await sendNotice(Message([
+                MessageSegment.text(desc),
+                MessageSegment.image(url)
             ]))
         except:
             print("get image failed")
-            await sendNotice(MessageChain([MessageSegment.plain(desc)]))
+            await sendNotice(Message([MessageSegment.text(desc)]))
 
 calendars = {
 "0101": [
@@ -555,7 +555,7 @@ async def OnanieDay():
         desc = f.read()
     infile = open(f"{ASSETS_ROOT}/0721.jpg", "rb").read()
     buf = base64.b64encode(infile)
-    await sendNotice(MessageChain([
-        MessageSegment.plain(desc),
-        MessageSegment.image(base64=str(buf, "utf-8"))
+    await sendNotice(Message([
+        MessageSegment.text(desc),
+        MessageSegment.image("base64://" + str(buf, "utf-8"))
     ]))
