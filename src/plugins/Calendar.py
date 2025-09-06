@@ -18,7 +18,7 @@ async def sendCalendarNote(date, character, url=None):
     with open(f"{basename}.txt", "r") as f:
         desc = f.read()
     if url is None:
-        await sendNotice(Message([MessageSegment.plain(desc)]))
+        await sendNotice(Message([MessageSegment.text(desc)]))
     elif url == "local":
         with open(f"{basename}.png", "rb") as infile:
             buf = base64.b64encode(infile)
@@ -37,13 +37,7 @@ async def sendCalendarNote(date, character, url=None):
             await sendNotice(Message([MessageSegment.text(desc)]))
 
 calendars = {
-"0101": [
-    ["IchinoseHaru", "https://img.moegirl.org.cn/common/8/8b/Yizhilaiqing_01.png"],
-    ["KadotaniAnzu", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/sumitani.png"],
-    ["KurozawaDia", "https://www.lovelive-anime.jp/uranohoshi/img/member/04.png"],
-    ["SatonakaChie", "https://img.moegirl.org.cn/common/thumb/f/ff/55319988_p0.jpg/420px-55319988_p0.jpg"],
-    ["ShinodaHajime", "https://img.moegirl.org.cn/common/thumb/3/31/%E7%AF%A0%E7%94%B0%E5%88%9D%E4%BA%BA%E8%AE%BE%E5%9B%BE.png/675px-%E7%AF%A0%E7%94%B0%E5%88%9D%E4%BA%BA%E8%AE%BE%E5%9B%BE.png"]
-],
+"0101": [["Compilation"]],
 "0103": [["Homura", "https://senran.tv/images/character/p6.jpg"]],
 "0104": [["MinagiHiyori", "https://img.moegirl.org.cn/common/thumb/5/5f/Minagi_Hiyori_Chara.png/124px-Minagi_Hiyori_Chara.png"]],
 "0107": [["HimeragiYukina", "http://www.strike-the-blood.com/first/imgs/character/chara02.jpg"]],
@@ -353,9 +347,7 @@ calendars = {
 "0815": [["KurumizawaSatanichiaMcDowell", "https://img.moegirl.org.cn/common/2/25/Gabriel_Dropout_Vol3.jpg"]],
 "0817": [["KokonoeRin", "https://www.kojika-anime.com/img/chara_01_all.jpg"]],
 "0818": [["MiyafujiYoshika", "http://w-witch.jp/s-witch/pc/chara/img/chara-miya-main.jpg"]],
-"0819": [
-    ["Compilation"],
-],
+"0819": [["Compilation"]],
 "0820": [["InokumaYouko", "http://www.kinmosa.com/series/images/s2character/c4.png"]],
 "0821": [
     ["FurudeRika", "http://www.oyashirosama.com/web/kai/character/img/rika-bottom.jpg"],
@@ -374,10 +366,7 @@ calendars = {
     ["MahougasawaAkane", "https://img.moegirl.org.cn/common/b/bd/Akane_gaworare.png"],
     ["ToyoguchiNon", "https://img.moegirl.org.cn/common/thumb/f/f2/Keijo_non.jpg/300px-Keijo_non.jpg"]
 ],
-"0903": [
-    ["DaidoujiTomoyo", "local"],
-    ["KumamakuraKurumi", "https://phantom-world.com/img/character/kurumi.png"]
-],
+"0903": [["Compilation"]],
 "0906": [["Compilation"]],
 "0907": [["PriscillaBarielle", "http://re-zero-anime.jp/tv/assets/character/c/15c.webp"]],
 "0908": [["Asuka", "https://senran.tv/images/character/p1.jpg"]],
@@ -478,7 +467,7 @@ calendars = {
 ],
 "1122": [["KoiwaiYoshino", "https://img.moegirl.org.cn/common/a/a5/Koiwai_Yoshino_2023.jpg"]],
 "1124": [["HazukiRen", "https://www.lovelive-anime.jp/yuigaoka/member/img/c05a.png"]],
-"1125": [["KikakujyouMeari", "local"]],
+"1125": [["Compilation"]],
 "1127": [["HirasawaYui", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo01_1.gif"]],
 "1129": [["ShichijyouAria", "https://king-cr.jp/special/seitokai/images/s-council/aria.gif"]],
 "1130": [["Mika", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/mika.png"]],
