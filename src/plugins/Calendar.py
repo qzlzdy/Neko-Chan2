@@ -53,10 +53,7 @@ calendars = {
     ["KoizumiHanayo", "https://www.lovelive-anime.jp/otonokizaka/img/member/member08_01.png"],
     ["MochizukiMomiji", "https://img.moegirl.org.cn/common/thumb/6/62/%E6%9C%9B%E6%9C%88%E7%BA%A2%E5%8F%B6C10.png/600px-%E6%9C%9B%E6%9C%88%E7%BA%A2%E5%8F%B6C10.png"]
 ],
-"0123": [
-    ["NakasuKasumi", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c03a.png"],
-    ["TakimotoHifumi", "https://img.moegirl.org.cn/common/thumb/d/db/%E6%B3%B7%E6%9C%AC%E6%97%A5%E5%AF%8C%E7%BE%8E.png/750px-%E6%B3%B7%E6%9C%AC%E6%97%A5%E5%AF%8C%E7%BE%8E.png"]
-],
+"0123": [["Compilation"]],
 "0124": [["Echidna", "http://re-zero-anime.jp/tv/assets/character/c/25.png"]],
 "0127": [["NaruseMio", "https://img.moegirl.org.cn/common/thumb/f/f0/%E6%88%90%E6%BF%91%E6%BE%AA.jpg/420px-%E6%88%90%E6%BF%91%E6%BE%AA.jpg"]],
 "0128": [["IrizakiMei", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/04_irizaki/img_face03.jpg"]],
@@ -93,7 +90,7 @@ calendars = {
     ["ShimotsukiMika", "https://psycho-pass.com/assets/img/character/chara06_d.png"],
     ["TedezaRize", "https://gochiusa.com/core_sys/images/main/cont/chara/rize_body.png"]
 ],
-"0215": [["ZhongLanzhu", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c13a.png"]],
+"0215": [["Compilation"]],
 "0217": [
     ["KatakuraKoto", "https://img.moegirl.org.cn/common/thumb/c/cf/%E7%89%87%E4%BB%93%E4%BA%AC5.jpg/420px-%E7%89%87%E4%BB%93%E4%BA%AC5.jpg"],
     ["Shiina", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img03.jpg"]
@@ -419,6 +416,7 @@ calendars = {
     ["LoliDay"]
 ],
 "1014": [["KawakamiMai", "https://phantom-world.com/img/character/mai.png"]],
+"1015": [["Compilation"]],
 "1018": [["HasegawaKobato", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img06.jpg"]],
 "1019": [["EbinaNana", "https://umaru-ani.me/img/character/chara3_stand.png"]],
 "1020": [["Compilation"]],
