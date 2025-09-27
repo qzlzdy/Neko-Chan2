@@ -125,7 +125,7 @@ calendars = {
     ["AnastasiaHoshin", "https://img.moegirl.org.cn/common/4/4f/%E3%82%A2%E3%83%8A%E3%82%B9%E3%82%BF%E3%82%B7%E3%82%A2%E3%83%9B%E3%83%BC%E3%82%B7%E3%83%B3.png"],
     ["SatenRuiko", "https://toaru-project.com/railgun_t/core_sys/images/main/cont_chara/11_body.png"]
 ],
-"0312": [["KaminashiNozomi", "https://img.moegirl.org.cn/common/thumb/0/03/Keijo_nozomi.jpg/300px-Keijo_nozomi.jpg"]],
+"0312": [["Compilation"]],
 "0314": [["Elusia", "https://web.archive.org/web/20240213052037im_/https://www.tv-tokyo.co.jp/contents/kaminomi/images/chara_02.png"]],
 "0315": [
     ["MotobaKirie", "https://umaru-ani.me/img/character/chara4_stand.png"],
@@ -216,6 +216,7 @@ calendars = {
     ["HoshikawaSeira", "https://www.geneitaiyo.com/character/img/main/seira.png"]
 ],
 "0519": [["KashiwazakiSena", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img03.jpg"]],
+"0520": [["Compilation"]],
 "0524": [["NishiYuuko", "https://www.a-ch.jp/character/img/ch03.jpg"]],
 "0525": [
     ["KaranomoriShion", "https://psycho-pass.com/assets/img/character/chara05_d.png"],
@@ -285,14 +286,7 @@ calendars = {
 "0713": [["TsushimaYoshiko", "https://www.lovelive-anime.jp/uranohoshi/img/member/06.png"]],
 "0715": [["KirimaSharo", "https://gochiusa.com/core_sys/images/main/cont/chara/syaro_body.png"]],
 "0717": [["Compilation"]],
-"0720": [
-    ["AhagonUmiko", "local"],
-    ["ChloeVonEinzbern", "https://anime.prisma-illya.jp/2wei/character/img/detail_kuro.png"],
-    ["Haruka", "https://senran.tv/images/character/p10.jpg"],
-    ["IllyasvielVonEinzbern", "https://anime.prisma-illya.jp/1st/character/img/detail_illya_pose.png"],
-    ["MisakiAkeno", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/01_misaki/img_face01.jpg"],
-    ["MiyuEdelfelt", "https://anime.prisma-illya.jp/1st/character/img/detail_miyu_pose.png"]
-],
+"0720": [["Compilation"]],
 "0722": [["YazawaNiko", "https://www.lovelive-anime.jp/otonokizaka/img/member/member09_01.png"]],
 "0723": [["SekiAyame", "local"]],
 "0724": [
@@ -303,6 +297,7 @@ calendars = {
     ["ChinaMoeka", "https://www.hai-furi.com/assets_mv/img/chara/06_other/01_china/img_main.png"],
     ["MakiseKurisu", "http://steinsgate.tv/character/images/img_chris.jpg"]
 ],
+"0727": [["Compilation"]],
 "0728": [
     ["RyuuguuRena", "http://www.oyashirosama.com/web/kai/character/img/rena-bottom.jpg"],
     ["SteinsGate"]
