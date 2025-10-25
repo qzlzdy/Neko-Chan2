@@ -174,7 +174,7 @@ calendars = {
     ["LalatinaFordDustiness", "http://konosuba.com/3rd/character/img/darkness.png"]
 ],
 "0407": [["SakuragaokaNanami", "https://img.moegirl.org.cn/common/thumb/2/25/%E6%A8%B1%E4%B8%98%E4%B8%83%E6%B5%B76.jpeg/420px-%E6%A8%B1%E4%B8%98%E4%B8%83%E6%B5%B76.jpeg"]],
-"0408": [["KousakaKirino", "https://www.oreimo-anime.com/1st/chara/img/chara01.jpg"]],
+"0408": [["Compilation"]],
 "0410": [
     ["HotoKokoa", "https://gochiusa.com/core_sys/images/main/cont/chara/cocoa_body.png"],
     ["SakurakoujiKinako", "https://www.lovelive-anime.jp/yuigaoka/member/img/c06b.png"],
@@ -211,10 +211,7 @@ calendars = {
 "0505": [["SakuraNene", "https://img.moegirl.org.cn/common/3/30/Sakura_Nene.jpg"]],
 "0510": [["NakajimaYua", "https://hinakonote.jp/assets/character/c5.jpg"]],
 "0516": [["NarumiTsubame", "https://img.moegirl.org.cn/common/thumb/d/d2/%E9%B8%A3%E6%B5%B7%E7%87%95C11.png/600px-%E9%B8%A3%E6%B5%B7%E7%87%95C11.png"]],
-"0517": [
-    ["AobaKazane", "https://img.moegirl.org.cn/common/thumb/1/18/Keijo_kazane.jpg/300px-Keijo_kazane.jpg"],
-    ["HoshikawaSeira", "https://www.geneitaiyo.com/character/img/main/seira.png"]
-],
+"0517": [["Compilation"]],
 "0519": [["KashiwazakiSena", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img03.jpg"]],
 "0520": [["Compilation"]],
 "0524": [["NishiYuuko", "https://www.a-ch.jp/character/img/ch03.jpg"]],
@@ -386,24 +383,15 @@ calendars = {
     ["TennojiNagisa", "https://www.a-ch.jp/character/img/ch04.jpg"]
 ],
 "0927": [["AmaneSuzuha", "http://steinsgate.tv/character/images/img_suzuha.jpg"]],
-"0928": [
-    ["HeannaSumire", "https://www.lovelive-anime.jp/yuigaoka/member/img/c04b.png"],
-    ["KunizukaYayoi", "https://psycho-pass.com/assets/img/character/chara04_d.png"],
-    ["YoshidaYuuko", "https://www.tbs.co.jp/anime/machikado/1st/character/img/chara_img_01.png"]
-],
+"0928": [["Compilation"]],
 "0930": [["YuukiAsuna", "https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png"]],
-"1001": [
-    ["CrestiaBell", "https://maousama.jp/assets/img/character/character06_main.png"],
-    ["HaginoChiaki", "https://hinakonote.jp/assets/character/c4.jpg"],
-    ["ShimaRin", "https://yurucamp.jp/second/images/chara2_full.png"]
-],
+"1001": [["Compilation"]],
 "1004": [["Compilation"]],
 "1005": [["MifuneShioriko", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c11a.png"]],
 "1006": [["Izetta", "https://img.moegirl.org.cn/common/thumb/f/f0/Izetta2.jpg/420px-Izetta2.jpg"]],
 "1008": [["SuzumiyaHaruhi", "https://img.moegirl.org.cn/common/f/fd/Haruhi_Suzumiya_.jpg"]],
 "1010": [
-    ["EkodaRen", "https://anne-happy.com/wp-content/uploads/2016/02/ch5-1-1.png"],
-    ["TsukinoseVignetteApril", "https://img.moegirl.org.cn/common/a/a8/%E6%9C%88%E4%B9%83%E6%BF%912.jpg"],
+    ["Compilation"],
     ["MoeDay"]
 ],
 "1011": [
@@ -418,13 +406,10 @@ calendars = {
 "1021": [["Compilation"]],
 "1023": [["NishizumiMiho", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/miho.png"]],
 "1024": [
-    ["ProgrammerDay"],
+    ["1024Day"],
     ["ShimadaArisu", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/arisu.png"]
 ],
-"1025": [
-    ["EmiliaJustina", "https://maousama.jp/assets/img/character/character02_main.png"],
-    ["MamiyaAkari", "http://ariaaa.tv/character/images/img_chara-1.png"]
-],
+"1025": [["Compilation"]],
 "1027": [["Compilation"]],
 "1029": [
     ["ShiretokoRin", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/06_shiretoko/img_main.png"],
