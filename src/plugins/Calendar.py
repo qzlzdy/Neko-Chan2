@@ -384,6 +384,7 @@ calendars = {
 ],
 "0927": [["AmaneSuzuha", "http://steinsgate.tv/character/images/img_suzuha.jpg"]],
 "0928": [["Compilation"]],
+"0929": [["Compilation"]],
 "0930": [["YuukiAsuna", "https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png"]],
 "1001": [["Compilation"]],
 "1004": [["Compilation"]],
@@ -411,15 +412,10 @@ calendars = {
 ],
 "1025": [["Compilation"]],
 "1027": [["Compilation"]],
-"1029": [
-    ["ShiretokoRin", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/06_shiretoko/img_main.png"],
-    ["YonemeMei", "https://www.lovelive-anime.jp/yuigaoka/member/img/c07a.png"]
-],
+"1028": [["Compilation"]],
+"1029": [["Compilation"]],
 "1101": [["HoshizoraRin", "https://www.lovelive-anime.jp/otonokizaka/img/member/member05_01.png"]],
-"1102": [
-    ["HiyajyouMaho", "https://steinsgate0-anime.com/wp-content/themes/steinsgate/img/index/img_charamain09_1.png"],
-    ["NatsuMegumi", "https://gochiusa.com/core_sys/images/main/cont/chara/megu_body.png"]
-],
+"1102": [["Compilation"]],
 "1103": [["Noel", "https://sora-no-method.jp/character/img/chara_noel_body.png"]],
 "1105": [["Katsuragi", "https://senran.tv/images/character/p3.jpg"]],
 "1106": [["YoshikawaChinatsu", "https://yuruyuri.com/1st/character/img/detail_chinatsu.jpg"]],
