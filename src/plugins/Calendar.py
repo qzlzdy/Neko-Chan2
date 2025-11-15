@@ -147,10 +147,7 @@ calendars = {
 "0328": [["ToshinouKyouko", "https://yuruyuri.com/1st/character/img/detail_kyoko.jpg"]],
 "0331": [["SonouMomoka", "https://img.moegirl.org.cn/common/thumb/8/8f/%E8%8B%91%E7%94%9F%E7%99%BE%E8%8A%B16.jpeg/420px-%E8%8B%91%E7%94%9F%E7%99%BE%E8%8A%B16.jpeg"]],
 "0401": [["Compilation"]],
-"0402": [
-    ["Chiya", "https://img.moegirl.org.cn/common/thumb/3/3e/%E5%8D%83%E7%9F%A2_I.jpg/420px-%E5%8D%83%E7%9F%A2_I.jpg"],
-    ["FujikawaKayo", "https://img.moegirl.org.cn/common/thumb/1/16/Charaillust_chara_16030000.png/420px-Charaillust_chara_16030000.png"]
-],
+"0402": [["Compilation"]],
 "0403": [
     ["AkihaRumiho", "http://steinsgate.tv/character/images/img_feiris.jpg"],
     ["KurawashiRiko", "https://www.love-lab.tv/chara/img/riko00.jpg?1680924886863"],
@@ -201,12 +198,7 @@ calendars = {
     ["IchiiYui", "https://www.yuyushiki.net/core_sys/images/main/cont/chara/chara2_cos1.jpg"],
     ["ShibuyaKanon", "https://www.lovelive-anime.jp/yuigaoka/member/img/c01b.png"]
 ],
-"0502": [
-    ["MisakaMikoto", "https://toaru-project.com/railgun/core_sys/images/contents/00000004/base/001.jpg?1615808050"],
-    ["AragakiAyase", "https://www.oreimo-anime.com/1st/chara/img/chara06.jpg"],
-    ["HanaNFountainstand", "https://hanayamata.com/assets/images/profile/chara02_off.png"],
-    ["OdagiriFutaba", "https://img.moegirl.org.cn/common/thumb/6/6b/Odagiri_Futaba.jpg/276px-Odagiri_Futaba.jpg"]
-],
+"0502": [["Compilation"]],
 "0504": [["KatsukiTsubasa", "https://img.moegirl.org.cn/common/thumb/f/fc/Katsuki_Tsubasa_.jpg/420px-Katsuki_Tsubasa_.jpg"]],
 "0505": [["SakuraNene", "https://img.moegirl.org.cn/common/3/30/Sakura_Nene.jpg"]],
 "0510": [["NakajimaYua", "https://hinakonote.jp/assets/character/c5.jpg"]],
@@ -314,7 +306,7 @@ calendars = {
     ["KousakaHonoka", "https://www.lovelive-anime.jp/otonokizaka/img/member/member01_01.png"],
     ["MigiwaKazuha", "https://img.moegirl.org.cn/common/5/54/%E6%B8%9A%E4%B8%80%E5%8F%B6%E5%B0%8F%E6%8F%90%E7%90%B4.jpeg"]
 ],
-"0805": [["TateishiShima", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/03_tateishi/img_face02.jpg"]],
+"0805": [["Compilation"]],
 "0807": [
     ["EbisuzawaKurumi", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch02-1.png"],
     ["OnitsukaNatsumi", "https://www.lovelive-anime.jp/yuigaoka/member/img/c09b.png"]
@@ -399,6 +391,7 @@ calendars = {
     ["WakasaYuuri", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch03-1.png"],
     ["LoliDay"]
 ],
+"1012": [["Compilation"]],
 "1014": [["KawakamiMai", "https://phantom-world.com/img/character/mai.png"]],
 "1015": [["Compilation"]],
 "1018": [["HasegawaKobato", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img06.jpg"]],
