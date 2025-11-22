@@ -38,7 +38,7 @@ async def sendCalendarNote(date, character, url=None):
 
 calendars = {
 "0101": [["Compilation"]],
-"0103": [["Homura", "https://senran.tv/images/character/p6.jpg"]],
+"0103": [["Compilation"]],
 "0104": [["MinagiHiyori", "https://img.moegirl.org.cn/common/thumb/5/5f/Minagi_Hiyori_Chara.png/124px-Minagi_Hiyori_Chara.png"]],
 "0107": [["HimeragiYukina", "http://www.strike-the-blood.com/first/imgs/character/chara02.jpg"]],
 "0108": [["ShibasakiKazuha", "https://img.moegirl.org.cn/common/thumb/9/91/Disc_05.jpg/420px-Disc_05.jpg"]],
@@ -65,12 +65,7 @@ calendars = {
     ["ShiinaMayuri", "http://steinsgate.tv/character/images/img_mayuri.jpg"],
     ["YukimiKoume", "https://www.tbs.co.jp/anime/urara/chara/img/koume_left.png"]
 ],
-"0202": [
-    ["Ram", "http://re-zero-anime.jp/tv/assets/character/c/5b.webp"],
-    ["Rem", "http://re-zero-anime.jp/tv/assets/character/c/4b.webp"],
-    ["SuzukazeAoba", "https://img.moegirl.org.cn/common/9/95/%E5%87%89%E9%A3%8E%E9%9D%92%E5%8F%B6%E4%BA%BA%E8%AE%BE%E5%9B%BE.png"],
-    ["TsutsukakushiTsukiko", "http://www.henneko.jp/character/img/p_tsukiko.png"]
-],
+"0202": [["Compilation"]],
 "0203": [
     ["OnigawaraRin", "local"],
     ["TohsakaRin", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_003.gif"]
@@ -179,6 +174,7 @@ calendars = {
 ],
 "0411": [["AmanoSaki", "https://www.tv-tokyo.co.jp/contents/kanamemo/chara/images/chara_02.jpg"]],
 "0412": [["SawatariUki", "http://animayell.com/core_sys/images/main/cont/chara/main_uki.png"]],
+"0415": [["Compilation"]],
 "0417": [["WatanabeYou", "https://www.lovelive-anime.jp/uranohoshi/img/member/05.png"]],
 "0419": [["NishikinoMaki", "https://www.lovelive-anime.jp/otonokizaka/img/member/member06_01.png"]],
 "0420": [
@@ -254,10 +250,7 @@ calendars = {
     ["MachikoRyou", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img01.jpg"],
     ["TakebeSaori", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/saori.png"]
 ],
-"0624": [
-    ["HoujyouSatoko", "http://www.oyashirosama.com/web/kai/character/img/satoko-bottom.jpg"],
-    ["SonodaYuu", "https://www.tbs.co.jp/anime/sakura/chara/images/chara_img02.jpg"]
-],
+"0624": [["Compilation"]],
 "0625": [["TakanashiNao", "local"]],
 "0628": [["IkiHiyori", "local"]],
 "0629": [["AsakaKarin", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c05a.png"]],
@@ -327,7 +320,7 @@ calendars = {
     ["TainakaRitsu", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo03.gif"]
 ],
 "0823": [["MakiNatsuo", "https://www.love-lab.tv/chara/img/maki00.jpg"]],
-"0825": [["TakayamaHaruka", "https://www.tbs.co.jp/anime/sakura/chara/images/chara_img01.jpg"]],
+"0825": [["Compilation"]],
 "0828": [
     ["AsahinaMikuru", "https://img.moegirl.org.cn/common/thumb/3/39/1096%E5%A5%B3%E4%BB%86%E8%A3%85.jpg/450px-1096%E5%A5%B3%E4%BB%86%E8%A3%85.jpg"],
     ["HondaTamaki", "http://www.dokidokivisual.com/magic_of_stella/img/banner/banner_kari_anim_l.jpg"]
@@ -374,7 +367,7 @@ calendars = {
     ["DomaUmaru", "https://umaru-ani.me/img/character/chara1_stand.png"],
     ["TennojiNagisa", "https://www.a-ch.jp/character/img/ch04.jpg"]
 ],
-"0927": [["AmaneSuzuha", "http://steinsgate.tv/character/images/img_suzuha.jpg"]],
+"0927": [["Compilation"]],
 "0928": [["Compilation"]],
 "0929": [["Compilation"]],
 "0930": [["YuukiAsuna", "https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png"]],
@@ -415,10 +408,7 @@ calendars = {
 "1107": [["SuminoeXko", "https://img.moegirl.org.cn/common/a/a1/Suminoe_Ako_Riko.jpg"]],
 "1109": [["TsukiyomiUtau", "https://img.moegirl.org.cn/common/thumb/5/53/Tsukiyomi_Utau2.jpg/420px-Tsukiyomi_Utau2.jpg"]],
 "1110": [["SakakiYumiko", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000003/base/001.png"]],
-"1111": [
-    ["KuraueHinata", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/hinata_stand.png"],
-    ["TobiichiOrigami", "https://date-a-live-anime.com/1st-2nd/common/images/2nd/character/character_origami.png"]
-],
+"1111": [["Compilation"]],
 "1113": [["Compilation"]],
 "1118": [
     ["NagatoYuki", "https://img.moegirl.org.cn/common/thumb/4/4b/Nagato_Yuki2.jpg/420px-Nagato_Yuki2.jpg"],
