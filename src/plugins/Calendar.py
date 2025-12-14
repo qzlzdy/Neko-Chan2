@@ -105,15 +105,6 @@ calendars = {
 "0229": [["HoshimiyaKeito", "https://www.sekaiseifuku-zzz.com/img/chara/ch01a.png"]],
 "0301": [["UeharaAyumu", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c02a.png"]],
 "0302": [["MatouSakura", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_005.gif"]],
-"0303": [
-    ["IzumiReina", "https://phantom-world.com/img/character/reina.png"],
-    ["KatsuraHinagiku", "http://hayatenogotoku.com/images/chara/hina.jpg"],
-    ["KoizukaKoyume", "http://comic-girls.com/character/img/chara2.png"],
-    ["MomokiRun", "https://www.a-ch.jp/character/img/ch02.jpg"],
-    ["NakamachiKana", "https://www.tv-tokyo.co.jp/contents/kanamemo/chara/images/chara_01.jpg"],
-    ["SetoSun", "https://www.tv-tokyo.co.jp/contents/setohana/images/chara_san.jpg"],
-    ["SuouAmane", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000004/base/001.png"]
-],
 "0304": [
     ["KagamiharaNadeshiko", "https://yurucamp.jp/first/images/chara_list1.png"],
     ["KunikidaHanamaru", "https://www.lovelive-anime.jp/uranohoshi/img/member/07.png"]
@@ -375,10 +366,6 @@ calendars = {
 "1129": [["ShichijyouAria", "https://king-cr.jp/special/seitokai/images/s-council/aria.gif"]],
 "1130": [["Mika", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/mika.png"]],
 "1208": [["NishiKinuyo", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/kinuyo.png"]],
-"1210": [
-    ["IzumiSagiri", "https://eromanga-sensei.com/assets/img/character/chara_02.png"],
-    ["NaokiMiki", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch04-1.png"]
-],
 "1215": [["KaramaruChitose", "https://img.moegirl.org.cn/common/thumb/e/e8/Karasuma_blu.png/420px-Karasuma_blu.png"]],
 "1216": [
     ["IsuzuHana", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/isuzu.png"],
