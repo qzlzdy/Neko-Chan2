@@ -171,7 +171,6 @@ calendars = {
 "0424": [["Haqua", "https://www.tv-tokyo.co.jp/anime/kaminomi3/images/chara/img_03.png"]],
 "0425": [["MinaseKoito", "https://phantom-world.com/img/character/koito.png"]],
 "0427": [["MisakiMei", "https://img.moegirl.org.cn/common/thumb/5/51/1046253.jpg/420px-1046253.jpg"]],
-"0429": [["ElsaGranhiert", "http://re-zero-anime.jp/tv/assets/character/c/17.webp"]],
 "0430": [["SakuragiHinako", "https://hinakonote.jp/assets/character/c1.jpg"]],
 "0504": [["KatsukiTsubasa", "https://img.moegirl.org.cn/common/thumb/f/fc/Katsuki_Tsubasa_.jpg/420px-Katsuki_Tsubasa_.jpg"]],
 "0505": [["SakuraNene", "https://img.moegirl.org.cn/common/3/30/Sakura_Nene.jpg"]],
@@ -353,19 +352,7 @@ calendars = {
 "1208": [["NishiKinuyo", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/kinuyo.png"]],
 "1215": [["KarasumaChitose", "https://img.moegirl.org.cn/common/thumb/e/e8/Karasuma_blu.png/420px-Karasuma_blu.png"]],
 "1222": [["EnmaAi", "https://img.moegirl.org.cn/common/7/70/Cute.jpg"]],
-"1224": [
-    ["AdagakiAki", "https://img.moegirl.org.cn/common/0/0d/Adagakiaki.jpg"],
-    ["HiiragiMayuki", "https://hinakonote.jp/assets/character/c3.jpg"],
-    ["MikazukiYozora", "https://www.tbs.co.jp/anime/haganai/1st/chara/images/chara_img02.jpg"],
-    ["TachibanaSylphinford", "https://umaru-ani.me/img/character/chara5_stand.png"]
-],
-"1225": [
-    ["Eris", "http://konosuba.com/3rd/character/img/chris.png"],
-    ["HayamaTeru", "http://sansyasanyou.com/core_sys/images/contents/00000004/base/sn_001.png"],
-    ["MatsushimaMichiru", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000005/base/001.png"],
-    ["MurakamiShiina", "https://img.moegirl.org.cn/common/thumb/a/a0/Charaillust_chara_16020010.png/420px-Charaillust_chara_16020010.png"],
-    ["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]
-],
+"1225": [["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]],
 "1226": [["Takao", "https://img.moegirl.org.cn/common/thumb/e/ed/Takao_bucho.jpg/420px-Takao_bucho.jpg"]],
 "1228": [
     ["Mirai", "https://senran.tv/images/character/p9.jpg"],
