@@ -50,7 +50,6 @@ calendars = {
 "0104": [["MinagiHiyori", "https://img.moegirl.org.cn/common/thumb/5/5f/Minagi_Hiyori_Chara.png/124px-Minagi_Hiyori_Chara.png"]],
 "0107": [["HimeragiYukina", "http://www.strike-the-blood.com/first/imgs/character/chara02.jpg"]],
 "0108": [["ShibasakiKazuha", "https://img.moegirl.org.cn/common/thumb/9/91/Disc_05.jpg/420px-Disc_05.jpg"]],
-"0110": [["WienMargarete", "https://www.lovelive-anime.jp/yuigaoka/member/img/c10b.png"]],
 "0111": [["MiniwaTsumiki", "https://www.tbs.co.jp/anime/ackc/character/images/chara_img01.jpg"]],
 "0113": [["IrisuMakina", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000006/base/001.png"]],
 "0114": [["ShirokaneGinka", "https://www.geneitaiyo.com/character/img/main/ginka.png"]],
@@ -139,11 +138,6 @@ calendars = {
     ["KurawashiRiko", "https://www.love-lab.tv/chara/img/riko00.jpg?1680924886863"],
     ["OusakaShizuku", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c04a.png"]
 ],
-"0405": [
-    ["AliceCartelet", "https://img.moegirl.org.cn/common/thumb/e/e2/Alice-kyara.png/600px-Alice-kyara.png"],
-    ["HagimuraSuzu", "https://king-cr.jp/special/seitokai/images/s-council/suzu.gif"],
-    ["TakeyaYuki", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch01-1.png"]
-],
 "0406": [
     ["ChidorigafuchiAine", "https://img.moegirl.org.cn/common/d/d4/Chidorigafuchi_Aine_Side.png"],
     ["HigaKanata", "https://www.harukana-receive.jp/assets/character/1b.png"],
@@ -218,8 +212,6 @@ calendars = {
 "0628": [["IkiHiyori", "local"]],
 "0629": [["AsakaKarin", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c05a.png"]],
 "0630": [["YoshinagaKoi", "https://slowlooptv.com/images/chara/p_003.png"]],
-"0701": [["NishizumiMaho", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/maho_03.png"]],
-"0702": [["KotobukiTsumugi", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo04.gif"]],
 "0704": [["HatoyaKohane", "http://animayell.com/core_sys/images/main/cont/chara/details_kohane_school.png"]],
 "0709": [["HibarigaokaRuri", "https://anne-happy.com/wp-content/uploads/2016/02/ch2-1-1.png"]],
 "0713": [["TsushimaYoshiko", "https://www.lovelive-anime.jp/uranohoshi/img/member/06.png"]],
@@ -283,11 +275,6 @@ calendars = {
 ],
 "0907": [["PriscillaBarielle", "http://re-zero-anime.jp/tv/assets/character/c/15c.webp"]],
 "0908": [["Asuka", "https://senran.tv/images/character/p1.jpg"]],
-"0909": [
-    ["Hikage", "https://senran.tv/images/character/p8.jpg"],
-    ["MidoriHemo", "http://ochifuru-anime.com/images/chara/005/p_002.png"],
-    ["CirnoDay"]
-],
 "0910": [["SasakiChiho", "https://maousama.jp/assets/img/character/character03_main.png"]],
 "0912": [["MinamiKotori", "https://www.lovelive-anime.jp/otonokizaka/img/member/member03_01.png"]],
 "0913": [["InabaTsukuyo"]],
