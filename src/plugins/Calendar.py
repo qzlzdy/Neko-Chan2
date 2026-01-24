@@ -129,12 +129,6 @@ calendars = {
     ["KurawashiRiko", "https://www.love-lab.tv/chara/img/riko00.jpg?1680924886863"],
     ["OusakaShizuku", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c04a.png"]
 ],
-"0406": [
-    ["ChidorigafuchiAine", "https://img.moegirl.org.cn/common/d/d4/Chidorigafuchi_Aine_Side.png"],
-    ["HigaKanata", "https://www.harukana-receive.jp/assets/character/1b.png"],
-    ["IchinoseHana", "https://slow-start.com/shared/images/top/chara_d_hana_img.png"],
-    ["LalatinaFordDustiness", "http://konosuba.com/3rd/character/img/darkness.png"]
-],
 "0407": [["SakuragaokaNanami", "https://img.moegirl.org.cn/common/thumb/2/25/%E6%A8%B1%E4%B8%98%E4%B8%83%E6%B5%B76.jpeg/420px-%E6%A8%B1%E4%B8%98%E4%B8%83%E6%B5%B76.jpeg"]],
 "0410": [
     ["HotoKokoa", "https://gochiusa.com/core_sys/images/main/cont/chara/cocoa_body.png"],
