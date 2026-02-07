@@ -58,23 +58,6 @@ calendars = {
 "0124": [["Echidna", "http://re-zero-anime.jp/tv/assets/character/c/25.png"]],
 "0127": [["NaruseMio", "https://img.moegirl.org.cn/common/thumb/f/f0/%E6%88%90%E6%BF%91%E6%BE%AA.jpg/420px-%E6%88%90%E6%BF%91%E6%BE%AA.jpg"]],
 "0128": [["IrizakiMei", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/04_irizaki/img_face03.jpg"]],
-"0131": [
-    ["KasumigaokaUtaha", "https://img.moegirl.org.cn/common/3/37/Utaha.png"],
-    ["Katyusha", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/kacyusya_03.png"]
-],
-"0201": [
-    ["ShiinaMayuri", "http://steinsgate.tv/character/images/img_mayuri.jpg"],
-    ["YukimiKoume", "https://www.tbs.co.jp/anime/urara/chara/img/koume_left.png"]
-],
-"0203": [
-    ["OnigawaraRin", "local"],
-    ["TohsakaRin", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_003.gif"]
-],
-"0205": [
-    ["EmmaVerde", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c09a.png"],
-    ["KasuganoSora", "https://img.moegirl.org.cn/common/thumb/7/75/Kasugano_sora_game_CG_ring.jpg/420px-Kasugano_sora_game_CG_ring.jpg"],
-    ["TamakiAko", "https://netogenoyome.com/core_sys/images/main/cont/chara/ch_img2-1.png"]
-],
 "0206": [["MachiroRima", "https://img.moegirl.org.cn/common/thumb/2/25/Mashiro_Rima.jpg/420px-Mashiro_Rima.jpg"]],
 "0210": [
     ["Louise", "https://img.moegirl.org.cn/common/a/a3/Louise_francis.jpg"],
