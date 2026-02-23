@@ -59,19 +59,6 @@ calendars = {
 "0127": [["NaruseMio", "https://img.moegirl.org.cn/common/thumb/f/f0/%E6%88%90%E6%BF%91%E6%BE%AA.jpg/420px-%E6%88%90%E6%BF%91%E6%BE%AA.jpg"]],
 "0128": [["IrizakiMei", "https://www.hai-furi.com/assets_mv/img/chara/01_kankyo/04_irizaki/img_face03.jpg"]],
 "0206": [["MachiroRima", "https://img.moegirl.org.cn/common/thumb/2/25/Mashiro_Rima.jpg/420px-Mashiro_Rima.jpg"]],
-"0210": [
-    ["Louise", "https://img.moegirl.org.cn/common/a/a3/Louise_francis.jpg"],
-    ["MatsuuraKanan", "https://www.lovelive-anime.jp/uranohoshi/img/member/03.png"],
-    ["Yomi", "https://senran.tv/images/character/p7.jpg"]
-],
-"0214": [
-    ["ShimotsukiMika", "https://psycho-pass.com/assets/img/character/chara06_d.png"],
-    ["TedezaRize", "https://gochiusa.com/core_sys/images/main/cont/chara/rize_body.png"]
-],
-"0217": [
-    ["KatakuraKoto", "https://img.moegirl.org.cn/common/thumb/c/cf/%E7%89%87%E4%BB%93%E4%BA%AC5.jpg/420px-%E7%89%87%E4%BB%93%E4%BA%AC5.jpg"],
-    ["Shiina", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img03.jpg"]
-],
 "0218": [["Hibari", "https://senran.tv/images/character/p5.jpg"]],
 "0219": [["YukimuraAoi", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/aoi_stand.png"]],
 "0221": [["GotouHitori", "https://img.moegirl.org.cn/common/thumb/c/c7/Gotou_hitori_goods.jpg/375px-Gotou_hitori_goods.jpg"]],
