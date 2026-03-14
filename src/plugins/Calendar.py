@@ -68,11 +68,6 @@ calendars = {
 "0301": [["UeharaAyumu", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c02a.png"]],
 "0302": [["MatouSakura", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_005.gif"]],
 "0306": [["ItsumiErika", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/erika_03.png"]],
-"0310": [
-    ["AnastasiaHoshin", "https://img.moegirl.org.cn/common/4/4f/%E3%82%A2%E3%83%8A%E3%82%B9%E3%82%BF%E3%82%B7%E3%82%A2%E3%83%9B%E3%83%BC%E3%82%B7%E3%83%B3.png"],
-    ["SatenRuiko", "https://toaru-project.com/railgun_t/core_sys/images/main/cont_chara/11_body.png"]
-],
-"0314": [["Elusia", "https://web.archive.org/web/20240213052037im_/https://www.tv-tokyo.co.jp/contents/kaminomi/images/chara_02.png"]],
 "0315": [
     ["MotobaKirie", "https://umaru-ani.me/img/character/chara4_stand.png"],
     ["SonodaUmi", "https://www.lovelive-anime.jp/otonokizaka/img/member/member04_01.png"],
@@ -267,7 +262,6 @@ calendars = {
     ["1024Day"],
     ["ShimadaArisu", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/arisu.png"]
 ],
-"1101": [["HoshizoraRin", "https://www.lovelive-anime.jp/otonokizaka/img/member/member05_01.png"]],
 "1103": [["Noel", "https://sora-no-method.jp/character/img/chara_noel_body.png"]],
 "1105": [["Katsuragi", "https://senran.tv/images/character/p3.jpg"]],
 "1106": [["YoshikawaChinatsu", "https://yuruyuri.com/1st/character/img/detail_chinatsu.jpg"]],
