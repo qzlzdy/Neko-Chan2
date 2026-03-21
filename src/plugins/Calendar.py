@@ -51,7 +51,6 @@ calendars = {
 "0107": [["HimeragiYukina", "http://www.strike-the-blood.com/first/imgs/character/chara02.jpg"]],
 "0108": [["ShibasakiKazuha", "https://img.moegirl.org.cn/common/thumb/9/91/Disc_05.jpg/420px-Disc_05.jpg"]],
 "0111": [["MiniwaTsumiki", "https://www.tbs.co.jp/anime/ackc/character/images/chara_img01.jpg"]],
-"0113": [["IrisuMakina", "https://grisaia-anime.com/kajitsu/core_sys/images/contents/00000006/base/001.png"]],
 "0114": [["ShirokaneGinka", "https://www.geneitaiyo.com/character/img/main/ginka.png"]],
 "0115": [["AkiyamaMio", "https://img.moegirl.org.cn/common/thumb/2/2e/The_Bowl.jpg/420px-The_Bowl.jpg"]],
 "0116": [["FelixArgyle", "http://re-zero-anime.jp/tv/assets/character/c/11c.webp"]],
@@ -68,17 +67,7 @@ calendars = {
 "0301": [["UeharaAyumu", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c02a.png"]],
 "0302": [["MatouSakura", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_005.gif"]],
 "0306": [["ItsumiErika", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/erika_03.png"]],
-"0315": [
-    ["MotobaKirie", "https://umaru-ani.me/img/character/chara4_stand.png"],
-    ["SonodaUmi", "https://www.lovelive-anime.jp/otonokizaka/img/member/member04_01.png"],
-    ["TakamachiNanoha", "https://img.moegirl.org.cn/common/thumb/3/3d/Nanoha.jpg/420px-Nanoha.jpg"],
-    ["TatsumiKon", "https://www.tbs.co.jp/anime/urara/chara/img/kon_left.png"]
-],
 "0319": [["ShirahaRaphielAinsworth", "https://img.moegirl.org.cn/common/f/f0/Gabriel_Dropout_Vol4.jpg"]],
-"0320": [
-    ["HimekawaYoshino", "https://img.moegirl.org.cn/common/thumb/8/8f/Yoshino2.JPG/420px-Yoshino2.JPG"],
-    ["SawamuraSpencerEriri", "https://img.moegirl.org.cn/common/3/36/Eriri_Spencer_Sawamura.png"]
-],
 "0324": [["NarukaraFukune", "https://img.moegirl.org.cn/common/thumb/c/ca/Fukune_Narukara-2.jpg/420px-Fukune_Narukara-2.jpg"]],
 "0325": [
     ["LiMeiling", "local"],
@@ -136,10 +125,6 @@ calendars = {
 "0601": [["SasameYaya", "https://hanayamata.com/assets/images/profile/chara03_off.png"]],
 "0603": [["SengokuNadeko", "https://www.monogatari-series.com/bakemonogatari/chara/images/i04.jpg"]],
 "0604": [["YagamiHayate", "https://www.nanoha.com/archive2/chara/images/chr_132.gif"]],
-"0606": [
-    ["AkiyamaYukari", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/akiyama.png"],
-    ["YomokawaAyame", "https://kabaneri.com/assets/img/in/character/c_ayame.png"]
-],
 "0613": [
     ["KonohataMira", "local"],
     ["OharaMari", "https://www.lovelive-anime.jp/uranohoshi/img/member/08.png"]
