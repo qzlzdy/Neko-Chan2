@@ -66,14 +66,8 @@ calendars = {
 "0225": [["ArashiChisato", "https://www.lovelive-anime.jp/yuigaoka/member/img/c03a.png"]],
 "0301": [["UeharaAyumu", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c02a.png"]],
 "0302": [["MatouSakura", "https://www.nbcuni.co.jp/rondorobe/anime/staynight/character/img/chphoto_005.gif"]],
-"0306": [["ItsumiErika", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/erika_03.png"]],
 "0319": [["ShirahaRaphielAinsworth", "https://img.moegirl.org.cn/common/f/f0/Gabriel_Dropout_Vol4.jpg"]],
 "0324": [["NarukaraFukune", "https://img.moegirl.org.cn/common/thumb/c/ca/Fukune_Narukara-2.jpg/420px-Fukune_Narukara-2.jpg"]],
-"0325": [
-    ["LiMeiling", "local"],
-    ["ShibaMiyuki", "https://mahouka.jp/1st/img/character/c_img_2_l.png"]
-],
-"0326": [["HanasakaWarabi", "local"]],
 "0328": [["ToshinouKyouko", "https://yuruyuri.com/1st/character/img/detail_kyoko.jpg"]],
 "0331": [["SonouMomoka", "https://img.moegirl.org.cn/common/thumb/8/8f/%E8%8B%91%E7%94%9F%E7%99%BE%E8%8A%B16.jpeg/420px-%E8%8B%91%E7%94%9F%E7%99%BE%E8%8A%B16.jpeg"]],
 "0403": [
