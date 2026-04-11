@@ -70,11 +70,6 @@ calendars = {
 "0328": [["ToshinouKyouko", "https://yuruyuri.com/1st/character/img/detail_kyoko.jpg"]],
 "0331": [["SonouMomoka", "https://img.moegirl.org.cn/common/thumb/8/8f/%E8%8B%91%E7%94%9F%E7%99%BE%E8%8A%B16.jpeg/420px-%E8%8B%91%E7%94%9F%E7%99%BE%E8%8A%B16.jpeg"]],
 "0407": [["SakuragaokaNanami", "https://img.moegirl.org.cn/common/thumb/2/25/%E6%A8%B1%E4%B8%98%E4%B8%83%E6%B5%B76.jpeg/420px-%E6%A8%B1%E4%B8%98%E4%B8%83%E6%B5%B76.jpeg"]],
-"0410": [
-    ["HotoKokoa", "https://gochiusa.com/core_sys/images/main/cont/chara/cocoa_body.png"],
-    ["SakurakoujiKinako", "https://www.lovelive-anime.jp/yuigaoka/member/img/c06b.png"],
-    ["ShibasakiRoka", "http://www.d-fragments.net/character/images/shibasaki_roka.jpg"]
-],
 "0411": [["AmanoSaki", "https://www.tv-tokyo.co.jp/contents/kanamemo/chara/images/chara_02.jpg"]],
 "0412": [["SawatariUki", "http://animayell.com/core_sys/images/main/cont/chara/main_uki.png"]],
 "0419": [["NishikinoMaki", "https://www.lovelive-anime.jp/otonokizaka/img/member/member06_01.png"]],
