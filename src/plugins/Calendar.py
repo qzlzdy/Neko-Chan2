@@ -106,7 +106,6 @@ calendars = {
     ["AiharaEnjyu", "local"],
     ["TamabaSatori", "local"]
 ],
-"0616": [["FujinomiyaNeko", "https://img.moegirl.org.cn/common/c/c5/%E8%97%A4%E4%B9%8B%E5%AE%AB%E5%AE%81%E5%AD%90.jpg"]],
 "0617": [["WakanaShiki", "https://www.lovelive-anime.jp/yuigaoka/member/img/c08a.png"]],
 "0620": [["TokuraEiko", "https://slow-start.com/shared/images/top/chara_d_eiko_img.png"]],
 "0622": [
