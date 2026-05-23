@@ -98,10 +98,6 @@ calendars = {
 "0601": [["SasameYaya", "https://hanayamata.com/assets/images/profile/chara03_off.png"]],
 "0603": [["SengokuNadeko", "https://www.monogatari-series.com/bakemonogatari/chara/images/i04.jpg"]],
 "0604": [["YagamiHayate", "https://www.nanoha.com/archive2/chara/images/chr_132.gif"]],
-"0613": [
-    ["KonohataMira", "local"],
-    ["OharaMari", "https://www.lovelive-anime.jp/uranohoshi/img/member/08.png"]
-],
 "0615": [
     ["AiharaEnjyu", "local"],
     ["TamabaSatori", "local"]
@@ -122,10 +118,6 @@ calendars = {
 "0715": [["KirimaSharo", "https://gochiusa.com/core_sys/images/main/cont/chara/syaro_body.png"]],
 "0722": [["YazawaNiko", "https://www.lovelive-anime.jp/otonokizaka/img/member/member09_01.png"]],
 "0723": [["SekiAyame", "local"]],
-"0724": [
-    ["AkazaAkari", "https://yuruyuri.com/1st/character/img/detail_akari.jpg"],
-    ["MiyataSayaka", "local"]
-],
 "0725": [
     ["ChinaMoeka", "https://www.hai-furi.com/assets_mv/img/chara/06_other/01_china/img_main.png"],
     ["MakiseKurisu", "http://steinsgate.tv/character/images/img_chris.jpg"]
