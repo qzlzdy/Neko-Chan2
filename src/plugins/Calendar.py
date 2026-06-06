@@ -113,12 +113,6 @@ calendars = {
     ["RyuuguuRena", "http://www.oyashirosama.com/web/kai/character/img/rena-bottom.jpg"],
     ["SteinsGate"]
 ],
-"0801": [
-    ["Aqua", "local"],
-    ["Hanyuu", "http://www.oyashirosama.com/web/kai/character/img/hanyu-bottom.jpg"],
-    ["Nanami", "https://img.moegirl.org.cn/common/5/52/Nanami_gaworare.gif"],
-    ["TakamiChika", "https://www.lovelive-anime.jp/uranohoshi/img/member/01.png"]
-],
 "0802": [
     ["YagamiKou", "https://img.moegirl.org.cn/common/thumb/f/f8/%E5%85%AB%E7%A5%9E%EF%BC%90%EF%BC%92.png/600px-%E5%85%AB%E7%A5%9E%EF%BC%90%EF%BC%92.png"]
 ],
@@ -141,10 +135,6 @@ calendars = {
 "0817": [["KokonoeRin", "https://www.kojika-anime.com/img/chara_01_all.jpg"]],
 "0818": [["MiyafujiYoshika", "http://w-witch.jp/s-witch/pc/chara/img/chara-miya-main.jpg"]],
 "0820": [["InokumaYouko", "http://www.kinmosa.com/series/images/s2character/c4.png"]],
-"0821": [
-    ["FurudeRika", "http://www.oyashirosama.com/web/kai/character/img/rika-bottom.jpg"],
-    ["TainakaRitsu", "https://www.tbs.co.jp/anime/k-on/k-on_tv/chara/images/chara_photo03.gif"]
-],
 "0823": [["MakiNatsuo", "https://www.love-lab.tv/chara/img/maki00.jpg"]],
 "0828": [
     ["AsahinaMikuru", "https://img.moegirl.org.cn/common/thumb/3/39/1096%E5%A5%B3%E4%BB%86%E8%A3%85.jpg/450px-1096%E5%A5%B3%E4%BB%86%E8%A3%85.jpg"],
