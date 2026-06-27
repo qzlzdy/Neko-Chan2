@@ -85,11 +85,6 @@ calendars = {
 "0604": [["YagamiHayate", "https://www.nanoha.com/archive2/chara/images/chr_132.gif"]],
 "0617": [["WakanaShiki", "https://www.lovelive-anime.jp/yuigaoka/member/img/c08a.png"]],
 "0620": [["TokuraEiko", "https://slow-start.com/shared/images/top/chara_d_eiko_img.png"]],
-"0622": [
-    ["MachikoRyou", "https://www.tbs.co.jp/anime/koufuku_g/chara/images/chara_img01.jpg"],
-    ["TakebeSaori", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/saori.png"]
-],
-"0625": [["TakanashiNao", "local"]],
 "0628": [["IkiHiyori", "local"]],
 "0629": [["AsakaKarin", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c05a.png"]],
 "0630": [["YoshinagaKoi", "https://slowlooptv.com/images/chara/p_003.png"]],
