@@ -91,11 +91,6 @@ calendars = {
 "0713": [["TsushimaYoshiko", "https://www.lovelive-anime.jp/uranohoshi/img/member/06.png"]],
 "0715": [["KirimaSharo", "https://gochiusa.com/core_sys/images/main/cont/chara/syaro_body.png"]],
 "0722": [["YazawaNiko", "https://www.lovelive-anime.jp/otonokizaka/img/member/member09_01.png"]],
-"0723": [["SekiAyame", "local"]],
-"0725": [
-    ["ChinaMoeka", "https://www.hai-furi.com/assets_mv/img/chara/06_other/01_china/img_main.png"],
-    ["MakiseKurisu", "http://steinsgate.tv/character/images/img_chris.jpg"]
-],
 "0728": [
     ["RyuuguuRena", "http://www.oyashirosama.com/web/kai/character/img/rena-bottom.jpg"],
     ["SteinsGate"]
