@@ -97,16 +97,6 @@ calendars = {
 "0802": [
     ["YagamiKou", "https://img.moegirl.org.cn/common/thumb/f/f8/%E5%85%AB%E7%A5%9E%EF%BC%90%EF%BC%92.png/600px-%E5%85%AB%E7%A5%9E%EF%BC%90%EF%BC%92.png"]
 ],
-"0803": [
-    ["AmatsumeAkira", "https://img.moegirl.org.cn/common/6/6c/Akira_and_cat.jpeg"],
-    ["ItsukaKotori", "local"],
-    ["KousakaHonoka", "https://www.lovelive-anime.jp/otonokizaka/img/member/member01_01.png"],
-    ["MigiwaKazuha", "https://img.moegirl.org.cn/common/5/54/%E6%B8%9A%E4%B8%80%E5%8F%B6%E5%B0%8F%E6%8F%90%E7%90%B4.jpeg"]
-],
-"0807": [
-    ["EbisuzawaKurumi", "https://gakkougurashi.com/core_sys/images/main/cont/chara/ch02-1.png"],
-    ["OnitsukaNatsumi", "https://www.lovelive-anime.jp/yuigaoka/member/img/c09b.png"]
-],
 "0811": [
     ["AobaKokona", "https://yamanosusume-ns.com/core_sys/images/main/cont/chara/kokona_stand.png"],
     ["NishikawaYouko", "http://sansyasanyou.com/core_sys/images/contents/00000002/base/sn_001.png?1552483627"]
