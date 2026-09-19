@@ -99,10 +99,6 @@ calendars = {
 "0910": [["SasakiChiho", "https://maousama.jp/assets/img/character/character03_main.png"]],
 "0912": [["MinamiKotori", "https://www.lovelive-anime.jp/otonokizaka/img/member/member03_01.png"]],
 "0913": [["InabaTsukuyo"]],
-"0914": [
-    ["FudaYumine", "https://img.moegirl.org.cn/common/thumb/c/cd/Charaillust_chara_16040000.png/420px-Charaillust_chara_16040000.png"],
-    ["KoshigayaKomari", "https://nonnontv.com/tvanime/wp-content/themes/nonnon_tvanime/assets/img/page/character/individual/komari/ph_front_01.png"]
-],
 "0917": [["Darjeeling", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/drgilin_03.png"]],
 "0921": [["KurozawaRuby", "https://www.lovelive-anime.jp/uranohoshi/img/member/09.png"]],
 "0924": [["HinamoriAmu", "https://img.moegirl.org.cn/common/thumb/9/92/Hinamori_Amu.jpg/420px-Hinamori_Amu.jpg"]],
@@ -127,7 +123,6 @@ calendars = {
     ["ShimadaArisu", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/arisu.png"]
 ],
 "1105": [["Katsuragi", "https://senran.tv/images/character/p3.jpg"]],
-"1107": [["SuminoeXko", "https://img.moegirl.org.cn/common/a/a1/Suminoe_Ako_Riko.jpg"]],
 "1109": [["TsukiyomiUtau", "https://img.moegirl.org.cn/common/thumb/5/53/Tsukiyomi_Utau2.jpg/420px-Tsukiyomi_Utau2.jpg"]],
 "1118": [
     ["NagatoYuki", "https://img.moegirl.org.cn/common/thumb/4/4b/Nagato_Yuki2.jpg/420px-Nagato_Yuki2.jpg"],
@@ -141,7 +136,6 @@ calendars = {
 "1130": [["Mika", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/mika.png"]],
 "1222": [["EnmaAi", "https://img.moegirl.org.cn/common/7/70/Cute.jpg"]],
 "1225": [["ItouMakotoDead", "https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d10aacc8c4b363fb80e7bec3bd9?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5"]],
-"1226": [["Takao", "https://img.moegirl.org.cn/common/thumb/e/ed/Takao_bucho.jpg/420px-Takao_bucho.jpg"]],
 }
 
 @cld.handle()
