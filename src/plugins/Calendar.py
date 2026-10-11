@@ -77,7 +77,6 @@ calendars = {
 "0604": [["YagamiHayate", "https://www.nanoha.com/archive2/chara/images/chr_132.gif"]],
 "0617": [["WakanaShiki", "https://www.lovelive-anime.jp/yuigaoka/member/img/c08a.png"]],
 "0620": [["TokuraEiko", "https://slow-start.com/shared/images/top/chara_d_eiko_img.png"]],
-"0629": [["AsakaKarin", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c05a.png"]],
 "0630": [["YoshinagaKoi", "https://slowlooptv.com/images/chara/p_003.png"]],
 "0704": [["HatoyaKohane", "http://animayell.com/core_sys/images/main/cont/chara/details_kohane_school.png"]],
 "0709": [["HibarigaokaRuri", "https://anne-happy.com/wp-content/uploads/2016/02/ch2-1-1.png"]],
@@ -102,10 +101,6 @@ calendars = {
 "0917": [["Darjeeling", "https://girls-und-panzer.jp/XPLk3DYg/wp-content/uploads/2020/02/drgilin_03.png"]],
 "0921": [["KurozawaRuby", "https://www.lovelive-anime.jp/uranohoshi/img/member/09.png"]],
 "0924": [["HinamoriAmu", "https://img.moegirl.org.cn/common/thumb/9/92/Hinamori_Amu.jpg/420px-Hinamori_Amu.jpg"]],
-"0926": [
-    ["DomaUmaru", "https://umaru-ani.me/img/character/chara1_stand.png"],
-    ["TennojiNagisa", "https://www.a-ch.jp/character/img/ch04.jpg"]
-],
 "0930": [["YuukiAsuna", "https://www.swordart-online.net/aincrad/assets/img/chara/big/02_asuna.png"]],
 "1005": [["MifuneShioriko", "https://www.lovelive-anime.jp/nijigasaki/img/tv/member/c11a.png"]],
 "1006": [["Izetta", "https://img.moegirl.org.cn/common/thumb/f/f0/Izetta2.jpg/420px-Izetta2.jpg"]],
